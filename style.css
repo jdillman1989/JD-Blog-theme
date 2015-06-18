@@ -1,12 +1,11 @@
 /*
-Theme Name: GRIF
-Theme URI: https://wordpress.org/themes/GRIF
+Theme Name: JDBlog
+Theme URI: https://wordpress.org/themes/JDBlog
 Author: Jesse Dillman
 Author URI: https://jdillman.com/
-Description: Custom WP theme for Grand Rapids International Fellowship. Note: this file is compiled from sass/style.scss any changes outside that file WILL BE OVERRIDDEN)
+Description: Custom WP theme for my personal blog
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: church, GRIF
 */
 @import url(http://fonts.googleapis.com/css?family=Pathway+Gothic+One);
 @import url(http://fonts.googleapis.com/css?family=Cabin:700);

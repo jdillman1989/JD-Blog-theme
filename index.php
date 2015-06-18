@@ -12,21 +12,37 @@
  * @package WordPress
  */
 ?>
-	<?php get_header(); ?>
+<?php get_header(); ?>
 
-	<div class="slider">
-		<?php if ( function_exists( 'show_simpleresponsiveslider' ) ) show_simpleresponsiveslider(); ?>
-	</div>
+<body>
+	<div class="container">
 
-	<div class="content-container">
-		<div class="content">
-			<!--Start the Loop.-->
-			<?php while ( have_posts() ) : the_post(); ?>
-				<h1><?php the_title(); ?></h1> 
-				<?php the_content(); ?>
-			<?php endwhile; ?>
+		<div class="aside">
+			<?php get_sidebar(); ?>
 		</div>
-		<?php get_sidebar(); ?>
-	</div>
 
-	<?php get_footer(); ?>
+		<div class="content">
+
+			<!--Start the Loop.-->
+			<?php
+			// set the "paged" parameter (use 'page' if the query is on a static front page)
+			$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+
+			// the query
+			$the_query = new WP_Query( '&paged=' . $paged ); 
+			?>
+			<?php while ( have_posts() ) : the_post(); ?>
+
+				<div class="post-container">
+					<h2><?php the_title(); ?></h2> 
+					<?php the_content(); ?>
+				</div>
+
+			<?php endwhile; ?>
+			<p style="float:right;"><?php next_posts_link( 'Previous &raquo;', $the_query->max_num_pages );?></p>
+			<p style="float:left;"><?php previous_posts_link( '&laquo; Next' ); ?></p>
+		</div>
+	</div>
+</body>
+
+<?php get_footer(); ?>

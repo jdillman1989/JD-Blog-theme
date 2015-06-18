@@ -1,19 +1,5 @@
 jQuery(document).ready(function() {
 
-	// sticky header
-	var nav = jQuery(".nav");
-	navScroll = "nav-scrolled";
-	headerHeight = jQuery('.header').height();
-
-	jQuery(window).scroll(function() {
-		if( jQuery(this).scrollTop() > headerHeight + 20 ) {
-			nav.addClass(navScroll);
-		} 
-		else {
-			nav.removeClass(navScroll);
-		}
-	});
-
 	// sticky sidebar
 
 	var sidebar = jQuery(".sidebar");
@@ -163,36 +149,5 @@ jQuery(document).ready(function() {
 				menu.removeAttr('style');
 			}
 		});
-	});
-
-	// crop slider image edges (requires a document max-width of 1200px)
-	var sliderImage = jQuery( ".rslides img" );
-
-	function updateCrop() {
-
-		jQuery(sliderImage).each(function () {
-			jQuery(this).css({
-				'margin-left': (jQuery( window ).width()-1200) / 2
-			});
-		});
-	}
-
-	if ( jQuery( window ).width() < 1200 ) {
-		updateCrop();
-	};
-
-	jQuery(window).resize(function(){
-
-		if ( jQuery( window ).width() < 1200 ) {
-			updateCrop();
-		}
-		else{
-
-			jQuery(sliderImage).each(function () {
-				jQuery(this).css({
-					'margin-left': 0
-				});
-			});
-		};
 	});
 });

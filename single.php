@@ -5,22 +5,25 @@
  * @package WordPress
  */
 ?>
+<?php get_header(); ?>
 
-	<?php get_header(); ?>
+<body>
+	<div class="container">
 
-	<div class="slider">
-		<?php if ( function_exists( 'show_simpleresponsiveslider' ) ) show_simpleresponsiveslider(); ?>
-	</div>
+		<div class="aside">
+			<?php get_sidebar(); ?>
+		</div>
 
-	<div class="content-container">
 		<div class="content">
-			<!--Start the Loop.-->
+
 			<?php while ( have_posts() ) : the_post(); ?>
-				<h1><?php the_title(); ?></h1> 
-				<?php the_content(); ?>
+				<div class="post-container">
+					<h2><?php the_title(); ?></h2> 
+					<?php the_content(); ?>
+				</div>
 			<?php endwhile; ?>
 		</div>
-		<?php get_sidebar(); ?>
 	</div>
+</body>
 
-	<?php get_footer(); ?>
+<?php get_footer(); ?>
