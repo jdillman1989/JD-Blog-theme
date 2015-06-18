@@ -12,8 +12,7 @@ Tags: church, GRIF
 @import "susy";
 @import "breakpoint";
 @import "compass/reset";
-@import url(http://fonts.googleapis.com/css?family=Pathway+Gothic+One);
-@import url(http://fonts.googleapis.com/css?family=Cabin:700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 // initial setup:
 $susy: (
@@ -64,27 +63,27 @@ html {
 body {
 	font-family: Georgia, serif;
 	font-size: 16px;
-	background: #222;
 	line-height: 1.5;
 }
 
 h1{
-	font-family: 'Pathway Gothic One', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 32px;
-	font-weight: bold;
+	font-weight: 700;
 	margin: 0;
 }
 
 h2{
-	font-family: 'Pathway Gothic One', sans-serif;
-	font-size: 28px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
 	margin: 0;
 }
 
 h3{
-	font-family: 'Cabin', sans-serif;
-	font-weight: 700;
-	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
 	margin: 0;
 }
 
@@ -100,499 +99,34 @@ li{
 }
 
 a{
-	text-decoration: none;
+	text-decoration: underline;
 	color: #333;
 }
 
 a:hover{
-	text-decoration: underline;
+	text-decoration: none;
 	color: #999;
 }
 
 strong{
-	font-family: 'Cabin', sans-serif;
-	font-weight: 700;
-	font-size: 17px;
+	font-weight: bold;
 }
 
 .container{
-	@include container(87%);
-	min-width: 480px;
-	max-width: 1200px;
+	@include container(100%);
 }
 
-.header{
-	padding-bottom: 20px; 
-	@extend %clearfix;
-}
 
-.left{
-	padding-left: 20px; 
-}
-
-.logo{
-	max-height: 100%;
-	float: left;
-	max-width: 280px;
-}
-
-.right{
-	@extend %clearfix;
-	padding-right: 20px; 
-	
-	form{
-		width: 100%;
-		
-		div{
-			float: right;
-			margin-bottom: 20px;
-		}
-
-		.search-field{
-			margin: 0;
-			padding: 0;
-			-webkit-border-radius: 0px; 
-			border-radius: 0px;
-			-webkit-border: none;
-			border: none;
-			margin-right: -4px;
-		}
-
-		.search-submit{
-			margin: 0;
-			-webkit-border-radius: 0px; 
-			border-radius: 0px;
-			-webkit-border: none; 
-			border: none;
-			background-color: #005380;
-			color: #fff;
-		}
-
-		.search-submit:hover{
-			opacity: .5;
-			cursor: pointer; 
-		}
-	}
-}
-
-.menu-social-container{
-	width: 100%;
-	
-	ul{
-
-		li{
-			margin: 0;
-			list-style: none;
-			float: right;
-			
-			a{
-				display: block;
-				width: 40px;
-				height: 40px; 
-				margin-right: 0; 
-				text-indent:-9999px;
-			}
-		}
-	}
-}
-
-.menu-social-container  li a[href*="twitter.com"]{
-	background-image: url( images/twitter.jpg );
-	margin-right: 10px;
-}
-
-.menu-social-container  li a[href*="facebook.com"]{
-	background-image: url( images/facebook.jpg );
-	margin-right: 10px;
-}
-
-.menu-social-container  li a[href*="instagram.com"]{
-	background-image: url( images/instagram.jpg );
-	margin-right: 10px;
-}
-
-.menu-social-container  li a[href*="pinterest.com"]{
-	background-image: url( images/pinterest.jpg );
-	margin-right: 10px;
-}
-
-.menu-social-container  li a[href*="vimeo.com"]{
-	background-image: url( images/vimeo.jpg );
-	margin-right: 10px;
-}
-
-.menu-social-container  li a[href*="youtube.com"]{
-	background-image: url( images/youtube.jpg );
-	margin-right: 10px;
-}
-
-.menu-social-container  li a[href*="google.com"]{
-	background-image: url( images/google.jpg );
-	margin-right: 10px;
-}
-
-.nav{
-	@extend %clearfix;
-	background: #FFF; 
-	z-index: 900; 
-	margin-bottom: -46px;
-	position: relative;
-	border-bottom: 3px solid #222; 
-	
-	a{
-		text-align: center;	
-	}
-
-	a:hover{
-		text-decoration: none;
-		background-color: #333;
-		color: #fff;
-	}
-}
-
-.nav-scrolled{
-	position: fixed;
-	top: 0;
-	width: 100%;
-	max-width: 1200px; 
-}
-
-.menu-toggle{
-	display: block;
-	cursor: pointer;
-	width: 100%;
-	position: relative;
-	padding: 17px 60px ;
-}
-
-.menu-toggle:after{
-	content: ""; 
-	background-image: url( images/menu.jpg );
-	background-repeat: no-repeat;
-	background-size: contain;
-	display: inline-block;
-	height: 40px; 
-	width: 40px;
-	position: absolute;
-	top: 10px;
-	left: 10px;
-}
-
-.slider{
-	height: 300px;
-	margin: 66px 0 20px 0; 
-	background-color: #999; 
-}
-
-/* rslides styles to override simple responsive slider plugin (makes it ACTUALLY responsive) */
-.rslides img{
-	height: 100% !important;
-	width: auto !important;
-}
-
-.content-container{
-	@extend %clearfix;
-	background-color: #fff;
-	margin-bottom: 20px;
-	position: relative;
-}
-
-.content{
-	padding: 20px;
-}
-
-.post-container{
-	border-bottom: 1px dotted #999;
-	padding: 15px 0; 
-}
-
-.sidebar{ 
-	position: relative;
-	/* force the sidebar to a new layer */
-	-webkit-transform: translatez(0);
-	-moz-transform: translatez(0);
-	-ms-transform: translatez(0);
-	transform: translatez(0);
-}
-
-.recent-services{
-	margin-bottom: 15px;
-
-	p{
-		margin-bottom: 0;
-	} 
-}
-
-.sidebar-date{
-	color: #666;
-}
-
-.footer{
-	background-color: #fff;
-	padding: 20px; 
-	@extend %clearfix;
-}
-
-.f_logo{
-	height: 160px;
-}
-
-.error{
-	color: red; 
-}
-
-#submit{
-	margin: 0;
-	-webkit-border-radius: 0px; 
-	border-radius: 0px;
-	-webkit-border: none; 
-	border: none;
-	background-color: #005380;
-	color: #fff;
-	padding: 10px 15px;
-}
-
-#submit:hover{
-	opacity: .5;
-	cursor: pointer; 
-}
 
 //layouts:
 
 //mobile
 
-.header{
-	@include span(8);
-}
 
-.left{
-	@include span(4 at 0);
-}
-
-.right{
-	@include span(4 at 5 last);
-	
-	form{
-		@include span(8);
-		
-		.search-field{
-			width: 130px;
-			height: 30px;
-		}
-
-		.search-submit{
-			padding: 0 15px;
-			height: 30px;
-		}
-	}
-}
-
-.menu-social-container{
-	@include span(8);
-}
-
-.nav{
-	@include span(8);
-	ul{
-		display: none;
-
-		li{
-			margin: 0;
-			list-style: none;
-			width: 100%;
-			float: none;
-			position: relative;
-
-			a{
-				display: block;
-				padding: 15px 0;
-			}
-
-			ul{
-				display: none;
-			}
-		}
-	}
-}
-
-.slider{
-	@include span(8);
-}
-
-.content-container{
-	@include span(8 nest);
-	overflow: visible;
-}
-
-.content{
-	@include span(8);
-	border-right: none;
-	border-bottom: 1px dotted #999;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
-}
-.sidebar{
-	@include span(8);
-	padding: 20px;
-	margin-bottom: 0px;
-}
-
-.footer{
-	@include span(8);
-	div{
-		margin-bottom: 20px; 
-	}
-}
-
-.f_logo{
-	@include span(8);
-	background-position: center center;
-}
-
-.f_links{
-	@include span(8);
-	text-align: center;
-}
-
-.f_info{
-	@include span(8);
-	text-align: center;
-}
 
 //desktop
 
 @include breakpoint(676px){
 
-	@include layout($desktop);
-
-	.header{
-		@include span(12);
-		-webkit-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		background-repeat: no-repeat;
-		height: 157px;
-	}
-
-	.left{
-		@include span(6 at 0);
-	}
-
-	.right{
-		@include span(6 at 7 last);
-		
-		form{
-			@include span(12);
-			
-			.search-field{
-				width: 200px;
-				height: 35px;
-			}
-
-			.search-submit{
-				padding: 0 15px;
-				height: 35px;
-			}
-		}
-	}
 	
-	.menu-social-container{
-		@include span(12);
-	}
-
-	.nav{
-		@include span(12);
-		ul{
-			display: block;
-			padding: 0;
-			width: 100%;
-
-			li{
-				margin: 0;
-				list-style: none;
-				float: left;
-				position: relative;
-
-				a{
-					display: block;
-					padding: 15px 0;
-				}
-
-				ul{
-					width: 100%;
-					display: none;
-					position: absolute;
-					left: 0;
-					top: 100%;
-					background-color: #222; 
-					
-					li{
-						float: none;
-						width: 100%;
-						
-						a{
-							padding: 10px 5px;
-							color: #fff;
-							
-							&:hover{
-								background-color: #fff;
-								color: #222;
-							}
-						} 
-					}
-				}
-
-				&:hover > ul{
-					display: block;
-				}
-			}
-		}
-	}
-
-	.menu-toggle{
-		display: none;
-	}
-
-	.slider{
-		@include span(12);
-	}
-
-	.content-container{
-		@include span(12 nest);
-		overflow: hidden;
-	}
-
-	.content{
-		@include span(8);
-		border-right: 1px solid #999; 
-		border-bottom: none;
-		/* extend content and sidebar to equal widths*/
-		padding-bottom: 999px;
-		margin-bottom: -999px;
-	}
-	.sidebar{
-		@include span(4 at 9 last);
-	}
-
-	.footer{
-		@include span(12);
-		div{
-			margin-bottom: 0px; 
-		}
-	}
-
-	.f_logo{
-		@include span(4 at 0);
-		background-position: left center;
-	}
-
-	.f_links{
-		@include span(4 at 5);
-		text-align: left;
-	}
-
-	.f_info{
-		@include span(4 at 9 last);
-		text-align: left;
-	}
 }

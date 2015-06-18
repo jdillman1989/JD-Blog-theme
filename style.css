@@ -1,14 +1,14 @@
 /*
-Theme Name: JDBlog
-Theme URI: https://wordpress.org/themes/JDBlog
+Theme Name: GRIF
+Theme URI: https://wordpress.org/themes/GRIF
 Author: Jesse Dillman
 Author URI: https://jdillman.com/
-Description: Custom WP theme for my personal blog
+Description: Custom WP theme for Grand Rapids International Fellowship. Note: this file is compiled from sass/style.scss any changes outside that file WILL BE OVERRIDDEN)
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: church, GRIF
 */
-@import url(http://fonts.googleapis.com/css?family=Pathway+Gothic+One);
-@import url(http://fonts.googleapis.com/css?family=Cabin:700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 /* line 5, ../../../.rvm/gems/ruby-2.1.2@global/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -82,695 +82,88 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* required for parallax */
-/* line 38, sass/style.scss */
+/* line 37, sass/style.scss */
 html, body {
   width: 100%;
   height: 100%;
 }
 
 /* clearfix placeholder selector: not complied to CSS unless used with @extend %clearfix; */
-/* line 45, sass/style.scss */
-.header:after, .right:after, .nav:after, .content-container:after, .footer:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* line 60, sass/style.scss */
+/* line 59, sass/style.scss */
 html {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 64, sass/style.scss */
+/* line 63, sass/style.scss */
 body {
   font-family: Georgia, serif;
   font-size: 16px;
-  background: #222;
   line-height: 1.5;
 }
 
-/* line 71, sass/style.scss */
+/* line 69, sass/style.scss */
 h1 {
-  font-family: 'Pathway Gothic One', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 32px;
-  font-weight: bold;
-  margin: 0;
-}
-
-/* line 78, sass/style.scss */
-h2 {
-  font-family: 'Pathway Gothic One', sans-serif;
-  font-size: 28px;
-  margin: 0;
-}
-
-/* line 84, sass/style.scss */
-h3 {
-  font-family: 'Cabin', sans-serif;
   font-weight: 700;
-  font-size: 22px;
   margin: 0;
 }
 
-/* line 91, sass/style.scss */
+/* line 76, sass/style.scss */
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* line 83, sass/style.scss */
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* line 90, sass/style.scss */
 p {
   font-family: Georgia, serif;
   font-size: 16px;
   margin-bottom: 15px;
 }
 
-/* line 97, sass/style.scss */
+/* line 96, sass/style.scss */
 li {
   font-family: Georgia, serif;
   font-size: 16px;
 }
 
-/* line 102, sass/style.scss */
+/* line 101, sass/style.scss */
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #333;
 }
 
-/* line 107, sass/style.scss */
+/* line 106, sass/style.scss */
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: #999;
 }
 
-/* line 112, sass/style.scss */
+/* line 111, sass/style.scss */
 strong {
-  font-family: 'Cabin', sans-serif;
-  font-weight: 700;
-  font-size: 17px;
+  font-weight: bold;
 }
 
-/* line 118, sass/style.scss */
+/* line 115, sass/style.scss */
 .container {
-  max-width: 87%;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  min-width: 480px;
-  max-width: 1200px;
 }
 /* line 12, ../../../.rvm/gems/ruby-2.1.2@global/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
 .container:after {
   content: " ";
   display: block;
   clear: both;
-}
-
-/* line 124, sass/style.scss */
-.header {
-  padding-bottom: 20px;
-}
-
-/* line 129, sass/style.scss */
-.left {
-  padding-left: 20px;
-}
-
-/* line 133, sass/style.scss */
-.logo {
-  max-height: 100%;
-  float: left;
-  max-width: 280px;
-}
-
-/* line 139, sass/style.scss */
-.right {
-  padding-right: 20px;
-}
-/* line 143, sass/style.scss */
-.right form {
-  width: 100%;
-}
-/* line 146, sass/style.scss */
-.right form div {
-  float: right;
-  margin-bottom: 20px;
-}
-/* line 151, sass/style.scss */
-.right form .search-field {
-  margin: 0;
-  padding: 0;
-  -webkit-border-radius: 0px;
-  border-radius: 0px;
-  -webkit-border: none;
-  border: none;
-  margin-right: -4px;
-}
-/* line 161, sass/style.scss */
-.right form .search-submit {
-  margin: 0;
-  -webkit-border-radius: 0px;
-  border-radius: 0px;
-  -webkit-border: none;
-  border: none;
-  background-color: #005380;
-  color: #fff;
-}
-/* line 171, sass/style.scss */
-.right form .search-submit:hover {
-  opacity: .5;
-  cursor: pointer;
-}
-
-/* line 178, sass/style.scss */
-.menu-social-container {
-  width: 100%;
-}
-/* line 183, sass/style.scss */
-.menu-social-container ul li {
-  margin: 0;
-  list-style: none;
-  float: right;
-}
-/* line 188, sass/style.scss */
-.menu-social-container ul li a {
-  display: block;
-  width: 40px;
-  height: 40px;
-  margin-right: 0;
-  text-indent: -9999px;
-}
-
-/* line 199, sass/style.scss */
-.menu-social-container li a[href*="twitter.com"] {
-  background-image: url(images/twitter.jpg);
-  margin-right: 10px;
-}
-
-/* line 204, sass/style.scss */
-.menu-social-container li a[href*="facebook.com"] {
-  background-image: url(images/facebook.jpg);
-  margin-right: 10px;
-}
-
-/* line 209, sass/style.scss */
-.menu-social-container li a[href*="instagram.com"] {
-  background-image: url(images/instagram.jpg);
-  margin-right: 10px;
-}
-
-/* line 214, sass/style.scss */
-.menu-social-container li a[href*="pinterest.com"] {
-  background-image: url(images/pinterest.jpg);
-  margin-right: 10px;
-}
-
-/* line 219, sass/style.scss */
-.menu-social-container li a[href*="vimeo.com"] {
-  background-image: url(images/vimeo.jpg);
-  margin-right: 10px;
-}
-
-/* line 224, sass/style.scss */
-.menu-social-container li a[href*="youtube.com"] {
-  background-image: url(images/youtube.jpg);
-  margin-right: 10px;
-}
-
-/* line 229, sass/style.scss */
-.menu-social-container li a[href*="google.com"] {
-  background-image: url(images/google.jpg);
-  margin-right: 10px;
-}
-
-/* line 234, sass/style.scss */
-.nav {
-  background: #FFF;
-  z-index: 900;
-  margin-bottom: -46px;
-  position: relative;
-  border-bottom: 3px solid #222;
-}
-/* line 242, sass/style.scss */
-.nav a {
-  text-align: center;
-}
-/* line 246, sass/style.scss */
-.nav a:hover {
-  text-decoration: none;
-  background-color: #333;
-  color: #fff;
-}
-
-/* line 253, sass/style.scss */
-.nav-scrolled {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  max-width: 1200px;
-}
-
-/* line 260, sass/style.scss */
-.menu-toggle {
-  display: block;
-  cursor: pointer;
-  width: 100%;
-  position: relative;
-  padding: 17px 60px;
-}
-
-/* line 268, sass/style.scss */
-.menu-toggle:after {
-  content: "";
-  background-image: url(images/menu.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: inline-block;
-  height: 40px;
-  width: 40px;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-}
-
-/* line 281, sass/style.scss */
-.slider {
-  height: 300px;
-  margin: 66px 0 20px 0;
-  background-color: #999;
-}
-
-/* rslides styles to override simple responsive slider plugin (makes it ACTUALLY responsive) */
-/* line 288, sass/style.scss */
-.rslides img {
-  height: 100% !important;
-  width: auto !important;
-}
-
-/* line 293, sass/style.scss */
-.content-container {
-  background-color: #fff;
-  margin-bottom: 20px;
-  position: relative;
-}
-
-/* line 300, sass/style.scss */
-.content {
-  padding: 20px;
-}
-
-/* line 304, sass/style.scss */
-.post-container {
-  border-bottom: 1px dotted #999;
-  padding: 15px 0;
-}
-
-/* line 309, sass/style.scss */
-.sidebar {
-  position: relative;
-  /* force the sidebar to a new layer */
-  -webkit-transform: translatez(0);
-  -moz-transform: translatez(0);
-  -ms-transform: translatez(0);
-  transform: translatez(0);
-}
-
-/* line 318, sass/style.scss */
-.recent-services {
-  margin-bottom: 15px;
-}
-/* line 321, sass/style.scss */
-.recent-services p {
-  margin-bottom: 0;
-}
-
-/* line 326, sass/style.scss */
-.sidebar-date {
-  color: #666;
-}
-
-/* line 330, sass/style.scss */
-.footer {
-  background-color: #fff;
-  padding: 20px;
-}
-
-/* line 336, sass/style.scss */
-.f_logo {
-  height: 160px;
-}
-
-/* line 340, sass/style.scss */
-.error {
-  color: red;
-}
-
-/* line 344, sass/style.scss */
-#submit {
-  margin: 0;
-  -webkit-border-radius: 0px;
-  border-radius: 0px;
-  -webkit-border: none;
-  border: none;
-  background-color: #005380;
-  color: #fff;
-  padding: 10px 15px;
-}
-
-/* line 355, sass/style.scss */
-#submit:hover {
-  opacity: .5;
-  cursor: pointer;
-}
-
-/* line 364, sass/style.scss */
-.header {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-}
-
-/* line 368, sass/style.scss */
-.left {
-  width: 48.23529%;
-  float: left;
-  margin-right: 3.52941%;
-}
-
-/* line 372, sass/style.scss */
-.right {
-  width: 48.23529%;
-  float: right;
-  margin-right: 0;
-}
-/* line 375, sass/style.scss */
-.right form {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-}
-/* line 378, sass/style.scss */
-.right form .search-field {
-  width: 130px;
-  height: 30px;
-}
-/* line 383, sass/style.scss */
-.right form .search-submit {
-  padding: 0 15px;
-  height: 30px;
-}
-
-/* line 390, sass/style.scss */
-.menu-social-container {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-}
-
-/* line 394, sass/style.scss */
-.nav {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-}
-/* line 396, sass/style.scss */
-.nav ul {
-  display: none;
-}
-/* line 399, sass/style.scss */
-.nav ul li {
-  margin: 0;
-  list-style: none;
-  width: 100%;
-  float: none;
-  position: relative;
-}
-/* line 406, sass/style.scss */
-.nav ul li a {
-  display: block;
-  padding: 15px 0;
-}
-/* line 411, sass/style.scss */
-.nav ul li ul {
-  display: none;
-}
-
-/* line 418, sass/style.scss */
-.slider {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-}
-
-/* line 422, sass/style.scss */
-.content-container {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-  overflow: visible;
-}
-
-/* line 427, sass/style.scss */
-.content {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-  border-right: none;
-  border-bottom: 1px dotted #999;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-}
-
-/* line 434, sass/style.scss */
-.sidebar {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-  padding: 20px;
-  margin-bottom: 0px;
-}
-
-/* line 440, sass/style.scss */
-.footer {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-}
-/* line 442, sass/style.scss */
-.footer div {
-  margin-bottom: 20px;
-}
-
-/* line 447, sass/style.scss */
-.f_logo {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-  background-position: center center;
-}
-
-/* line 452, sass/style.scss */
-.f_links {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-  text-align: center;
-}
-
-/* line 457, sass/style.scss */
-.f_info {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-  text-align: center;
-}
-
-@media (min-width: 676px) {
-  /* line 468, sass/style.scss */
-  .header {
-    width: 100%;
-    float: left;
-    margin-left: 0;
-    margin-right: 0;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 157px;
-  }
-
-  /* line 477, sass/style.scss */
-  .left {
-    width: 48.83721%;
-    float: left;
-    margin-right: 2.32558%;
-  }
-
-  /* line 481, sass/style.scss */
-  .right {
-    width: 48.83721%;
-    float: right;
-    margin-right: 0;
-  }
-  /* line 484, sass/style.scss */
-  .right form {
-    width: 100%;
-    float: left;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  /* line 487, sass/style.scss */
-  .right form .search-field {
-    width: 200px;
-    height: 35px;
-  }
-  /* line 492, sass/style.scss */
-  .right form .search-submit {
-    padding: 0 15px;
-    height: 35px;
-  }
-
-  /* line 499, sass/style.scss */
-  .menu-social-container {
-    width: 100%;
-    float: left;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  /* line 503, sass/style.scss */
-  .nav {
-    width: 100%;
-    float: left;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  /* line 505, sass/style.scss */
-  .nav ul {
-    display: block;
-    padding: 0;
-    width: 100%;
-  }
-  /* line 510, sass/style.scss */
-  .nav ul li {
-    margin: 0;
-    list-style: none;
-    float: left;
-    position: relative;
-  }
-  /* line 516, sass/style.scss */
-  .nav ul li a {
-    display: block;
-    padding: 15px 0;
-  }
-  /* line 521, sass/style.scss */
-  .nav ul li ul {
-    width: 100%;
-    display: none;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    background-color: #222;
-  }
-  /* line 529, sass/style.scss */
-  .nav ul li ul li {
-    float: none;
-    width: 100%;
-  }
-  /* line 533, sass/style.scss */
-  .nav ul li ul li a {
-    padding: 10px 5px;
-    color: #fff;
-  }
-  /* line 537, sass/style.scss */
-  .nav ul li ul li a:hover {
-    background-color: #fff;
-    color: #222;
-  }
-  /* line 545, sass/style.scss */
-  .nav ul li:hover > ul {
-    display: block;
-  }
-
-  /* line 552, sass/style.scss */
-  .menu-toggle {
-    display: none;
-  }
-
-  /* line 556, sass/style.scss */
-  .slider {
-    width: 100%;
-    float: left;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  /* line 560, sass/style.scss */
-  .content-container {
-    width: 100%;
-    float: left;
-    margin-left: 0;
-    margin-right: 0;
-    overflow: hidden;
-  }
-
-  /* line 565, sass/style.scss */
-  .content {
-    width: 65.89147%;
-    float: left;
-    margin-right: 2.32558%;
-    border-right: 1px solid #999;
-    border-bottom: none;
-    /* extend content and sidebar to equal widths*/
-    padding-bottom: 999px;
-    margin-bottom: -999px;
-  }
-
-  /* line 573, sass/style.scss */
-  .sidebar {
-    width: 31.78295%;
-    float: right;
-    margin-right: 0;
-  }
-
-  /* line 577, sass/style.scss */
-  .footer {
-    width: 100%;
-    float: left;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  /* line 579, sass/style.scss */
-  .footer div {
-    margin-bottom: 0px;
-  }
-
-  /* line 584, sass/style.scss */
-  .f_logo {
-    width: 31.78295%;
-    float: left;
-    margin-right: 2.32558%;
-    background-position: left center;
-  }
-
-  /* line 589, sass/style.scss */
-  .f_links {
-    width: 31.78295%;
-    float: left;
-    margin-right: 2.32558%;
-    text-align: left;
-  }
-
-  /* line 594, sass/style.scss */
-  .f_info {
-    width: 31.78295%;
-    float: right;
-    margin-right: 0;
-    text-align: left;
-  }
 }
