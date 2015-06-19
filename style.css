@@ -82,26 +82,33 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* required for parallax */
-/* line 37, sass/style.scss */
+/* line 35, sass/style.scss */
 html, body {
   width: 100%;
   height: 100%;
 }
 
 /* clearfix placeholder selector: not complied to CSS unless used with @extend %clearfix; */
-/* line 59, sass/style.scss */
+/* line 42, sass/style.scss */
+.container:after, .content:after, .aside:after, .header:after, .sidebar:after, .social:after, .controls:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 57, sass/style.scss */
 html {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 63, sass/style.scss */
+/* line 61, sass/style.scss */
 body {
   font-family: Georgia, serif;
   font-size: 16px;
   line-height: 1.5;
 }
 
-/* line 69, sass/style.scss */
+/* line 67, sass/style.scss */
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 32px;
@@ -109,7 +116,7 @@ h1 {
   margin: 0;
 }
 
-/* line 76, sass/style.scss */
+/* line 74, sass/style.scss */
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
@@ -117,7 +124,7 @@ h2 {
   margin: 0;
 }
 
-/* line 83, sass/style.scss */
+/* line 81, sass/style.scss */
 h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
@@ -125,45 +132,182 @@ h3 {
   margin: 0;
 }
 
-/* line 90, sass/style.scss */
+/* line 88, sass/style.scss */
 p {
   font-family: Georgia, serif;
   font-size: 16px;
   margin-bottom: 15px;
 }
 
-/* line 96, sass/style.scss */
+/* line 94, sass/style.scss */
 li {
   font-family: Georgia, serif;
   font-size: 16px;
 }
 
-/* line 101, sass/style.scss */
+/* line 99, sass/style.scss */
 a {
   text-decoration: underline;
   color: #333;
 }
 
-/* line 106, sass/style.scss */
+/* line 104, sass/style.scss */
 a:hover {
   text-decoration: none;
   color: #999;
 }
 
-/* line 111, sass/style.scss */
+/* line 109, sass/style.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 115, sass/style.scss */
+/* line 113, sass/style.scss */
 .container {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
+  background-color: #F3FOE6;
 }
 /* line 12, ../../../.rvm/gems/ruby-2.1.2@global/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
 .container:after {
   content: " ";
   display: block;
   clear: both;
+}
+
+/* line 123, sass/style.scss */
+.aside {
+  background-color: #212326;
+}
+
+/* line 132, sass/style.scss */
+.header {
+  background-color: #212326;
+}
+
+/* line 137, sass/style.scss */
+.sidebar {
+  background-color: #212326;
+}
+
+/* line 170, sass/style.scss */
+#collapse {
+  float: left;
+}
+
+/* line 174, sass/style.scss */
+#expand {
+  float: left;
+  display: none;
+}
+
+/* line 179, sass/style.scss */
+#nightmode {
+  float: left;
+}
+
+/* line 183, sass/style.scss */
+#daymode {
+  float: left;
+  display: none;
+}
+
+/* line 194, sass/style.scss */
+.content {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 198, sass/style.scss */
+.header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 204, sass/style.scss */
+.sidebar {
+  position: fixed;
+  -webkit-transform: translate(200px, 0px);
+  -moz-transform: translate(200px, 0px);
+  -ms-transform: translate(200px, 0px);
+  -o-transform: translate(200px, 0px);
+  transform: translate(200px, 0px);
+}
+
+/* line 213, sass/style.scss */
+.logo {
+  width: 22.35294%;
+  float: left;
+  margin-right: 3.52941%;
+}
+
+/* line 217, sass/style.scss */
+.name {
+  width: 48.23529%;
+  float: left;
+  margin-right: 3.52941%;
+}
+
+/* line 221, sass/style.scss */
+.mobile-nav {
+  width: 22.35294%;
+  float: right;
+  margin-right: 0;
+  display: block;
+}
+
+@media (min-width: 676px) {
+  /* line 252, sass/style.scss */
+  .content {
+    width: 74.4186%;
+    float: left;
+    margin-right: 2.32558%;
+  }
+
+  /* line 256, sass/style.scss */
+  .aside {
+    width: 23.25581%;
+    float: right;
+    margin-right: 0;
+    background-color: #212326;
+  }
+
+  /* line 261, sass/style.scss */
+  .header {
+    position: relative;
+  }
+
+  /* line 265, sass/style.scss */
+  .sidebar {
+    position: relative;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+  }
+
+  /* line 274, sass/style.scss */
+  .logo {
+    float: none;
+    width: 100%;
+  }
+
+  /* line 279, sass/style.scss */
+  .name {
+    float: none;
+    width: 100%;
+  }
+
+  /* line 284, sass/style.scss */
+  .mobile-nav {
+    display: none;
+  }
 }

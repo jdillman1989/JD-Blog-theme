@@ -31,8 +31,6 @@ $mobile: (
 	gutters: 3/8, 
 );
 
-@include layout($mobile);
-
 /* required for parallax */
 html, body {
 	width: 100%;
@@ -114,19 +112,199 @@ strong{
 
 .container{
 	@include container(100%);
+	@extend %clearfix;
+	background-color: #F3FOE6;
 }
 
+.content{
+	@extend %clearfix;
+}
 
+.aside{
+	@extend %clearfix;
+	background-color: #212326;
+}
+
+.post-container{
+	
+}
+
+.header{
+	@extend %clearfix;
+	background-color: #212326;
+}
+
+.sidebar{
+	@extend %clearfix;
+	background-color: #212326;
+}
+
+.logo{
+	
+}
+
+.name{
+	
+}
+
+.mobile-nav{
+	
+}
+
+.social{
+	@extend %clearfix;
+}
+
+.search{
+	
+}
+
+.nav{
+	
+}
+
+.controls{
+	@extend %clearfix;
+}
+
+#collapse{
+	float: left;
+}
+
+#expand{
+	float: left;
+	display: none;
+}
+
+#nightmode{
+	float: left;	
+}
+
+#daymode{
+	float: left;	
+	display: none;
+}
 
 //layouts:
 
 //mobile
 
+@include layout($mobile);
 
+.content{
+	@include span(8);
+}
+
+.header{
+	position: fixed;
+	top: 0px;
+	@include span(8);
+}
+
+.sidebar{
+	position: fixed;
+	-webkit-transform: translate(200px,0px); 
+	-moz-transform: translate(200px,0px); 
+	-ms-transform: translate(200px,0px); 
+	-o-transform: translate(200px,0px); 
+	transform: translate(200px,0px); 
+}
+
+.logo{
+	@include span(2);
+}
+
+.name{
+	@include span(4 at 3);
+}
+
+.mobile-nav{
+	@include span(2 at 7 last);
+	display: block;
+}
+
+.social{
+
+}
+
+.social{
+
+}
+
+.search{
+	
+}
+
+.nav{
+	
+}
+
+.controls{
+
+}
 
 //desktop
 
 @include breakpoint(676px){
 
+	@include layout($desktop);
 	
+	.content{
+		@include span(9);
+	}
+
+	.aside{
+		@include span(3 at 10 last);
+		background-color: #212326;
+	}
+
+	.header{
+		position: relative;
+	}
+
+	.sidebar{
+		position: relative;
+		-webkit-transform: none; 
+		-moz-transform: none; 
+		-ms-transform: none; 
+		-o-transform: none; 
+		transform: none; 
+	}
+
+	.logo{
+		float: none;
+		width: 100%;
+	}
+
+	.name{
+		float: none;
+		width: 100%;
+	}
+
+	.mobile-nav{
+		display: none;
+	}
+
+	.social{
+
+	}
+
+	.social{
+
+	}
+
+	.search{
+		
+	}
+
+	.nav{
+		
+	}
+
+	.controls{
+
+	}
 }
+
+
+
