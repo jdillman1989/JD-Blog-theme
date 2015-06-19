@@ -217,7 +217,47 @@ strong {
   height: 30px;
 }
 
-/* line 179, sass/style.scss */
+/* line 163, sass/style.scss */
+.social {
+  width: 100%;
+}
+/* line 167, sass/style.scss */
+.social ul {
+  margin: 0 auto;
+}
+/* line 170, sass/style.scss */
+.social ul li {
+  list-style: none;
+  width: 28.57143%;
+  float: left;
+  margin-right: 7.14286%;
+  height: 40px;
+}
+/* line 175, sass/style.scss */
+.social ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-right: 0;
+  text-indent: -9999px;
+}
+
+/* line 186, sass/style.scss */
+.social a[href*="twitter.com"] {
+  background-image: url(images/twitter.svg);
+}
+
+/* line 190, sass/style.scss */
+.social a[href*="github.com"] {
+  background-image: url(images/github.svg);
+}
+
+/* line 194, sass/style.scss */
+.social a[href*="linkedin.com"] {
+  background-image: url(images/linkedin.svg);
+}
+
+/* line 210, sass/style.scss */
 #collapse {
   background: #101112 url(images/collapse.svg) no-repeat center top;
   width: 30px;
@@ -227,7 +267,7 @@ strong {
   float: left;
 }
 
-/* line 188, sass/style.scss */
+/* line 219, sass/style.scss */
 #expand {
   background: #101112 url(images/expand.svg) no-repeat center top;
   width: 30px;
@@ -238,7 +278,7 @@ strong {
   display: none;
 }
 
-/* line 198, sass/style.scss */
+/* line 229, sass/style.scss */
 #nightmode {
   background: #101112 url(images/nightmode.svg) no-repeat center top;
   width: 30px;
@@ -248,7 +288,7 @@ strong {
   float: left;
 }
 
-/* line 207, sass/style.scss */
+/* line 238, sass/style.scss */
 #daymode {
   background: #101112 url(images/daymode.svg) no-repeat center top;
   width: 30px;
@@ -259,7 +299,7 @@ strong {
   display: none;
 }
 
-/* line 223, sass/style.scss */
+/* line 254, sass/style.scss */
 .content {
   width: 100%;
   float: left;
@@ -267,12 +307,12 @@ strong {
   margin-right: 0;
 }
 
-/* line 227, sass/style.scss */
+/* line 258, sass/style.scss */
 .aside {
   background-color: none;
 }
 
-/* line 231, sass/style.scss */
+/* line 262, sass/style.scss */
 .header {
   position: fixed;
   top: 0px;
@@ -282,7 +322,7 @@ strong {
   margin-right: 0;
 }
 
-/* line 237, sass/style.scss */
+/* line 268, sass/style.scss */
 .sidebar {
   position: fixed;
   -webkit-transform: translate(2000px, 0px);
@@ -292,26 +332,26 @@ strong {
   transform: translate(2000px, 0px);
 }
 
-/* line 246, sass/style.scss */
+/* line 277, sass/style.scss */
 .logo {
   width: 22.35294%;
   float: left;
   margin-right: 3.52941%;
 }
-/* line 249, sass/style.scss */
+/* line 280, sass/style.scss */
 .logo a {
   width: 100px;
   height: 100px;
 }
 
-/* line 255, sass/style.scss */
+/* line 286, sass/style.scss */
 .name {
   width: 48.23529%;
   float: left;
   margin-right: 3.52941%;
 }
 
-/* line 259, sass/style.scss */
+/* line 290, sass/style.scss */
 .mobile-nav {
   width: 22.35294%;
   float: right;
@@ -320,14 +360,14 @@ strong {
 }
 
 @media (min-width: 676px) {
-  /* line 290, sass/style.scss */
+  /* line 321, sass/style.scss */
   .content {
     width: 74.4186%;
     float: left;
     margin-right: 2.32558%;
   }
 
-  /* line 294, sass/style.scss */
+  /* line 325, sass/style.scss */
   .aside {
     width: 23.25581%;
     float: right;
@@ -336,13 +376,13 @@ strong {
     height: 100%;
   }
 
-  /* line 300, sass/style.scss */
+  /* line 331, sass/style.scss */
   .header {
     position: relative;
     float: none;
   }
 
-  /* line 305, sass/style.scss */
+  /* line 336, sass/style.scss */
   .sidebar {
     position: relative;
     -webkit-transform: none;
@@ -352,24 +392,24 @@ strong {
     transform: none;
   }
 
-  /* line 314, sass/style.scss */
+  /* line 345, sass/style.scss */
   .logo {
     float: none;
     width: 100%;
   }
-  /* line 318, sass/style.scss */
+  /* line 349, sass/style.scss */
   .logo a {
     width: 300px;
     height: 300px;
   }
 
-  /* line 324, sass/style.scss */
+  /* line 355, sass/style.scss */
   .name {
     float: none;
     width: 100%;
   }
 
-  /* line 329, sass/style.scss */
+  /* line 360, sass/style.scss */
   .mobile-nav {
     display: none;
   }
