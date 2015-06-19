@@ -244,17 +244,17 @@ strong {
 
 /* line 186, sass/style.scss */
 .social a[href*="twitter.com"] {
-  background-image: url(images/twitter.svg) no-repeat center top;
+  background: url(images/twitter.svg) no-repeat center top;
 }
 
 /* line 190, sass/style.scss */
 .social a[href*="github.com"] {
-  background-image: url(images/github.svg) no-repeat center top;
+  background: url(images/github.svg) no-repeat center top;
 }
 
 /* line 194, sass/style.scss */
 .social a[href*="linkedin.com"] {
-  background-image: url(images/linkedin.svg) no-repeat center top;
+  background: url(images/linkedin.svg) no-repeat center top;
 }
 
 /* line 210, sass/style.scss */
