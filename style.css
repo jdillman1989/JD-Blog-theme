@@ -167,7 +167,7 @@ strong {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background-color: #F3FOE6;
+  background-color: #f3f0e6;
 }
 /* line 12, ../../../.rvm/gems/ruby-2.1.2@global/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
 .container:after {
@@ -282,9 +282,10 @@ strong {
   /* line 261, sass/style.scss */
   .header {
     position: relative;
+    float: none;
   }
 
-  /* line 265, sass/style.scss */
+  /* line 266, sass/style.scss */
   .sidebar {
     position: relative;
     -webkit-transform: none;
@@ -294,19 +295,19 @@ strong {
     transform: none;
   }
 
-  /* line 274, sass/style.scss */
+  /* line 275, sass/style.scss */
   .logo {
     float: none;
     width: 100%;
   }
 
-  /* line 279, sass/style.scss */
+  /* line 280, sass/style.scss */
   .name {
     float: none;
     width: 100%;
   }
 
-  /* line 284, sass/style.scss */
+  /* line 285, sass/style.scss */
   .mobile-nav {
     display: none;
   }

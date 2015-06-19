@@ -113,7 +113,7 @@ strong{
 .container{
 	@include container(100%);
 	@extend %clearfix;
-	background-color: #F3FOE6;
+	background-color: #f3f0e6;
 }
 
 .content{
@@ -260,6 +260,7 @@ strong{
 
 	.header{
 		position: relative;
+		float: none;
 	}
 
 	.sidebar{
