@@ -262,8 +262,8 @@ strong {
 }
 /* line 222, sass/style.scss */
 .logo a {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
 }
 
 /* line 228, sass/style.scss */
@@ -320,8 +320,8 @@ strong {
   }
   /* line 290, sass/style.scss */
   .logo a {
-    width: 600px;
-    height: 600px;
+    width: 300px;
+    height: 300px;
   }
 
   /* line 296, sass/style.scss */
