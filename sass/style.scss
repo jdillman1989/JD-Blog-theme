@@ -169,14 +169,12 @@ strong{
 
 		li{
 			list-style: none;
-			@include span(1 of 3);
 			height: 40px; 
 			
 			a{
 				display: block;
-				width: 100%;
+				@include span(1 of 3);
 				height: 100%; 
-				margin-right: 0; 
 				text-indent:-9999px;
 			}
 		}
