@@ -123,7 +123,6 @@ strong{
 
 .aside{
 	@extend %clearfix;
-	background-color: #212326;
 	color: #f3f0e6;
 }
 
@@ -221,6 +220,10 @@ strong{
 
 .content{
 	@include span(8);
+}
+
+.aside{
+	background-color: none; 
 }
 
 .header{
