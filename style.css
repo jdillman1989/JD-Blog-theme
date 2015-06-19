@@ -228,34 +228,35 @@ strong {
 /* line 170, sass/style.scss */
 .social ul li {
   list-style: none;
+  float: left;
+  width: 33%;
   height: 40px;
 }
-/* line 174, sass/style.scss */
+/* line 176, sass/style.scss */
 .social ul li a {
   display: block;
-  width: 28.57143%;
-  float: left;
-  margin-right: 7.14286%;
+  width: 100%;
   height: 100%;
+  margin-right: 0;
   text-indent: -9999px;
 }
 
-/* line 184, sass/style.scss */
+/* line 187, sass/style.scss */
 .social a[href*="twitter.com"] {
   background: url(images/twitter.svg) no-repeat center top;
 }
 
-/* line 188, sass/style.scss */
+/* line 191, sass/style.scss */
 .social a[href*="github.com"] {
   background: url(images/github.svg) no-repeat center top;
 }
 
-/* line 192, sass/style.scss */
+/* line 195, sass/style.scss */
 .social a[href*="linkedin.com"] {
   background: url(images/linkedin.svg) no-repeat center top;
 }
 
-/* line 208, sass/style.scss */
+/* line 211, sass/style.scss */
 #collapse {
   background: #101112 url(images/collapse.svg) no-repeat center top;
   width: 30px;
@@ -265,7 +266,7 @@ strong {
   float: left;
 }
 
-/* line 217, sass/style.scss */
+/* line 220, sass/style.scss */
 #expand {
   background: #101112 url(images/expand.svg) no-repeat center top;
   width: 30px;
@@ -276,7 +277,7 @@ strong {
   display: none;
 }
 
-/* line 227, sass/style.scss */
+/* line 230, sass/style.scss */
 #nightmode {
   background: #101112 url(images/nightmode.svg) no-repeat center top;
   width: 30px;
@@ -286,7 +287,7 @@ strong {
   float: left;
 }
 
-/* line 236, sass/style.scss */
+/* line 239, sass/style.scss */
 #daymode {
   background: #101112 url(images/daymode.svg) no-repeat center top;
   width: 30px;
@@ -297,7 +298,7 @@ strong {
   display: none;
 }
 
-/* line 252, sass/style.scss */
+/* line 255, sass/style.scss */
 .content {
   width: 100%;
   float: left;
@@ -305,12 +306,12 @@ strong {
   margin-right: 0;
 }
 
-/* line 256, sass/style.scss */
+/* line 259, sass/style.scss */
 .aside {
   background-color: none;
 }
 
-/* line 260, sass/style.scss */
+/* line 263, sass/style.scss */
 .header {
   position: fixed;
   top: 0px;
@@ -320,7 +321,7 @@ strong {
   margin-right: 0;
 }
 
-/* line 266, sass/style.scss */
+/* line 269, sass/style.scss */
 .sidebar {
   position: fixed;
   -webkit-transform: translate(2000px, 0px);
@@ -330,26 +331,26 @@ strong {
   transform: translate(2000px, 0px);
 }
 
-/* line 275, sass/style.scss */
+/* line 278, sass/style.scss */
 .logo {
   width: 22.35294%;
   float: left;
   margin-right: 3.52941%;
 }
-/* line 278, sass/style.scss */
+/* line 281, sass/style.scss */
 .logo a {
   width: 100px;
   height: 100px;
 }
 
-/* line 284, sass/style.scss */
+/* line 287, sass/style.scss */
 .name {
   width: 48.23529%;
   float: left;
   margin-right: 3.52941%;
 }
 
-/* line 288, sass/style.scss */
+/* line 291, sass/style.scss */
 .mobile-nav {
   width: 22.35294%;
   float: right;
@@ -358,14 +359,14 @@ strong {
 }
 
 @media (min-width: 676px) {
-  /* line 319, sass/style.scss */
+  /* line 322, sass/style.scss */
   .content {
     width: 74.4186%;
     float: left;
     margin-right: 2.32558%;
   }
 
-  /* line 323, sass/style.scss */
+  /* line 326, sass/style.scss */
   .aside {
     width: 23.25581%;
     float: right;
@@ -374,13 +375,13 @@ strong {
     height: 100%;
   }
 
-  /* line 329, sass/style.scss */
+  /* line 332, sass/style.scss */
   .header {
     position: relative;
     float: none;
   }
 
-  /* line 334, sass/style.scss */
+  /* line 337, sass/style.scss */
   .sidebar {
     position: relative;
     -webkit-transform: none;
@@ -390,24 +391,24 @@ strong {
     transform: none;
   }
 
-  /* line 343, sass/style.scss */
+  /* line 346, sass/style.scss */
   .logo {
     float: none;
     width: 100%;
   }
-  /* line 347, sass/style.scss */
+  /* line 350, sass/style.scss */
   .logo a {
     width: 300px;
     height: 300px;
   }
 
-  /* line 353, sass/style.scss */
+  /* line 356, sass/style.scss */
   .name {
     float: none;
     width: 100%;
   }
 
-  /* line 358, sass/style.scss */
+  /* line 361, sass/style.scss */
   .mobile-nav {
     display: none;
   }
