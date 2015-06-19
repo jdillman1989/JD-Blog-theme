@@ -114,6 +114,7 @@ strong{
 	@include container(100%);
 	@extend %clearfix;
 	background-color: #f3f0e6;
+	height: 100%;
 }
 
 .content{
