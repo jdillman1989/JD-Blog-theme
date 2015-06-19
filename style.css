@@ -208,9 +208,10 @@ strong {
 /* line 153, sass/style.scss */
 .name {
   text-transform: uppercase;
+  text-align: center;
 }
 
-/* line 177, sass/style.scss */
+/* line 178, sass/style.scss */
 #collapse {
   background: #101112 url(images/collapse.svg) no-repeat center top;
   width: 30px;
@@ -220,7 +221,7 @@ strong {
   float: left;
 }
 
-/* line 186, sass/style.scss */
+/* line 187, sass/style.scss */
 #expand {
   background: #101112 url(images/expand.svg) no-repeat center top;
   width: 30px;
@@ -231,7 +232,7 @@ strong {
   display: none;
 }
 
-/* line 196, sass/style.scss */
+/* line 197, sass/style.scss */
 #nightmode {
   background: #101112 url(images/nightmode.svg) no-repeat center top;
   width: 30px;
@@ -241,7 +242,7 @@ strong {
   float: left;
 }
 
-/* line 205, sass/style.scss */
+/* line 206, sass/style.scss */
 #daymode {
   background: #101112 url(images/daymode.svg) no-repeat center top;
   width: 30px;
@@ -252,7 +253,7 @@ strong {
   display: none;
 }
 
-/* line 221, sass/style.scss */
+/* line 222, sass/style.scss */
 .content {
   width: 100%;
   float: left;
@@ -260,7 +261,7 @@ strong {
   margin-right: 0;
 }
 
-/* line 225, sass/style.scss */
+/* line 226, sass/style.scss */
 .header {
   position: fixed;
   top: 0px;
@@ -270,7 +271,7 @@ strong {
   margin-right: 0;
 }
 
-/* line 231, sass/style.scss */
+/* line 232, sass/style.scss */
 .sidebar {
   position: fixed;
   -webkit-transform: translate(2000px, 0px);
@@ -280,26 +281,26 @@ strong {
   transform: translate(2000px, 0px);
 }
 
-/* line 240, sass/style.scss */
+/* line 241, sass/style.scss */
 .logo {
   width: 22.35294%;
   float: left;
   margin-right: 3.52941%;
 }
-/* line 243, sass/style.scss */
+/* line 244, sass/style.scss */
 .logo a {
   width: 100px;
   height: 100px;
 }
 
-/* line 249, sass/style.scss */
+/* line 250, sass/style.scss */
 .name {
   width: 48.23529%;
   float: left;
   margin-right: 3.52941%;
 }
 
-/* line 253, sass/style.scss */
+/* line 254, sass/style.scss */
 .mobile-nav {
   width: 22.35294%;
   float: right;
@@ -308,14 +309,14 @@ strong {
 }
 
 @media (min-width: 676px) {
-  /* line 284, sass/style.scss */
+  /* line 285, sass/style.scss */
   .content {
     width: 74.4186%;
     float: left;
     margin-right: 2.32558%;
   }
 
-  /* line 288, sass/style.scss */
+  /* line 289, sass/style.scss */
   .aside {
     width: 23.25581%;
     float: right;
@@ -324,13 +325,13 @@ strong {
     height: 100%;
   }
 
-  /* line 294, sass/style.scss */
+  /* line 295, sass/style.scss */
   .header {
     position: relative;
     float: none;
   }
 
-  /* line 299, sass/style.scss */
+  /* line 300, sass/style.scss */
   .sidebar {
     position: relative;
     -webkit-transform: none;
@@ -340,24 +341,24 @@ strong {
     transform: none;
   }
 
-  /* line 308, sass/style.scss */
+  /* line 309, sass/style.scss */
   .logo {
     float: none;
     width: 100%;
   }
-  /* line 312, sass/style.scss */
+  /* line 313, sass/style.scss */
   .logo a {
     width: 300px;
     height: 300px;
   }
 
-  /* line 318, sass/style.scss */
+  /* line 319, sass/style.scss */
   .name {
     float: none;
     width: 100%;
   }
 
-  /* line 323, sass/style.scss */
+  /* line 324, sass/style.scss */
   .mobile-nav {
     display: none;
   }
