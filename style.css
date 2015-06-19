@@ -207,38 +207,42 @@ strong {
 /* line 176, sass/style.scss */
 #collapse {
   background: #101112 url(images/collapse.svg) no-repeat left top;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
   float: left;
 }
 
-/* line 183, sass/style.scss */
+/* line 184, sass/style.scss */
 #expand {
   background: #101112 url(images/expand.svg) no-repeat left top;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
   float: left;
   display: none;
 }
 
-/* line 191, sass/style.scss */
+/* line 193, sass/style.scss */
 #nightmode {
   background: #101112 url(images/nightmode.svg) no-repeat left top;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
   float: left;
 }
 
-/* line 198, sass/style.scss */
+/* line 201, sass/style.scss */
 #daymode {
   background: #101112 url(images/daymode.svg) no-repeat left top;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   float: left;
+  padding: 5px;
   display: none;
 }
 
-/* line 212, sass/style.scss */
+/* line 216, sass/style.scss */
 .content {
   width: 100%;
   float: left;
@@ -246,7 +250,7 @@ strong {
   margin-right: 0;
 }
 
-/* line 216, sass/style.scss */
+/* line 220, sass/style.scss */
 .header {
   position: fixed;
   top: 0px;
@@ -256,7 +260,7 @@ strong {
   margin-right: 0;
 }
 
-/* line 222, sass/style.scss */
+/* line 226, sass/style.scss */
 .sidebar {
   position: fixed;
   -webkit-transform: translate(2000px, 0px);
@@ -266,26 +270,26 @@ strong {
   transform: translate(2000px, 0px);
 }
 
-/* line 231, sass/style.scss */
+/* line 235, sass/style.scss */
 .logo {
   width: 22.35294%;
   float: left;
   margin-right: 3.52941%;
 }
-/* line 234, sass/style.scss */
+/* line 238, sass/style.scss */
 .logo a {
   width: 100px;
   height: 100px;
 }
 
-/* line 240, sass/style.scss */
+/* line 244, sass/style.scss */
 .name {
   width: 48.23529%;
   float: left;
   margin-right: 3.52941%;
 }
 
-/* line 244, sass/style.scss */
+/* line 248, sass/style.scss */
 .mobile-nav {
   width: 22.35294%;
   float: right;
@@ -294,28 +298,29 @@ strong {
 }
 
 @media (min-width: 676px) {
-  /* line 275, sass/style.scss */
+  /* line 279, sass/style.scss */
   .content {
     width: 74.4186%;
     float: left;
     margin-right: 2.32558%;
   }
 
-  /* line 279, sass/style.scss */
+  /* line 283, sass/style.scss */
   .aside {
     width: 23.25581%;
     float: right;
     margin-right: 0;
     background-color: #212326;
+    height: 100%;
   }
 
-  /* line 284, sass/style.scss */
+  /* line 289, sass/style.scss */
   .header {
     position: relative;
     float: none;
   }
 
-  /* line 289, sass/style.scss */
+  /* line 294, sass/style.scss */
   .sidebar {
     position: relative;
     -webkit-transform: none;
@@ -325,24 +330,24 @@ strong {
     transform: none;
   }
 
-  /* line 298, sass/style.scss */
+  /* line 303, sass/style.scss */
   .logo {
     float: none;
     width: 100%;
   }
-  /* line 302, sass/style.scss */
+  /* line 307, sass/style.scss */
   .logo a {
     width: 300px;
     height: 300px;
   }
 
-  /* line 308, sass/style.scss */
+  /* line 313, sass/style.scss */
   .name {
     float: none;
     width: 100%;
   }
 
-  /* line 313, sass/style.scss */
+  /* line 318, sass/style.scss */
   .mobile-nav {
     display: none;
   }
