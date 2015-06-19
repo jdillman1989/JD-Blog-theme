@@ -146,12 +146,12 @@ strong{
 	
 	a{
 		display: block;
-		background: url( images/logo.svg ) no-repeat left top;
+		background: url( images/logo.svg ) no-repeat center top;
 	}
 }
 
 .name{
-	
+	text-transform: uppercase;
 }
 
 .mobile-nav{
@@ -175,36 +175,40 @@ strong{
 }
 
 #collapse{
-	background: #101112 url( images/collapse.svg ) no-repeat left top;
+	background: #101112 url( images/collapse.svg ) no-repeat center top;
 	width: 30px;
 	height: 30px;
-	padding: 5px;
+	border: 5px solid #101112;
+	margin-right: 15px; 
 	float: left;
 }
 
 #expand{
-	background: #101112 url( images/expand.svg ) no-repeat left top;
+	background: #101112 url( images/expand.svg ) no-repeat center top;
 	width: 30px;
 	height: 30px;
-	padding: 5px;
+	border: 5px solid #101112;
+	margin-right: 15px;
 	float: left;
 	display: none;
 }
 
 #nightmode{
-	background: #101112 url( images/nightmode.svg ) no-repeat left top;
+	background: #101112 url( images/nightmode.svg ) no-repeat center top;
 	width: 30px;
 	height: 30px;
-	padding: 5px;
+	border: 5px solid #101112;
+	margin-right: 15px;
 	float: left;	
 }
 
 #daymode{
-	background: #101112 url( images/daymode.svg ) no-repeat left top;
+	background: #101112 url( images/daymode.svg ) no-repeat center top;
 	width: 30px;
 	height: 30px;
 	float: left;
-	padding: 5px;	
+	border: 5px solid #101112;	
+	margin-right: 15px;
 	display: none;
 }
 

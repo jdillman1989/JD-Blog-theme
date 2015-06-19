@@ -202,48 +202,57 @@ strong {
 /* line 147, sass/style.scss */
 .logo a {
   display: block;
-  background: url(images/logo.svg) no-repeat left top;
+  background: url(images/logo.svg) no-repeat center top;
+}
+
+/* line 153, sass/style.scss */
+.name {
+  text-transform: uppercase;
 }
 
 /* line 177, sass/style.scss */
 #collapse {
-  background: #101112 url(images/collapse.svg) no-repeat left top;
+  background: #101112 url(images/collapse.svg) no-repeat center top;
   width: 30px;
   height: 30px;
-  padding: 5px;
+  border: 5px solid #101112;
+  margin-right: 15px;
   float: left;
 }
 
-/* line 185, sass/style.scss */
+/* line 186, sass/style.scss */
 #expand {
-  background: #101112 url(images/expand.svg) no-repeat left top;
+  background: #101112 url(images/expand.svg) no-repeat center top;
   width: 30px;
   height: 30px;
-  padding: 5px;
+  border: 5px solid #101112;
+  margin-right: 15px;
   float: left;
   display: none;
 }
 
-/* line 194, sass/style.scss */
+/* line 196, sass/style.scss */
 #nightmode {
-  background: #101112 url(images/nightmode.svg) no-repeat left top;
+  background: #101112 url(images/nightmode.svg) no-repeat center top;
   width: 30px;
   height: 30px;
-  padding: 5px;
+  border: 5px solid #101112;
+  margin-right: 15px;
   float: left;
 }
 
-/* line 202, sass/style.scss */
+/* line 205, sass/style.scss */
 #daymode {
-  background: #101112 url(images/daymode.svg) no-repeat left top;
+  background: #101112 url(images/daymode.svg) no-repeat center top;
   width: 30px;
   height: 30px;
   float: left;
-  padding: 5px;
+  border: 5px solid #101112;
+  margin-right: 15px;
   display: none;
 }
 
-/* line 217, sass/style.scss */
+/* line 221, sass/style.scss */
 .content {
   width: 100%;
   float: left;
@@ -251,7 +260,7 @@ strong {
   margin-right: 0;
 }
 
-/* line 221, sass/style.scss */
+/* line 225, sass/style.scss */
 .header {
   position: fixed;
   top: 0px;
@@ -261,7 +270,7 @@ strong {
   margin-right: 0;
 }
 
-/* line 227, sass/style.scss */
+/* line 231, sass/style.scss */
 .sidebar {
   position: fixed;
   -webkit-transform: translate(2000px, 0px);
@@ -271,26 +280,26 @@ strong {
   transform: translate(2000px, 0px);
 }
 
-/* line 236, sass/style.scss */
+/* line 240, sass/style.scss */
 .logo {
   width: 22.35294%;
   float: left;
   margin-right: 3.52941%;
 }
-/* line 239, sass/style.scss */
+/* line 243, sass/style.scss */
 .logo a {
   width: 100px;
   height: 100px;
 }
 
-/* line 245, sass/style.scss */
+/* line 249, sass/style.scss */
 .name {
   width: 48.23529%;
   float: left;
   margin-right: 3.52941%;
 }
 
-/* line 249, sass/style.scss */
+/* line 253, sass/style.scss */
 .mobile-nav {
   width: 22.35294%;
   float: right;
@@ -299,14 +308,14 @@ strong {
 }
 
 @media (min-width: 676px) {
-  /* line 280, sass/style.scss */
+  /* line 284, sass/style.scss */
   .content {
     width: 74.4186%;
     float: left;
     margin-right: 2.32558%;
   }
 
-  /* line 284, sass/style.scss */
+  /* line 288, sass/style.scss */
   .aside {
     width: 23.25581%;
     float: right;
@@ -315,13 +324,13 @@ strong {
     height: 100%;
   }
 
-  /* line 290, sass/style.scss */
+  /* line 294, sass/style.scss */
   .header {
     position: relative;
     float: none;
   }
 
-  /* line 295, sass/style.scss */
+  /* line 299, sass/style.scss */
   .sidebar {
     position: relative;
     -webkit-transform: none;
@@ -331,24 +340,24 @@ strong {
     transform: none;
   }
 
-  /* line 304, sass/style.scss */
+  /* line 308, sass/style.scss */
   .logo {
     float: none;
     width: 100%;
   }
-  /* line 308, sass/style.scss */
+  /* line 312, sass/style.scss */
   .logo a {
     width: 300px;
     height: 300px;
   }
 
-  /* line 314, sass/style.scss */
+  /* line 318, sass/style.scss */
   .name {
     float: none;
     width: 100%;
   }
 
-  /* line 319, sass/style.scss */
+  /* line 323, sass/style.scss */
   .mobile-nav {
     display: none;
   }
