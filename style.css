@@ -198,29 +198,34 @@ strong {
   background-color: #212326;
 }
 
-/* line 172, sass/style.scss */
+/* line 146, sass/style.scss */
+.logo a {
+  background-image: url(images/twitter.jpg);
+}
+
+/* line 175, sass/style.scss */
 #collapse {
   float: left;
 }
 
-/* line 176, sass/style.scss */
+/* line 179, sass/style.scss */
 #expand {
   float: left;
   display: none;
 }
 
-/* line 181, sass/style.scss */
+/* line 184, sass/style.scss */
 #nightmode {
   float: left;
 }
 
-/* line 185, sass/style.scss */
+/* line 188, sass/style.scss */
 #daymode {
   float: left;
   display: none;
 }
 
-/* line 196, sass/style.scss */
+/* line 199, sass/style.scss */
 .content {
   width: 100%;
   float: left;
@@ -228,7 +233,7 @@ strong {
   margin-right: 0;
 }
 
-/* line 200, sass/style.scss */
+/* line 203, sass/style.scss */
 .header {
   position: fixed;
   top: 0px;
@@ -238,7 +243,7 @@ strong {
   margin-right: 0;
 }
 
-/* line 206, sass/style.scss */
+/* line 209, sass/style.scss */
 .sidebar {
   position: fixed;
   -webkit-transform: translate(2000px, 0px);
@@ -248,21 +253,21 @@ strong {
   transform: translate(2000px, 0px);
 }
 
-/* line 215, sass/style.scss */
+/* line 218, sass/style.scss */
 .logo {
   width: 22.35294%;
   float: left;
   margin-right: 3.52941%;
 }
 
-/* line 219, sass/style.scss */
+/* line 222, sass/style.scss */
 .name {
   width: 48.23529%;
   float: left;
   margin-right: 3.52941%;
 }
 
-/* line 223, sass/style.scss */
+/* line 226, sass/style.scss */
 .mobile-nav {
   width: 22.35294%;
   float: right;
@@ -271,14 +276,14 @@ strong {
 }
 
 @media (min-width: 676px) {
-  /* line 254, sass/style.scss */
+  /* line 257, sass/style.scss */
   .content {
     width: 74.4186%;
     float: left;
     margin-right: 2.32558%;
   }
 
-  /* line 258, sass/style.scss */
+  /* line 261, sass/style.scss */
   .aside {
     width: 23.25581%;
     float: right;
@@ -286,13 +291,13 @@ strong {
     background-color: #212326;
   }
 
-  /* line 263, sass/style.scss */
+  /* line 266, sass/style.scss */
   .header {
     position: relative;
     float: none;
   }
 
-  /* line 268, sass/style.scss */
+  /* line 271, sass/style.scss */
   .sidebar {
     position: relative;
     -webkit-transform: none;
@@ -302,20 +307,20 @@ strong {
     transform: none;
   }
 
-  /* line 277, sass/style.scss */
+  /* line 280, sass/style.scss */
   .logo {
     float: none;
     width: 100%;
     height: 200px;
   }
 
-  /* line 283, sass/style.scss */
+  /* line 286, sass/style.scss */
   .name {
     float: none;
     width: 100%;
   }
 
-  /* line 288, sass/style.scss */
+  /* line 291, sass/style.scss */
   .mobile-nav {
     display: none;
   }
