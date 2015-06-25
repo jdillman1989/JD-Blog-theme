@@ -65,6 +65,9 @@ jQuery(document).ready(function() {
 		// 	sidebar.css({"transform":"translate(" + sidebar.width() + "px, 0px)"});
 		// });
 	}
+	else{
+		sidebar.css({"transform":"translate(0px, 0px)"});
+	}
 
 	mobileNav.click(function() {
 
