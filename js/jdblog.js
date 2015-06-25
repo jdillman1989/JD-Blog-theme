@@ -59,15 +59,15 @@ jQuery(document).ready(function() {
 	if (jQuery(window).width() < 676 ) {
 
 		sidebar.css({"transform":"translate(" + sidebar.width() + "px, 0px)"});	
-
-		// jQuery(window).resize(function() {
-
-		// 	sidebar.css({"transform":"translate(" + sidebar.width() + "px, 0px)"});
-		// });
 	}
-	else{
-		sidebar.css({"transform":"translate(0px, 0px)"});
-	}
+
+	jQuery(window).resize(function() {
+
+		if (jQuery(window).width() > 676 ) {
+
+			sidebar.css({"transform":"translate(0px, 0px)"});
+		}
+	});
 
 	mobileNav.click(function() {
 
