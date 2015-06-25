@@ -56,7 +56,7 @@ jQuery(document).ready(function() {
 	var mobileCollapse = jQuery("#mobile-collapse");
 	var sidebarWidth = sidebar.outerWidth();
 
-	if (jQuery(window).width() > 676 ) {
+	if (jQuery(window).width() < 676 ) {
 
 		sidebar.css({"transform":"translate(" + sidebar.outerWidth() + 5 + "px, 0px)"});	
 
