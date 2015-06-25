@@ -75,12 +75,16 @@ jQuery(document).ready(function() {
 
 	collapse.click(function() {
 
+		console.log("collapsed");
+
 		aside.addClass( collapsed );
 		jQuery( this ).toggle();
 		expand.toggle();
 	});
 
 	expand.click(function() {
+
+		console.log("expanded");
 
 		sidebar.removeClass( collapsed );
 		jQuery( this ).toggle();
