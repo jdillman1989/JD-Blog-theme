@@ -155,7 +155,7 @@ strong{
 }
 
 .stick{
-	position: fixed;
+	position: fixed !important;
 	
 }
 
@@ -293,6 +293,7 @@ strong{
 
 .sidebar{
 	position: fixed;
+	top: 0px;
 	right: 0px;
 }
 
