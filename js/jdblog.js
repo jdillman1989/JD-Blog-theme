@@ -54,17 +54,26 @@ jQuery(document).ready(function() {
 
 	var mobileNav = jQuery(".mobile-nav");
 	var mobileCollapse = jQuery("#mobile-collapse");
+	var sidebarWidth = sidebar.outerWidth();
+
+	if (jQuery(window).width() > 676 ) {
+
+		sidebar.css({"transform":"translate(" + sidebar.outerWidth() + 5 "px, 0px)"});	
+
+		// jQuery(window).resize(function() {
+
+		// 	sidebar.css({"transform":"translate(" + sidebar.outerWidth() + 5 "px, 0px)"});
+		// });
+	}
 
 	mobileNav.click(function() {
 
-		var sidebarWidth = sidebar.outerWidth();
-
-		sidebar.css({"transform":"translate(" + sidebarWidth + "px, 0px)"});
+		sidebar.css({"transform":"translate(0px, 0px)"});
 	});
 
 	mobileCollapse.click(function() {
 
-		sidebar.css({"transform":"translate(0px, 0px)"});
+		sidebar.css({"transform":"translate(" + sidebar.outerWidth() + 5 "px, 0px)"});	
 	});
 
 	// controls
