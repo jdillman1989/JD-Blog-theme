@@ -114,7 +114,16 @@ strong{
 	@include container(100%);
 	@extend %clearfix;
 	background-color: #f3f0e6;
-	height: 100%;
+	-webkit-transition: all 1s ease; 
+	-moz-transition: all 1s ease; 
+	-ms-transition: all 1s ease; 
+	-o-transition: all 1s ease; 
+	transition: all 1s ease; 
+}
+
+.nightmode{
+	background-color: #101112;
+	color: #f3f0e6; 
 }
 
 .content{
@@ -124,6 +133,19 @@ strong{
 .aside{
 	@extend %clearfix;
 	color: #f3f0e6;
+	-webkit-transition: all 1s ease; 
+	-moz-transition: all 1s ease; 
+	-ms-transition: all 1s ease; 
+	-o-transition: all 1s ease; 
+	transition: all 1s ease; 
+}
+
+.collapsed{
+	-webkit-transform: translate(2000px,0px); 
+	-moz-transform: translate(2000px,0px); 
+	-ms-transform: translate(2000px,0px); 
+	-o-transform: translate(2000px,0px); 
+	transform: translate(2000px,0px);
 }
 
 .post-container{
@@ -139,6 +161,11 @@ strong{
 .sidebar{
 	@extend %clearfix;
 	background-color: #212326;
+}
+
+.stick{
+	position: fixed;
+	
 }
 
 .logo{
@@ -182,6 +209,13 @@ strong{
 			}
 		}
 	}
+}
+
+.mobile-collapse{
+	background: #101112 url( images/collapse.svg ) no-repeat center top;
+	width: 30px;
+	height: 30px;
+	border: 5px solid #101112;
 }
 
 .social a[href*="twitter.com"]{
@@ -272,7 +306,12 @@ strong{
 	-moz-transform: translate(2000px,0px); 
 	-ms-transform: translate(2000px,0px); 
 	-o-transform: translate(2000px,0px); 
-	transform: translate(2000px,0px); 
+	transform: translate(2000px,0px);
+	-webkit-transition: all 1s ease; 
+	-moz-transition: all 1s ease; 
+	-ms-transition: all 1s ease; 
+	-o-transition: all 1s ease; 
+	transition: all 1s ease; 
 }
 
 .logo{
@@ -293,8 +332,16 @@ strong{
 	display: block;
 }
 
-.social{
+.mobile-nav-visible{
+	-webkit-transform: translate(200px,0px); 
+	-moz-transform: translate(200px,0px); 
+	-ms-transform: translate(200px,0px); 
+	-o-transform: translate(200px,0px); 
+	transform: translate(200px,0px);
+}
 
+.mobile-collapse{
+	display: block;
 }
 
 .social{
@@ -311,6 +358,14 @@ strong{
 
 .controls{
 
+}
+
+#collapse{
+	display: none;
+}
+
+#expand{
+	display: none;
 }
 
 //desktop
@@ -362,8 +417,8 @@ strong{
 		display: none;
 	}
 
-	.social{
-
+	.mobile-collapse{
+		display: none;
 	}
 
 	.social{

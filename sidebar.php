@@ -21,6 +21,8 @@
 
 <div class="sidebar">
 
+	<div id="mobile-collapse"></div>
+
 	<div class="social">
 		<?php
 			wp_nav_menu( 

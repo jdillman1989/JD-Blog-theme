@@ -1,153 +1,135 @@
-// jQuery(document).ready(function() {
+jQuery(document).ready(function() {
 
-// 	// sticky sidebar
+	// sticky sidebar
 
-// 	var sidebar = jQuery(".sidebar");
-// 	var content = jQuery(".content");
-// 	var sidebarScroll = "sidebar-scrolled";
-// 	var sidebarEndScroll = "sidebar-end-scrolled";
-// 	var navHeight = jQuery('.nav').height();
-// 	var sliderHeight = jQuery('.slider').height();
-// 	var prevHeight = headerHeight + navHeight + sliderHeight;
+	var aside = jQuery(".aside");
+	var sidebar = jQuery(".sidebar");
+	var content = jQuery(".content");
 
-// 	var containerHeight = jQuery('.content-container').height();
-// 	var documentHeight = jQuery(document).height();
-// 	var footerHeight = jQuery('.footer').outerHeight();
-// 	var windowHeight = jQuery(window).height();
-// 	var sidebarHeight = jQuery('.sidebar').height();
+	var sidebarHeight = sidebar.height();
+	var prevHeight = jQuery('.header').outerHeight();
+	var windowHeight = jQuery(window).height();
 
-// 	function currentSidebarPos(){
+	var sidebarScroll = "stick";
+	var lastScrollTop = 0, delta = 5;
 
-// 		// 105 includes 40px sidebar padding and 65px sidebar top
-// 		return jQuery(window).scrollTop() + sidebarHeight + 105;
-// 	}
+	if (jQuery(window).width() > 676 && sidebar.height() < content.height() + 50) {
 
-// 	function footerStartPos(){
+		jQuery(window).scroll(function() {
 
-// 		// includes 20px container margin
-// 		return jQuery(document).height() - footerHeight - 20;
-// 	}
+			if( jQuery(this).scrollTop() > prevHeight ) {
 
-// 	function fixedSidebar(){
+				// var st = jQuery(window).scrollTop();
 
-// 		sidebar.css({ 
-// 			'position': 'fixed',
-// 			'top': 65,
-// 			'left': sidebar.offset().left,
-// 			'margin-top': 0
-// 		});
-// 	}
+				// if(Math.abs(lastScrollTop - st) <= delta)
+				//   return;
 
-// 	function staticSidebar(){
+				// if (st > lastScrollTop){
+				// 	// downscroll code
+				// 	console.log('scroll down');
+				// } 
 
-// 		sidebar.css({ 
-// 			'position': 'static',
-// 			'top': 'auto',
-// 			'left': 'auto',
-// 			'margin-top': 0
-// 		});
-// 	}
+				// else {
+				// 	// upscroll code
+				// 	console.log('scroll up');
+				// }
 
-// 	var lastScrollTop = 0, delta = 5;
+				// lastScrollTop = st;
 
-// 	jQuery(window).scroll(function() {
+				sidebar.addClass( sidebarScroll );
 
-// 		// Only run on desktop
-// 		if (jQuery(window).width() > 676 && sidebar.height() < content.height() + 50) {
+				// Check if window is smaller than sidebar
+				if( jQuery(window).height() < sidebarHeight ) {
+					console.log(" small screen ");
+				}
+			} 
+			else {
 
-// 			// Check if scrolled to sidebar top
-// 			if( jQuery(this).scrollTop() > prevHeight + 20 ) {
+				sidebar.removeClass( sidebarScroll );
+			}
+		});
+	};
 
-// 				var st = jQuery(window).scrollTop();
+	// mobile nav
 
-// 				if(Math.abs(lastScrollTop - st) <= delta)
-// 				  return;
+	var mobileNav = jQuery(".mobile-nav");
+	var mobileCollapse = jQuery(".mobile-collapse");
+	var mobileNavVisible = "mobile-nav-visible";
 
-// 				if (st > lastScrollTop){
-// 					// downscroll code
-// 					console.log('scroll down');
-// 				} 
+	mobileNav.click(function() {
 
-// 				else {
-// 					// upscroll code
-// 					console.log('scroll up');
-// 				}
+		sidebar.addClass( mobileNavVisible );
+	});
 
-// 				lastScrollTop = st;
+	mobileCollapse.click(function() {
 
-// 				fixedSidebar();
+		sidebar.removeClass( mobileNavVisible );
+	});
 
-// 				// Check if window is smaller than sidebar
-// 				if( jQuery(window).height() < sidebar.height() ) {
-// 					console.log(" small screen ");
-// 				}
+	// controls
+	// collapse
 
-// 				// Check if scrolled to footer
-// 				if( currentSidebarPos() > footerStartPos()) {
+	var collapse = jQuery("#collapse");
+	var expand = jQuery("#expand");
+	var collapsed = "collapsed";
 
-// 					sidebar.css({ 
-// 						'margin-top': footerStartPos() - currentSidebarPos()
-// 					});
-// 				};
-// 			} 
-// 			else {
+	collapse.click(function() {
 
-// 				staticSidebar();
-// 			}
-// 		};
-// 	});
+		aside.addClass( collapsed );
+		jQuery( this ).toggle();
+		expand.toggle();
+	});
 
-// 	jQuery(window).resize(function() {
+	expand.click(function() {
 
-// 		// Only run on desktop
-// 		if (jQuery(window).width() > 676 && sidebar.height() < content.height() + 50) {
+		sidebar.removeClass( collapsed );
+		jQuery( this ).toggle();
+		collapse.toggle();
+	});
 
-// 			// Check if scrolled to sidebar top
-// 			if( jQuery(this).scrollTop() > prevHeight + 20 ) {
+	// controls
+	// nightmode
 
-// 				sidebar.css({ 
-// 					'position': 'static',
-// 					'margin-top': jQuery(window).scrollTop() - sidebar.outerHeight()
-// 				});
+	var nightButton = jQuery("#nightmode");
+	var dayButton = jQuery("#daymode");
+	var container = jQuery(".container");
+	var nightmode = "nightmode";
 
-// 				// Check if scrolled to footer
-// 				if( currentSidebarPos() > footerStartPos()) {
+	nightButton.click(function() {
 
-// 					sidebar.css({ 
-// 						'position': 'static',
-// 						'margin-top': (footerStartPos() - currentSidebarPos()) + (jQuery(window).scrollTop() - sidebar.outerHeight())
-// 					});
-// 				};
-// 			} 
-// 			else {
+		container.addClass( nightmode );
+		jQuery( this ).toggle();
+		dayButton.toggle();
+		location.hash = "night";
 
-// 				staticSidebar();
-// 			}
-// 		}
-// 		else{
+		jQuery("a").each(function() {
+			$this = jQuery(this);
+			$this.attr("href", $this.attr("href") + "#night");
+		});
+	});
 
-// 			staticSidebar();
-// 		}
-// 	});
+	dayButton.click(function() {
 
-// 	// mobile menu (can't have any other inline style attrs on #menu-primary)
-// 	jQuery(function() {
-// 		var pull        = jQuery('#menuToggle');
-// 			menu        = jQuery('#menu-primary-1');
-// 			menuHeight  = menu.height();
-	 
-// 		jQuery(pull).on('click', function(e) {
-// 			e.preventDefault();
-// 			menu.slideToggle();
-// 		});
+		container.removeClass( nightmode );
+		jQuery( this ).toggle();
+		nightButton.toggle();
+		location.hash = null;
 
-// 		jQuery(window).resize(function(){
+		jQuery("a").each(function() {
+			$this = jQuery(this);
+			$this.attr("href", $this.attr("href").split('#')[0]);
+		});
+	});
 
-// 			var w = jQuery(window).width();
-			
-// 			if(w > 676 && menu.is(':hidden')) {
-// 				menu.removeAttr('style');
-// 			}
-// 		});
-// 	});
-// });
+	if(location.hash){
+
+		// Hash link names
+		var hashValue = location.hash.split('#')[1];
+
+		if (hashValue == "night") {
+			nightButton.trigger( "click" );
+		};
+	}
+});
+
+
