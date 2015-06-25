@@ -58,7 +58,7 @@ jQuery(document).ready(function() {
 
 	if (jQuery(window).width() > 676 ) {
 
-		sidebar.css({"transform":"translate(" + sidebar.outerWidth() + 5 "px, 0px)"});	
+		sidebar.css({"transform":"translate(" + sidebar.outerWidth() + 5 + "px, 0px)"});	
 
 		// jQuery(window).resize(function() {
 
