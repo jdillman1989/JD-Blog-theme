@@ -17,11 +17,7 @@
 <?php get_header(); ?>
 
 <body>
-	<div class="container">
-
-		<div class="aside">
-			<?php get_sidebar(); ?>
-		</div>
+	<div class="container animate">
 
 		<div class="content">
 
@@ -31,6 +27,10 @@
 					<?php the_content(); ?>
 				</div>
 			<?php endwhile; ?>
+		</div>
+
+		<div class="aside animate">
+			<?php get_sidebar(); ?>
 		</div>
 	</div>
 </body>

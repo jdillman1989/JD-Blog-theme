@@ -19,7 +19,7 @@
 	<div class="mobile-nav" id="mobilenav"></div>
 </div>
 
-<div class="sidebar">
+<div class="sidebar animate">
 
 	<div id="mobile-collapse"></div>
 

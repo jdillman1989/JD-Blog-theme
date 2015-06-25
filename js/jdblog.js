@@ -54,7 +54,6 @@ jQuery(document).ready(function() {
 
 	var mobileNav = jQuery(".mobile-nav");
 	var mobileCollapse = jQuery("#mobile-collapse");
-	var sidebarWidth = sidebar.outerWidth();
 
 	if (jQuery(window).width() < 676 ) {
 
@@ -138,7 +137,6 @@ jQuery(document).ready(function() {
 
 	if(location.hash){
 
-		// Hash link names
 		var hashValue = location.hash.split('#')[1];
 
 		if (hashValue == "night") {

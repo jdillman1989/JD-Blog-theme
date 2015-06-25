@@ -15,7 +15,7 @@
 <?php get_header(); ?>
 
 <body>
-	<div class="container">
+	<div class="container animate">
 
 		<div class="content">
 
@@ -39,7 +39,7 @@
 			<p style="float:left;"><?php previous_posts_link( '&laquo; Next' ); ?></p>
 		</div>
 
-		<div class="aside">
+		<div class="aside animate">
 			<?php get_sidebar(); ?>
 		</div>
 	</div>
