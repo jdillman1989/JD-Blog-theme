@@ -62,7 +62,7 @@ jQuery(document).ready(function() {
 
 		// jQuery(window).resize(function() {
 
-		// 	sidebar.css({"transform":"translate(" + sidebar.outerWidth() + 5 "px, 0px)"});
+		// 	sidebar.css({"transform":"translate(" + sidebar.outerWidth() + 5 + "px, 0px)"});
 		// });
 	}
 
@@ -73,7 +73,7 @@ jQuery(document).ready(function() {
 
 	mobileCollapse.click(function() {
 
-		sidebar.css({"transform":"translate(" + sidebar.outerWidth() + 5 "px, 0px)"});	
+		sidebar.css({"transform":"translate(" + sidebar.outerWidth() + 5 + "px, 0px)"});	
 	});
 
 	// controls
