@@ -71,11 +71,11 @@ jQuery(document).ready(function() {
 
 	var collapse = jQuery("#collapse");
 	var expand = jQuery("#expand");
-	var collapsed = "collapsed";
-	var asideWidth = aside.outerWidth();
-	var buttonWidth = collapse.outerWidth();
 
 	collapse.click(function() {
+
+		var asideWidth = aside.outerWidth();
+		var buttonWidth = collapse.outerWidth();
 
 		aside.css({"transform":"translate(" + (asideWidth - buttonWidth) + "px, 0px)"});
 		jQuery( this ).toggle();
