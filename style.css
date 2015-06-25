@@ -262,7 +262,7 @@ strong {
 }
 
 /* line 206, sass/style.scss */
-.mobile-collapse {
+#mobile-collapse {
   background: #101112 url(images/collapse.svg) no-repeat center top;
   width: 30px;
   height: 30px;
@@ -401,7 +401,7 @@ strong {
 }
 
 /* line 335, sass/style.scss */
-.mobile-collapse {
+#mobile-collapse {
   display: block;
 }
 
@@ -471,7 +471,7 @@ strong {
   }
 
   /* line 412, sass/style.scss */
-  .mobile-collapse {
+  #mobile-collapse {
     display: none;
   }
 

@@ -203,7 +203,7 @@ strong{
 	}
 }
 
-.mobile-collapse{
+#mobile-collapse{
 	background: #101112 url( images/collapse.svg ) no-repeat center top;
 	width: 30px;
 	height: 30px;
@@ -332,7 +332,7 @@ strong{
 	transform: translate(200px,0px);
 }
 
-.mobile-collapse{
+#mobile-collapse{
 	display: block;
 }
 
@@ -409,7 +409,7 @@ strong{
 		display: none;
 	}
 
-	.mobile-collapse{
+	#mobile-collapse{
 		display: none;
 	}
 
