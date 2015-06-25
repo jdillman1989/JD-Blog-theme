@@ -72,21 +72,19 @@ jQuery(document).ready(function() {
 	var collapse = jQuery("#collapse");
 	var expand = jQuery("#expand");
 	var collapsed = "collapsed";
+	var asideWidth = aside.outerWidth();
+	var buttonWidth = collapse.outerWidth();
 
 	collapse.click(function() {
 
-		console.log("collapsed");
-
-		aside.addClass( collapsed );
+		aside.css({"transform":"translate(" + (asideWidth - buttonWidth) + "px, 0px)"});
 		jQuery( this ).toggle();
 		expand.toggle();
 	});
 
 	expand.click(function() {
 
-		console.log("expanded");
-
-		aside.removeClass( collapsed );
+		aside.css({"transform":"translate(0px, 0px)"});
 		jQuery( this ).toggle();
 		collapse.toggle();
 	});

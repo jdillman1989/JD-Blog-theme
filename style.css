@@ -198,70 +198,61 @@ strong {
 }
 
 /* line 143, sass/style.scss */
-.collapsed {
-  -webkit-transform: translate(2000px, 0px);
-  -moz-transform: translate(2000px, 0px);
-  -ms-transform: translate(2000px, 0px);
-  -o-transform: translate(2000px, 0px);
-  transform: translate(2000px, 0px);
-}
-
-/* line 151, sass/style.scss */
 .post-container {
   margin: 0 auto;
   width: 85%;
 }
 
-/* line 156, sass/style.scss */
+/* line 148, sass/style.scss */
 .header {
   background-color: #212326;
 }
 
-/* line 161, sass/style.scss */
+/* line 153, sass/style.scss */
 .sidebar {
   background-color: #212326;
 }
 
-/* line 166, sass/style.scss */
+/* line 158, sass/style.scss */
 .stick {
   position: fixed;
 }
 
-/* line 173, sass/style.scss */
+/* line 165, sass/style.scss */
 .logo a {
   display: block;
   background: url(images/logo.svg) no-repeat center top;
 }
 
-/* line 179, sass/style.scss */
+/* line 171, sass/style.scss */
 .name {
   text-transform: uppercase;
   text-align: center;
 }
 
-/* line 184, sass/style.scss */
+/* line 176, sass/style.scss */
 .mobile-nav {
   background: url(images/mobile-nav.svg) no-repeat center top;
   width: 30px;
   height: 30px;
 }
 
-/* line 190, sass/style.scss */
+/* line 182, sass/style.scss */
 .social {
   width: 100%;
 }
-/* line 194, sass/style.scss */
+/* line 186, sass/style.scss */
 .social ul {
   margin: 0 auto;
 }
-/* line 197, sass/style.scss */
+/* line 189, sass/style.scss */
 .social ul li {
   list-style: none;
   float: left;
   width: 33%;
   height: 40px;
 }
-/* line 203, sass/style.scss */
+/* line 195, sass/style.scss */
 .social ul li a {
   display: block;
   width: 100%;
@@ -270,7 +261,7 @@ strong {
   text-indent: -9999px;
 }
 
-/* line 214, sass/style.scss */
+/* line 206, sass/style.scss */
 .mobile-collapse {
   background: #101112 url(images/collapse.svg) no-repeat center top;
   width: 30px;
@@ -278,22 +269,22 @@ strong {
   border: 5px solid #101112;
 }
 
-/* line 221, sass/style.scss */
+/* line 213, sass/style.scss */
 .social a[href*="twitter.com"] {
   background: url(images/twitter.svg) no-repeat center top;
 }
 
-/* line 225, sass/style.scss */
+/* line 217, sass/style.scss */
 .social a[href*="github.com"] {
   background: url(images/github.svg) no-repeat center top;
 }
 
-/* line 229, sass/style.scss */
+/* line 221, sass/style.scss */
 .social a[href*="linkedin.com"] {
   background: url(images/linkedin.svg) no-repeat center top;
 }
 
-/* line 245, sass/style.scss */
+/* line 237, sass/style.scss */
 #collapse {
   background: #101112 url(images/collapse.svg) no-repeat center top;
   width: 30px;
@@ -303,7 +294,7 @@ strong {
   float: left;
 }
 
-/* line 254, sass/style.scss */
+/* line 246, sass/style.scss */
 #expand {
   background: #101112 url(images/expand.svg) no-repeat center top;
   width: 30px;
@@ -314,7 +305,7 @@ strong {
   display: none;
 }
 
-/* line 264, sass/style.scss */
+/* line 256, sass/style.scss */
 #nightmode {
   background: #101112 url(images/nightmode.svg) no-repeat center top;
   width: 30px;
@@ -324,7 +315,7 @@ strong {
   float: left;
 }
 
-/* line 273, sass/style.scss */
+/* line 265, sass/style.scss */
 #daymode {
   background: #101112 url(images/daymode.svg) no-repeat center top;
   width: 30px;
@@ -335,7 +326,7 @@ strong {
   display: none;
 }
 
-/* line 289, sass/style.scss */
+/* line 281, sass/style.scss */
 .content {
   width: 100%;
   float: left;
@@ -343,12 +334,12 @@ strong {
   margin-right: 0;
 }
 
-/* line 293, sass/style.scss */
+/* line 285, sass/style.scss */
 .aside {
   background-color: none;
 }
 
-/* line 297, sass/style.scss */
+/* line 289, sass/style.scss */
 .header {
   position: fixed;
   top: 0px;
@@ -358,7 +349,7 @@ strong {
   margin-right: 0;
 }
 
-/* line 303, sass/style.scss */
+/* line 295, sass/style.scss */
 .sidebar {
   position: fixed;
   -webkit-transform: translate(2000px, 0px);
@@ -373,26 +364,26 @@ strong {
   transition: all 1s ease;
 }
 
-/* line 317, sass/style.scss */
+/* line 309, sass/style.scss */
 .logo {
   width: 22.35294%;
   float: left;
   margin-right: 3.52941%;
 }
-/* line 320, sass/style.scss */
+/* line 312, sass/style.scss */
 .logo a {
   width: 100px;
   height: 100px;
 }
 
-/* line 326, sass/style.scss */
+/* line 318, sass/style.scss */
 .name {
   width: 48.23529%;
   float: left;
   margin-right: 3.52941%;
 }
 
-/* line 330, sass/style.scss */
+/* line 322, sass/style.scss */
 .mobile-nav {
   width: 22.35294%;
   float: right;
@@ -400,7 +391,7 @@ strong {
   display: block;
 }
 
-/* line 335, sass/style.scss */
+/* line 327, sass/style.scss */
 .mobile-nav-visible {
   -webkit-transform: translate(200px, 0px);
   -moz-transform: translate(200px, 0px);
@@ -409,30 +400,30 @@ strong {
   transform: translate(200px, 0px);
 }
 
-/* line 343, sass/style.scss */
+/* line 335, sass/style.scss */
 .mobile-collapse {
   display: block;
 }
 
-/* line 363, sass/style.scss */
+/* line 355, sass/style.scss */
 #collapse {
   display: none;
 }
 
-/* line 367, sass/style.scss */
+/* line 359, sass/style.scss */
 #expand {
   display: none;
 }
 
 @media (min-width: 676px) {
-  /* line 377, sass/style.scss */
+  /* line 369, sass/style.scss */
   .content {
     width: 74.4186%;
     float: left;
     margin-right: 2.32558%;
   }
 
-  /* line 381, sass/style.scss */
+  /* line 373, sass/style.scss */
   .aside {
     width: 23.25581%;
     float: right;
@@ -441,13 +432,13 @@ strong {
     height: 100%;
   }
 
-  /* line 387, sass/style.scss */
+  /* line 379, sass/style.scss */
   .header {
     position: relative;
     float: none;
   }
 
-  /* line 392, sass/style.scss */
+  /* line 384, sass/style.scss */
   .sidebar {
     position: relative;
     -webkit-transform: none;
@@ -457,39 +448,39 @@ strong {
     transform: none;
   }
 
-  /* line 401, sass/style.scss */
+  /* line 393, sass/style.scss */
   .logo {
     float: none;
     width: 100%;
   }
-  /* line 405, sass/style.scss */
+  /* line 397, sass/style.scss */
   .logo a {
     width: 300px;
     height: 300px;
   }
 
-  /* line 411, sass/style.scss */
+  /* line 403, sass/style.scss */
   .name {
     float: none;
     width: 100%;
   }
 
-  /* line 416, sass/style.scss */
+  /* line 408, sass/style.scss */
   .mobile-nav {
     display: none;
   }
 
-  /* line 420, sass/style.scss */
+  /* line 412, sass/style.scss */
   .mobile-collapse {
     display: none;
   }
 
-  /* line 439, sass/style.scss */
+  /* line 431, sass/style.scss */
   #collapse {
     display: block;
   }
 
-  /* line 443, sass/style.scss */
+  /* line 435, sass/style.scss */
   #expand {
     display: none;
   }
