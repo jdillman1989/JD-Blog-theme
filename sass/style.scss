@@ -122,6 +122,7 @@ strong{
 	@include container(100%);
 	@extend %clearfix;
 	background-color: #f3f0e6;
+	overflow-x: hidden;
 }
 
 .nightmode{
@@ -136,7 +137,6 @@ strong{
 .aside{
 	@extend %clearfix;
 	color: #f3f0e6;
-	overflow: hidden; 
 }
 
 .post-container{
