@@ -483,4 +483,14 @@ strong {
   .mobile-collapse {
     display: none;
   }
+
+  /* line 439, sass/style.scss */
+  #collapse {
+    display: block;
+  }
+
+  /* line 443, sass/style.scss */
+  #expand {
+    display: none;
+  }
 }
