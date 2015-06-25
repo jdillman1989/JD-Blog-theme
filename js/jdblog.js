@@ -86,7 +86,7 @@ jQuery(document).ready(function() {
 
 		console.log("expanded");
 
-		sidebar.removeClass( collapsed );
+		aside.removeClass( collapsed );
 		jQuery( this ).toggle();
 		collapse.toggle();
 	});
