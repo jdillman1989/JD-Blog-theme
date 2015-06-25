@@ -194,64 +194,65 @@ strong {
 /* line 136, sass/style.scss */
 .aside {
   color: #f3f0e6;
+  overflow: hidden;
 }
 
-/* line 141, sass/style.scss */
+/* line 142, sass/style.scss */
 .post-container {
   margin: 0 auto;
   width: 85%;
 }
 
-/* line 146, sass/style.scss */
+/* line 147, sass/style.scss */
 .header {
   background-color: #212326;
 }
 
-/* line 151, sass/style.scss */
+/* line 152, sass/style.scss */
 .sidebar {
   background-color: #212326;
 }
 
-/* line 156, sass/style.scss */
+/* line 157, sass/style.scss */
 .stick {
   position: fixed;
 }
 
-/* line 163, sass/style.scss */
+/* line 164, sass/style.scss */
 .logo a {
   display: block;
   background: url(images/logo.svg) no-repeat center top;
 }
 
-/* line 169, sass/style.scss */
+/* line 170, sass/style.scss */
 .name {
   text-transform: uppercase;
   text-align: center;
 }
 
-/* line 174, sass/style.scss */
+/* line 175, sass/style.scss */
 .mobile-nav {
   background: url(images/mobile-nav.svg) no-repeat center top;
   width: 30px;
   height: 30px;
 }
 
-/* line 180, sass/style.scss */
+/* line 181, sass/style.scss */
 .social {
   width: 100%;
 }
-/* line 184, sass/style.scss */
+/* line 185, sass/style.scss */
 .social ul {
   margin: 0 auto;
 }
-/* line 187, sass/style.scss */
+/* line 188, sass/style.scss */
 .social ul li {
   list-style: none;
   float: left;
   width: 33%;
   height: 40px;
 }
-/* line 193, sass/style.scss */
+/* line 194, sass/style.scss */
 .social ul li a {
   display: block;
   width: 100%;
@@ -260,7 +261,7 @@ strong {
   text-indent: -9999px;
 }
 
-/* line 204, sass/style.scss */
+/* line 205, sass/style.scss */
 #mobile-collapse {
   background: #101112 url(images/collapse.svg) no-repeat center top;
   width: 30px;
@@ -268,22 +269,22 @@ strong {
   border: 5px solid #101112;
 }
 
-/* line 211, sass/style.scss */
+/* line 212, sass/style.scss */
 .social a[href*="twitter.com"] {
   background: url(images/twitter.svg) no-repeat center top;
 }
 
-/* line 215, sass/style.scss */
+/* line 216, sass/style.scss */
 .social a[href*="github.com"] {
   background: url(images/github.svg) no-repeat center top;
 }
 
-/* line 219, sass/style.scss */
+/* line 220, sass/style.scss */
 .social a[href*="linkedin.com"] {
   background: url(images/linkedin.svg) no-repeat center top;
 }
 
-/* line 235, sass/style.scss */
+/* line 236, sass/style.scss */
 #collapse {
   background: #101112 url(images/collapse.svg) no-repeat center top;
   width: 30px;
@@ -293,7 +294,7 @@ strong {
   float: left;
 }
 
-/* line 244, sass/style.scss */
+/* line 245, sass/style.scss */
 #expand {
   background: #101112 url(images/expand.svg) no-repeat center top;
   width: 30px;
@@ -304,7 +305,7 @@ strong {
   display: none;
 }
 
-/* line 254, sass/style.scss */
+/* line 255, sass/style.scss */
 #nightmode {
   background: #101112 url(images/nightmode.svg) no-repeat center top;
   width: 30px;
@@ -314,7 +315,7 @@ strong {
   float: left;
 }
 
-/* line 263, sass/style.scss */
+/* line 264, sass/style.scss */
 #daymode {
   background: #101112 url(images/daymode.svg) no-repeat center top;
   width: 30px;
@@ -325,7 +326,7 @@ strong {
   display: none;
 }
 
-/* line 279, sass/style.scss */
+/* line 280, sass/style.scss */
 .content {
   width: 100%;
   float: left;
@@ -333,12 +334,12 @@ strong {
   margin-right: 0;
 }
 
-/* line 283, sass/style.scss */
+/* line 284, sass/style.scss */
 .aside {
   background-color: none;
 }
 
-/* line 287, sass/style.scss */
+/* line 288, sass/style.scss */
 .header {
   position: fixed;
   top: 0px;
@@ -348,32 +349,32 @@ strong {
   margin-right: 0;
 }
 
-/* line 293, sass/style.scss */
+/* line 294, sass/style.scss */
 .sidebar {
   position: fixed;
   right: 0px;
 }
 
-/* line 298, sass/style.scss */
+/* line 299, sass/style.scss */
 .logo {
   width: 22.35294%;
   float: left;
   margin-right: 3.52941%;
 }
-/* line 301, sass/style.scss */
+/* line 302, sass/style.scss */
 .logo a {
   width: 100px;
   height: 100px;
 }
 
-/* line 307, sass/style.scss */
+/* line 308, sass/style.scss */
 .name {
   width: 48.23529%;
   float: left;
   margin-right: 3.52941%;
 }
 
-/* line 311, sass/style.scss */
+/* line 312, sass/style.scss */
 .mobile-nav {
   width: 22.35294%;
   float: right;
@@ -381,30 +382,30 @@ strong {
   display: block;
 }
 
-/* line 316, sass/style.scss */
+/* line 317, sass/style.scss */
 #mobile-collapse {
   display: block;
 }
 
-/* line 336, sass/style.scss */
+/* line 337, sass/style.scss */
 #collapse {
   display: none;
 }
 
-/* line 340, sass/style.scss */
+/* line 341, sass/style.scss */
 #expand {
   display: none;
 }
 
 @media (min-width: 676px) {
-  /* line 350, sass/style.scss */
+  /* line 351, sass/style.scss */
   .content {
     width: 74.4186%;
     float: left;
     margin-right: 2.32558%;
   }
 
-  /* line 354, sass/style.scss */
+  /* line 355, sass/style.scss */
   .aside {
     width: 23.25581%;
     float: right;
@@ -413,13 +414,13 @@ strong {
     height: 100%;
   }
 
-  /* line 360, sass/style.scss */
+  /* line 361, sass/style.scss */
   .header {
     position: relative;
     float: none;
   }
 
-  /* line 365, sass/style.scss */
+  /* line 366, sass/style.scss */
   .sidebar {
     position: relative;
     -webkit-transform: none;
@@ -429,39 +430,39 @@ strong {
     transform: none;
   }
 
-  /* line 374, sass/style.scss */
+  /* line 375, sass/style.scss */
   .logo {
     float: none;
     width: 100%;
   }
-  /* line 378, sass/style.scss */
+  /* line 379, sass/style.scss */
   .logo a {
     width: 300px;
     height: 300px;
   }
 
-  /* line 384, sass/style.scss */
+  /* line 385, sass/style.scss */
   .name {
     float: none;
     width: 100%;
   }
 
-  /* line 389, sass/style.scss */
+  /* line 390, sass/style.scss */
   .mobile-nav {
     display: none;
   }
 
-  /* line 393, sass/style.scss */
+  /* line 394, sass/style.scss */
   #mobile-collapse {
     display: none;
   }
 
-  /* line 412, sass/style.scss */
+  /* line 413, sass/style.scss */
   #collapse {
     display: block;
   }
 
-  /* line 416, sass/style.scss */
+  /* line 417, sass/style.scss */
   #expand {
     display: none;
   }
