@@ -54,16 +54,17 @@ jQuery(document).ready(function() {
 
 	var mobileNav = jQuery(".mobile-nav");
 	var mobileCollapse = jQuery("#mobile-collapse");
-	var mobileNavVisible = "mobile-nav-visible";
 
 	mobileNav.click(function() {
 
-		sidebar.addClass( mobileNavVisible );
+		var sidebarWidth = sidebar.outerWidth();
+
+		sidebar.css({"transform":"translate(" + sidebarWidth + "px, 0px)"});
 	});
 
 	mobileCollapse.click(function() {
 
-		sidebar.removeClass( mobileNavVisible );
+		sidebar.css({"transform":"translate(0px, 0px)"});
 	});
 
 	// controls
