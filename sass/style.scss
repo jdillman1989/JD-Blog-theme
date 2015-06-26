@@ -125,14 +125,6 @@ strong{
 	overflow-x: hidden;
 }
 
-.container:after{
-	display: block;
-	position: absolute;
-	height: 100%;
-	content: "";
-	background-color: #f3f0e6;
-}
-
 .nightmode{
 	background-color: #101112;
 	color: #f3f0e6; 
@@ -285,16 +277,19 @@ strong{
 
 @include layout($mobile);
 
+.container{
+	padding-bottom: 0px; 
+	margin-bottom: 0px; 
+}
+
 .content{
 	@include span(8);
 }
 
 .aside{
 	background-color: none; 
-}
-
-.aside:after{
-	display: none;
+	padding-bottom: 0px; 
+	margin-bottom: 0px; 
 }
 
 .header{
@@ -361,6 +356,11 @@ strong{
 
 	@include layout($desktop);
 	
+	.container{
+		padding-bottom: 99999px; 
+		margin-bottom: -99999px; 
+	}
+	
 	.content{
 		@include span(9);
 	}
@@ -368,15 +368,8 @@ strong{
 	.aside{
 		@include span(3 at 10 last);
 		background-color: #212326;
-		height: 100%; 
-	}
-
-	.aside:after{
-		display: block;
-		position: absolute;
-		height: 100%;
-		content: "";
-		background-color: #212326;
+		padding-bottom: 99999px; 
+		margin-bottom: -99999px; 
 	}
 
 	.header{
