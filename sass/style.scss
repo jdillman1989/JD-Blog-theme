@@ -122,7 +122,7 @@ strong{
 	@include container(100%);
 	@extend %clearfix;
 	background-color: #f3f0e6;
-	overflow-x: hidden;
+	overflow: hidden;
 }
 
 .nightmode{
