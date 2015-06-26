@@ -125,6 +125,14 @@ strong{
 	overflow-x: hidden;
 }
 
+.container:after{
+	display: block;
+	position: absolute;
+	height: 100%;
+	content: "";
+	background-color: #f3f0e6;
+}
+
 .nightmode{
 	background-color: #101112;
 	color: #f3f0e6; 
@@ -285,6 +293,10 @@ strong{
 	background-color: none; 
 }
 
+.aside:after{
+	display: none;
+}
+
 .header{
 	position: fixed;
 	top: 0px;
@@ -357,6 +369,14 @@ strong{
 		@include span(3 at 10 last);
 		background-color: #212326;
 		height: 100%; 
+	}
+
+	.aside:after{
+		display: block;
+		position: absolute;
+		height: 100%;
+		content: "";
+		background-color: #212326;
 	}
 
 	.header{
