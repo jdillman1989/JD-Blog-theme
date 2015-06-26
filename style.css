@@ -327,12 +327,6 @@ strong {
 }
 
 /* line 280, sass/style.scss */
-.container {
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-}
-
-/* line 285, sass/style.scss */
 .content {
   width: 100%;
   float: left;
@@ -340,14 +334,14 @@ strong {
   margin-right: 0;
 }
 
-/* line 289, sass/style.scss */
+/* line 284, sass/style.scss */
 .aside {
   background-color: none;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
 
-/* line 295, sass/style.scss */
+/* line 290, sass/style.scss */
 .header {
   position: fixed;
   top: 0px;
@@ -357,33 +351,33 @@ strong {
   margin-right: 0;
 }
 
-/* line 301, sass/style.scss */
+/* line 296, sass/style.scss */
 .sidebar {
   position: fixed;
   top: 0px;
   right: 0px;
 }
 
-/* line 307, sass/style.scss */
+/* line 302, sass/style.scss */
 .logo {
   width: 22.35294%;
   float: left;
   margin-right: 3.52941%;
 }
-/* line 310, sass/style.scss */
+/* line 305, sass/style.scss */
 .logo a {
   width: 100px;
   height: 100px;
 }
 
-/* line 316, sass/style.scss */
+/* line 311, sass/style.scss */
 .name {
   width: 48.23529%;
   float: left;
   margin-right: 3.52941%;
 }
 
-/* line 320, sass/style.scss */
+/* line 315, sass/style.scss */
 .mobile-nav {
   width: 22.35294%;
   float: right;
@@ -391,36 +385,30 @@ strong {
   display: block;
 }
 
-/* line 325, sass/style.scss */
+/* line 320, sass/style.scss */
 #mobile-collapse {
   display: block;
 }
 
-/* line 345, sass/style.scss */
+/* line 340, sass/style.scss */
 #collapse {
   display: none;
 }
 
-/* line 349, sass/style.scss */
+/* line 344, sass/style.scss */
 #expand {
   display: none;
 }
 
 @media (min-width: 676px) {
-  /* line 359, sass/style.scss */
-  .container {
-    padding-bottom: 99999px;
-    margin-bottom: -99999px;
-  }
-
-  /* line 364, sass/style.scss */
+  /* line 354, sass/style.scss */
   .content {
     width: 74.4186%;
     float: left;
     margin-right: 2.32558%;
   }
 
-  /* line 368, sass/style.scss */
+  /* line 358, sass/style.scss */
   .aside {
     width: 23.25581%;
     float: right;
@@ -430,13 +418,13 @@ strong {
     margin-bottom: -99999px;
   }
 
-  /* line 375, sass/style.scss */
+  /* line 365, sass/style.scss */
   .header {
     position: relative;
     float: none;
   }
 
-  /* line 380, sass/style.scss */
+  /* line 370, sass/style.scss */
   .sidebar {
     position: relative;
     -webkit-transform: none;
@@ -446,39 +434,39 @@ strong {
     transform: none;
   }
 
-  /* line 389, sass/style.scss */
+  /* line 379, sass/style.scss */
   .logo {
     float: none;
     width: 100%;
   }
-  /* line 393, sass/style.scss */
+  /* line 383, sass/style.scss */
   .logo a {
     width: 300px;
     height: 300px;
   }
 
-  /* line 399, sass/style.scss */
+  /* line 389, sass/style.scss */
   .name {
     float: none;
     width: 100%;
   }
 
-  /* line 404, sass/style.scss */
+  /* line 394, sass/style.scss */
   .mobile-nav {
     display: none;
   }
 
-  /* line 408, sass/style.scss */
+  /* line 398, sass/style.scss */
   #mobile-collapse {
     display: none;
   }
 
-  /* line 427, sass/style.scss */
+  /* line 417, sass/style.scss */
   #collapse {
     display: block;
   }
 
-  /* line 431, sass/style.scss */
+  /* line 421, sass/style.scss */
   #expand {
     display: none;
   }

@@ -277,11 +277,6 @@ strong{
 
 @include layout($mobile);
 
-.container{
-	padding-bottom: 0px; 
-	margin-bottom: 0px; 
-}
-
 .content{
 	@include span(8);
 }
@@ -355,11 +350,6 @@ strong{
 @include breakpoint(676px){
 
 	@include layout($desktop);
-	
-	.container{
-		padding-bottom: 99999px; 
-		margin-bottom: -99999px; 
-	}
 	
 	.content{
 		@include span(9);
