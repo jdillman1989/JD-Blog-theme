@@ -223,7 +223,8 @@ strong{
 }
 
 .search{
-	margin: 0 auto; 
+	margin: 0 auto;
+	width: 75%;
 }
 
 #s{
@@ -234,11 +235,12 @@ strong{
 	border-radius: 0px;
 	border: none;
 	font-size: 17px;
-	width: 70%;
+	width: 80%;
 }
 
 .search-submit{
-	padding: 5px 11px 6px 11px;
+	width: 19%;
+	height: 34px;
 	margin: 0 0 0 -5px;
 	-webkit-border-radius: 0px; 
 	border-radius: 0px;
