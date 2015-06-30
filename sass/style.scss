@@ -229,21 +229,21 @@ strong{
 #s{
 	background-color: #f3f0e6; 
 	margin: 0;
-	padding: 0;
+	padding: 10px;
 	-webkit-border-radius: 0px; 
 	border-radius: 0px;
 	-webkit-border: none;
 	border: none;
-	margin-right: -4px;
 }
 
 .search-submit{
+	padding: 10px;
 	margin: 0;
 	-webkit-border-radius: 0px; 
 	border-radius: 0px;
 	-webkit-border: none; 
 	border: none;
-	background: #f3f0e6 url( images/search.svg ) no-repeat center top;
+	background: #f3f0e6 url( images/search.svg ) no-repeat center center;
 	color: #212326;
 }
 
