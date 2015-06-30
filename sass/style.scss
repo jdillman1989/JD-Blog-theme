@@ -234,19 +234,23 @@ strong{
 #s{
 	background-color: #f3f0e6; 
 	margin: 0;
-	padding: 0;
+	padding: 0 0 0 10px;
+	font-size: 17px;
 	height: 34px;
 	border: 0px solid #f3f0e6;
 	width: 80%;
 }
 
 .search-submit{
-	width: 19%;
+	width: 18%;
 	height: 34px;
-	margin: 0 0 0 -5px;
+	margin: 0;
 	padding: 0;
 	border: 5px solid #f3f0e6;
-	background: #f3f0e6 url( images/search.svg ) no-repeat center center;
+	background: #f3f0e6 url(images/search.svg) no-repeat center center;
+	position: relative;
+	top: 6px;
+	right: 5px;
 }
 
 .nav{
