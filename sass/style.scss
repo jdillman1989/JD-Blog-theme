@@ -223,6 +223,8 @@ strong{
 }
 
 .search{
+	height: 34px;
+	margin-bottom: 15px; 
 	
 	form {
 		padding: 0;
@@ -270,7 +272,7 @@ strong{
 				display: block;
 				width: 100%;
 				text-decoration: none;
-				padding: 7px 0 7px 12%; 
+				padding-left: 12%; 
 			}
 
 			a:hover{
