@@ -451,24 +451,27 @@ strong {
   .name {
     float: none;
     width: 100%;
+    padding: 0 10px;
+    line-height: 1.1;
+    margin-bottom: 10px;
   }
 
-  /* line 396, sass/style.scss */
+  /* line 399, sass/style.scss */
   .mobile-nav {
     display: none;
   }
 
-  /* line 400, sass/style.scss */
+  /* line 403, sass/style.scss */
   #mobile-collapse {
     display: none;
   }
 
-  /* line 419, sass/style.scss */
+  /* line 422, sass/style.scss */
   #collapse {
     display: block;
   }
 
-  /* line 423, sass/style.scss */
+  /* line 426, sass/style.scss */
   #expand {
     display: none;
   }
