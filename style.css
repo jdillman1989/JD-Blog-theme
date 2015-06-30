@@ -285,7 +285,30 @@ strong {
   background: url(images/linkedin.svg) no-repeat center top;
 }
 
-/* line 237, sass/style.scss */
+/* line 229, sass/style.scss */
+#s {
+  background-color: #f3f0e6;
+  margin: 0;
+  padding: 0;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-border: none;
+  border: none;
+  margin-right: -4px;
+}
+
+/* line 240, sass/style.scss */
+.search-submit {
+  margin: 0;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-border: none;
+  border: none;
+  background-color: #f3f0e6;
+  color: #212326;
+}
+
+/* line 258, sass/style.scss */
 #collapse {
   background: #101112 url(images/collapse.svg) no-repeat center top;
   width: 30px;
@@ -295,7 +318,7 @@ strong {
   float: left;
 }
 
-/* line 246, sass/style.scss */
+/* line 267, sass/style.scss */
 #expand {
   background: #101112 url(images/expand.svg) no-repeat center top;
   width: 30px;
@@ -306,7 +329,7 @@ strong {
   display: none;
 }
 
-/* line 256, sass/style.scss */
+/* line 277, sass/style.scss */
 #nightmode {
   background: #101112 url(images/nightmode.svg) no-repeat center top;
   width: 30px;
@@ -316,7 +339,7 @@ strong {
   float: left;
 }
 
-/* line 265, sass/style.scss */
+/* line 286, sass/style.scss */
 #daymode {
   background: #101112 url(images/daymode.svg) no-repeat center top;
   width: 30px;
@@ -327,7 +350,7 @@ strong {
   display: none;
 }
 
-/* line 281, sass/style.scss */
+/* line 302, sass/style.scss */
 .content {
   width: 100%;
   float: left;
@@ -335,14 +358,14 @@ strong {
   margin-right: 0;
 }
 
-/* line 285, sass/style.scss */
+/* line 306, sass/style.scss */
 .aside {
   background-color: none;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
 
-/* line 291, sass/style.scss */
+/* line 312, sass/style.scss */
 .header {
   position: fixed;
   top: 0px;
@@ -352,33 +375,33 @@ strong {
   margin-right: 0;
 }
 
-/* line 297, sass/style.scss */
+/* line 318, sass/style.scss */
 .sidebar {
   position: fixed;
   top: 0px;
   right: 0px;
 }
 
-/* line 303, sass/style.scss */
+/* line 324, sass/style.scss */
 .logo {
   width: 22.35294%;
   float: left;
   margin-right: 3.52941%;
 }
-/* line 306, sass/style.scss */
+/* line 327, sass/style.scss */
 .logo a {
   width: 100px;
   height: 100px;
 }
 
-/* line 312, sass/style.scss */
+/* line 333, sass/style.scss */
 .name {
   width: 48.23529%;
   float: left;
   margin-right: 3.52941%;
 }
 
-/* line 316, sass/style.scss */
+/* line 337, sass/style.scss */
 .mobile-nav {
   width: 22.35294%;
   float: right;
@@ -386,47 +409,47 @@ strong {
   display: block;
 }
 
-/* line 321, sass/style.scss */
+/* line 342, sass/style.scss */
 #mobile-collapse {
   display: block;
 }
 
-/* line 341, sass/style.scss */
+/* line 362, sass/style.scss */
 #collapse {
   display: none;
 }
 
-/* line 345, sass/style.scss */
+/* line 366, sass/style.scss */
 #expand {
   display: none;
 }
 
 @media (min-width: 676px) {
-  /* line 355, sass/style.scss */
+  /* line 376, sass/style.scss */
   .content {
     width: 74.4186%;
     float: left;
     margin-right: 2.32558%;
   }
 
-  /* line 359, sass/style.scss */
+  /* line 380, sass/style.scss */
   .aside {
     width: 23.25581%;
     float: right;
     margin-right: 0;
     background-color: #212326;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 99999px;
     margin-bottom: -99999px;
   }
 
-  /* line 367, sass/style.scss */
+  /* line 388, sass/style.scss */
   .header {
     position: relative;
     float: none;
   }
 
-  /* line 372, sass/style.scss */
+  /* line 393, sass/style.scss */
   .sidebar {
     position: relative;
     -webkit-transform: none;
@@ -436,20 +459,20 @@ strong {
     transform: none;
   }
 
-  /* line 381, sass/style.scss */
+  /* line 402, sass/style.scss */
   .logo {
     float: none;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
-  /* line 386, sass/style.scss */
+  /* line 407, sass/style.scss */
   .logo a {
     width: 200px;
     height: 200px;
     margin: 0 auto;
   }
 
-  /* line 393, sass/style.scss */
+  /* line 414, sass/style.scss */
   .name {
     float: none;
     width: 100%;
@@ -458,22 +481,22 @@ strong {
     margin-bottom: 10px;
   }
 
-  /* line 401, sass/style.scss */
+  /* line 422, sass/style.scss */
   .mobile-nav {
     display: none;
   }
 
-  /* line 405, sass/style.scss */
+  /* line 426, sass/style.scss */
   #mobile-collapse {
     display: none;
   }
 
-  /* line 424, sass/style.scss */
+  /* line 445, sass/style.scss */
   #collapse {
     display: block;
   }
 
-  /* line 428, sass/style.scss */
+  /* line 449, sass/style.scss */
   #expand {
     display: none;
   }
