@@ -181,7 +181,7 @@ strong{
 	@extend %clearfix;
 	width: 100%;
 	max-width: 200px;
-	margin: 0 auto 10px auto; 
+	margin: 0 auto 20px auto; 
 	
 	ul{
 		margin: 0 auto; 
@@ -254,7 +254,24 @@ strong{
 }
 
 .nav{
-	
+		
+	ul{
+
+		li{
+			list-style: none;
+			width: 100%;
+			
+			a{
+				font-family: 'Montserrat', sans-serif;
+				font-size: 32px;
+				font-weight: 700;
+				display: block;
+				width: 100%;
+				text-decoration: none;
+				padding: 7px 0 7px 12%; 
+			}
+		}
+	}
 }
 
 .controls{
