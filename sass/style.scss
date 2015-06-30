@@ -265,10 +265,16 @@ strong{
 				font-family: 'Montserrat', sans-serif;
 				font-size: 32px;
 				font-weight: 700;
+				color: #f3f0e6;
+				text-transform: uppercase;
 				display: block;
 				width: 100%;
 				text-decoration: none;
 				padding: 7px 0 7px 12%; 
+			}
+
+			a:hover{
+				background-color: #101112; 
 			}
 		}
 	}
