@@ -228,13 +228,14 @@ strong{
 		padding: 0;
 		margin: 0 auto;
 		width: 75%;
+		background-color: #f3f0e6;
 	}
 }
 
 #s{
 	background-color: #f3f0e6; 
 	margin: 0;
-	padding: 0 0 0 10px;
+	padding: 0 10px;
 	font-size: 17px;
 	height: 34px;
 	border: 0px solid #f3f0e6;
@@ -249,9 +250,6 @@ strong{
 	border: 5px solid #f3f0e6;
 	background: #f3f0e6 url(images/search.svg) no-repeat center center;
 	position: relative;
-	top: 6px;
-	right: 5px;
-	z-index: 9999;
 }
 
 .nav{
