@@ -304,7 +304,7 @@ strong {
   border-radius: 0px;
   -webkit-border: none;
   border: none;
-  background-color: #f3f0e6;
+  background: #f3f0e6 url(images/search.svg) no-repeat center top;
   color: #212326;
 }
 
