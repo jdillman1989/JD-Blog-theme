@@ -313,7 +313,7 @@ strong {
   margin: 0;
   padding: 0;
   border: 5px solid #f3f0e6;
-  background: #f3f0e6 url(images/search.svg) no-repeat center center;
+  background: #f3f0e6 url(images/search.svg) no-repeat right center;
 }
 
 /* line 264, sass/style.scss */
