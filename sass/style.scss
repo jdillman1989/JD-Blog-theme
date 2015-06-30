@@ -3,7 +3,6 @@ Theme Name: GRIF
 Theme URI: https://wordpress.org/themes/GRIF
 Author: Jesse Dillman
 Author URI: https://jdillman.com/
-Description: Custom WP theme for Grand Rapids International Fellowship. Note: this file is compiled from sass/style.scss any changes outside that file WILL BE OVERRIDDEN)
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: church, GRIF
@@ -181,6 +180,8 @@ strong{
 .social{
 	@extend %clearfix;
 	width: 100%;
+	max-width: 200px;
+	margin: 0 auto; 
 	
 	ul{
 		margin: 0 auto; 
@@ -358,6 +359,7 @@ strong{
 	.aside{
 		@include span(3 at 10 last);
 		background-color: #212326;
+		margin-left: 15px;
 		padding-bottom: 99999px; 
 		margin-bottom: -99999px; 
 	}
@@ -381,8 +383,9 @@ strong{
 		width: 100%;
 		
 		a{
-			width: 300px;
-			height: 300px;
+			width: 200px;
+			height: 200px;
+			margin: 0 auto;
 		}
 	}
 
