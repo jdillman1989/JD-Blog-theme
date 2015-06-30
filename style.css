@@ -292,23 +292,21 @@ strong {
   padding: 7px;
   -webkit-border-radius: 0px;
   border-radius: 0px;
-  -webkit-border: none;
   border: none;
 }
 
-/* line 239, sass/style.scss */
+/* line 238, sass/style.scss */
 .search-submit {
-  padding: 7px 10px;
+  padding: 7px 13px;
   margin: 0;
   -webkit-border-radius: 0px;
   border-radius: 0px;
-  -webkit-border: none;
-  border: none;
+  border: 5px solid #f3f0e6;
   background: #f3f0e6 url(images/search.svg) no-repeat center center;
   color: #212326;
 }
 
-/* line 258, sass/style.scss */
+/* line 256, sass/style.scss */
 #collapse {
   background: #101112 url(images/collapse.svg) no-repeat center top;
   width: 30px;
@@ -318,7 +316,7 @@ strong {
   float: left;
 }
 
-/* line 267, sass/style.scss */
+/* line 265, sass/style.scss */
 #expand {
   background: #101112 url(images/expand.svg) no-repeat center top;
   width: 30px;
@@ -329,7 +327,7 @@ strong {
   display: none;
 }
 
-/* line 277, sass/style.scss */
+/* line 275, sass/style.scss */
 #nightmode {
   background: #101112 url(images/nightmode.svg) no-repeat center top;
   width: 30px;
@@ -339,7 +337,7 @@ strong {
   float: left;
 }
 
-/* line 286, sass/style.scss */
+/* line 284, sass/style.scss */
 #daymode {
   background: #101112 url(images/daymode.svg) no-repeat center top;
   width: 30px;
@@ -350,7 +348,7 @@ strong {
   display: none;
 }
 
-/* line 302, sass/style.scss */
+/* line 300, sass/style.scss */
 .content {
   width: 100%;
   float: left;
@@ -358,14 +356,14 @@ strong {
   margin-right: 0;
 }
 
-/* line 306, sass/style.scss */
+/* line 304, sass/style.scss */
 .aside {
   background-color: none;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
 
-/* line 312, sass/style.scss */
+/* line 310, sass/style.scss */
 .header {
   position: fixed;
   top: 0px;
@@ -375,33 +373,33 @@ strong {
   margin-right: 0;
 }
 
-/* line 318, sass/style.scss */
+/* line 316, sass/style.scss */
 .sidebar {
   position: fixed;
   top: 0px;
   right: 0px;
 }
 
-/* line 324, sass/style.scss */
+/* line 322, sass/style.scss */
 .logo {
   width: 22.35294%;
   float: left;
   margin-right: 3.52941%;
 }
-/* line 327, sass/style.scss */
+/* line 325, sass/style.scss */
 .logo a {
   width: 100px;
   height: 100px;
 }
 
-/* line 333, sass/style.scss */
+/* line 331, sass/style.scss */
 .name {
   width: 48.23529%;
   float: left;
   margin-right: 3.52941%;
 }
 
-/* line 337, sass/style.scss */
+/* line 335, sass/style.scss */
 .mobile-nav {
   width: 22.35294%;
   float: right;
@@ -409,30 +407,30 @@ strong {
   display: block;
 }
 
-/* line 342, sass/style.scss */
+/* line 340, sass/style.scss */
 #mobile-collapse {
   display: block;
 }
 
-/* line 362, sass/style.scss */
+/* line 360, sass/style.scss */
 #collapse {
   display: none;
 }
 
-/* line 366, sass/style.scss */
+/* line 364, sass/style.scss */
 #expand {
   display: none;
 }
 
 @media (min-width: 676px) {
-  /* line 376, sass/style.scss */
+  /* line 374, sass/style.scss */
   .content {
     width: 74.4186%;
     float: left;
     margin-right: 2.32558%;
   }
 
-  /* line 380, sass/style.scss */
+  /* line 378, sass/style.scss */
   .aside {
     width: 23.25581%;
     float: right;
@@ -443,13 +441,13 @@ strong {
     margin-bottom: -99999px;
   }
 
-  /* line 388, sass/style.scss */
+  /* line 386, sass/style.scss */
   .header {
     position: relative;
     float: none;
   }
 
-  /* line 393, sass/style.scss */
+  /* line 391, sass/style.scss */
   .sidebar {
     position: relative;
     -webkit-transform: none;
@@ -459,20 +457,20 @@ strong {
     transform: none;
   }
 
-  /* line 402, sass/style.scss */
+  /* line 400, sass/style.scss */
   .logo {
     float: none;
     width: 100%;
     margin-bottom: 20px;
   }
-  /* line 407, sass/style.scss */
+  /* line 405, sass/style.scss */
   .logo a {
     width: 200px;
     height: 200px;
     margin: 0 auto;
   }
 
-  /* line 414, sass/style.scss */
+  /* line 412, sass/style.scss */
   .name {
     float: none;
     width: 100%;
@@ -481,22 +479,22 @@ strong {
     margin-bottom: 10px;
   }
 
-  /* line 422, sass/style.scss */
+  /* line 420, sass/style.scss */
   .mobile-nav {
     display: none;
   }
 
-  /* line 426, sass/style.scss */
+  /* line 424, sass/style.scss */
   #mobile-collapse {
     display: none;
   }
 
-  /* line 445, sass/style.scss */
+  /* line 443, sass/style.scss */
   #collapse {
     display: block;
   }
 
-  /* line 449, sass/style.scss */
+  /* line 447, sass/style.scss */
   #expand {
     display: none;
   }

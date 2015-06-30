@@ -232,17 +232,15 @@ strong{
 	padding: 7px;
 	-webkit-border-radius: 0px; 
 	border-radius: 0px;
-	-webkit-border: none;
 	border: none;
 }
 
 .search-submit{
-	padding: 7px 10px;
+	padding: 7px 13px;
 	margin: 0;
 	-webkit-border-radius: 0px; 
 	border-radius: 0px;
-	-webkit-border: none; 
-	border: none;
+	border: 5px solid #f3f0e6;
 	background: #f3f0e6 url( images/search.svg ) no-repeat center center;
 	color: #212326;
 }
