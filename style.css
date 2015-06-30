@@ -300,7 +300,6 @@ strong {
 .search-submit {
   padding: 5px 11px 6px 11px;
   margin: 0 0 0 -5px;
-  margin: 0;
   -webkit-border-radius: 0px;
   border-radius: 0px;
   border: 5px solid #f3f0e6;
@@ -308,7 +307,7 @@ strong {
   color: #212326;
 }
 
-/* line 258, sass/style.scss */
+/* line 257, sass/style.scss */
 #collapse {
   background: #101112 url(images/collapse.svg) no-repeat center top;
   width: 30px;
@@ -318,7 +317,7 @@ strong {
   float: left;
 }
 
-/* line 267, sass/style.scss */
+/* line 266, sass/style.scss */
 #expand {
   background: #101112 url(images/expand.svg) no-repeat center top;
   width: 30px;
@@ -329,7 +328,7 @@ strong {
   display: none;
 }
 
-/* line 277, sass/style.scss */
+/* line 276, sass/style.scss */
 #nightmode {
   background: #101112 url(images/nightmode.svg) no-repeat center top;
   width: 30px;
@@ -339,7 +338,7 @@ strong {
   float: left;
 }
 
-/* line 286, sass/style.scss */
+/* line 285, sass/style.scss */
 #daymode {
   background: #101112 url(images/daymode.svg) no-repeat center top;
   width: 30px;
@@ -350,7 +349,7 @@ strong {
   display: none;
 }
 
-/* line 302, sass/style.scss */
+/* line 301, sass/style.scss */
 .content {
   width: 100%;
   float: left;
@@ -358,14 +357,14 @@ strong {
   margin-right: 0;
 }
 
-/* line 306, sass/style.scss */
+/* line 305, sass/style.scss */
 .aside {
   background-color: none;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
 
-/* line 312, sass/style.scss */
+/* line 311, sass/style.scss */
 .header {
   position: fixed;
   top: 0px;
@@ -375,33 +374,33 @@ strong {
   margin-right: 0;
 }
 
-/* line 318, sass/style.scss */
+/* line 317, sass/style.scss */
 .sidebar {
   position: fixed;
   top: 0px;
   right: 0px;
 }
 
-/* line 324, sass/style.scss */
+/* line 323, sass/style.scss */
 .logo {
   width: 22.35294%;
   float: left;
   margin-right: 3.52941%;
 }
-/* line 327, sass/style.scss */
+/* line 326, sass/style.scss */
 .logo a {
   width: 100px;
   height: 100px;
 }
 
-/* line 333, sass/style.scss */
+/* line 332, sass/style.scss */
 .name {
   width: 48.23529%;
   float: left;
   margin-right: 3.52941%;
 }
 
-/* line 337, sass/style.scss */
+/* line 336, sass/style.scss */
 .mobile-nav {
   width: 22.35294%;
   float: right;
@@ -409,30 +408,30 @@ strong {
   display: block;
 }
 
-/* line 342, sass/style.scss */
+/* line 341, sass/style.scss */
 #mobile-collapse {
   display: block;
 }
 
-/* line 362, sass/style.scss */
+/* line 361, sass/style.scss */
 #collapse {
   display: none;
 }
 
-/* line 366, sass/style.scss */
+/* line 365, sass/style.scss */
 #expand {
   display: none;
 }
 
 @media (min-width: 676px) {
-  /* line 376, sass/style.scss */
+  /* line 375, sass/style.scss */
   .content {
     width: 74.4186%;
     float: left;
     margin-right: 2.32558%;
   }
 
-  /* line 380, sass/style.scss */
+  /* line 379, sass/style.scss */
   .aside {
     width: 23.25581%;
     float: right;
@@ -443,13 +442,13 @@ strong {
     margin-bottom: -99999px;
   }
 
-  /* line 388, sass/style.scss */
+  /* line 387, sass/style.scss */
   .header {
     position: relative;
     float: none;
   }
 
-  /* line 393, sass/style.scss */
+  /* line 392, sass/style.scss */
   .sidebar {
     position: relative;
     -webkit-transform: none;
@@ -459,20 +458,20 @@ strong {
     transform: none;
   }
 
-  /* line 402, sass/style.scss */
+  /* line 401, sass/style.scss */
   .logo {
     float: none;
     width: 100%;
     margin-bottom: 20px;
   }
-  /* line 407, sass/style.scss */
+  /* line 406, sass/style.scss */
   .logo a {
     width: 200px;
     height: 200px;
     margin: 0 auto;
   }
 
-  /* line 414, sass/style.scss */
+  /* line 413, sass/style.scss */
   .name {
     float: none;
     width: 100%;
@@ -481,22 +480,22 @@ strong {
     margin-bottom: 10px;
   }
 
-  /* line 422, sass/style.scss */
+  /* line 421, sass/style.scss */
   .mobile-nav {
     display: none;
   }
 
-  /* line 426, sass/style.scss */
+  /* line 425, sass/style.scss */
   #mobile-collapse {
     display: none;
   }
 
-  /* line 445, sass/style.scss */
+  /* line 444, sass/style.scss */
   #collapse {
     display: block;
   }
 
-  /* line 449, sass/style.scss */
+  /* line 448, sass/style.scss */
   #expand {
     display: none;
   }
