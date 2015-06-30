@@ -223,29 +223,28 @@ strong{
 }
 
 .search{
+	background-color: #f3f0e6;
 	margin: 0 auto;
 	width: 75%;
+	
+	form {
+		width: 500px;
+		margin: 50px auto;
+	}
 }
 
 #s{
-	background-color: #f3f0e6; 
-	margin: 0;
-	padding: 0;
-	height: 34px;
-	-webkit-border-radius: 0px; 
-	border-radius: 0px;
-	width: 80%;
+	padding:8px 15px;
+	background: #f3f0e6;
+	border:0px solid #f3f0e6;
 }
 
 .search-submit{
-	width: 19%;
-	height: 34px;
-	margin: 0 0 0 -5px;
-	padding: 0;
-	-webkit-border-radius: 0px; 
-	border-radius: 0px;
-	border: 5px solid #f3f0e6;
-	background: #f3f0e6 url( images/search.svg ) no-repeat center center;
+	position:relative;
+	padding:6px 15px;
+	left:-8px;
+	border:2px solid #f3f0e6;
+	background-color:#f3f0e6;
 }
 
 .nav{
