@@ -230,11 +230,10 @@ strong{
 #s{
 	background-color: #f3f0e6; 
 	margin: 0;
+	padding: 0;
 	height: 34px;
 	-webkit-border-radius: 0px; 
 	border-radius: 0px;
-	font-size: 17px;
-	line-height: 1;
 	width: 80%;
 }
 
@@ -242,11 +241,11 @@ strong{
 	width: 19%;
 	height: 34px;
 	margin: 0 0 0 -5px;
+	padding: 0;
 	-webkit-border-radius: 0px; 
 	border-radius: 0px;
 	border: 5px solid #f3f0e6;
 	background: #f3f0e6 url( images/search.svg ) no-repeat center center;
-	color: #212326;
 }
 
 .nav{
