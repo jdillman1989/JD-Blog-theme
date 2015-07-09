@@ -150,6 +150,7 @@ strong{
 .sidebar{
 	@extend %clearfix;
 	background-color: #212326;
+	padding-top: 10px;
 }
 
 .stick{
@@ -414,8 +415,7 @@ strong{
 		float: none;
 		width: 100%;
 		padding: 0 10px;
-		line-height: 1.1; 
-		margin-bottom: 10px; 
+		line-height: 1.1;  
 	}
 
 	.mobile-nav{

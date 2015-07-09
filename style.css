@@ -209,51 +209,52 @@ strong {
 /* line 150, sass/style.scss */
 .sidebar {
   background-color: #212326;
+  padding-top: 10px;
 }
 
-/* line 155, sass/style.scss */
+/* line 156, sass/style.scss */
 .stick {
   position: fixed !important;
   width: 23.25581%;
 }
 
-/* line 162, sass/style.scss */
+/* line 163, sass/style.scss */
 .logo a {
   display: block;
   background: url(images/logo.svg) no-repeat center top;
 }
 
-/* line 168, sass/style.scss */
+/* line 169, sass/style.scss */
 .name {
   text-transform: uppercase;
   text-align: center;
 }
 
-/* line 173, sass/style.scss */
+/* line 174, sass/style.scss */
 .mobile-nav {
   background: url(images/mobile-nav.svg) no-repeat center top;
   width: 30px;
   height: 30px;
 }
 
-/* line 179, sass/style.scss */
+/* line 180, sass/style.scss */
 .social {
   width: 100%;
   max-width: 200px;
   margin: 0 auto 20px auto;
 }
-/* line 185, sass/style.scss */
+/* line 186, sass/style.scss */
 .social ul {
   margin: 0 auto;
 }
-/* line 188, sass/style.scss */
+/* line 189, sass/style.scss */
 .social ul li {
   list-style: none;
   float: left;
   width: 33%;
   height: 40px;
 }
-/* line 194, sass/style.scss */
+/* line 195, sass/style.scss */
 .social ul li a {
   display: block;
   width: 100%;
@@ -262,7 +263,7 @@ strong {
   text-indent: -9999px;
 }
 
-/* line 205, sass/style.scss */
+/* line 206, sass/style.scss */
 #mobile-collapse {
   background: #101112 url(images/collapse.svg) no-repeat center top;
   width: 30px;
@@ -270,27 +271,27 @@ strong {
   border: 5px solid #101112;
 }
 
-/* line 212, sass/style.scss */
+/* line 213, sass/style.scss */
 .social a[href*="twitter.com"] {
   background: url(images/twitter.svg) no-repeat center top;
 }
 
-/* line 216, sass/style.scss */
+/* line 217, sass/style.scss */
 .social a[href*="github.com"] {
   background: url(images/github.svg) no-repeat center top;
 }
 
-/* line 220, sass/style.scss */
+/* line 221, sass/style.scss */
 .social a[href*="linkedin.com"] {
   background: url(images/linkedin.svg) no-repeat center top;
 }
 
-/* line 224, sass/style.scss */
+/* line 225, sass/style.scss */
 .search {
   height: 34px;
   margin-bottom: 15px;
 }
-/* line 228, sass/style.scss */
+/* line 229, sass/style.scss */
 .search form {
   padding: 0;
   margin: 0 auto;
@@ -298,7 +299,7 @@ strong {
   background-color: #f3f0e6;
 }
 
-/* line 236, sass/style.scss */
+/* line 237, sass/style.scss */
 #s {
   float: left;
   background-color: #f3f0e6;
@@ -310,7 +311,7 @@ strong {
   width: 80%;
 }
 
-/* line 247, sass/style.scss */
+/* line 248, sass/style.scss */
 .search-submit {
   float: left;
   width: 18%;
@@ -321,12 +322,12 @@ strong {
   background: #f3f0e6 url(images/search.svg) no-repeat right center;
 }
 
-/* line 261, sass/style.scss */
+/* line 262, sass/style.scss */
 .nav ul li {
   list-style: none;
   width: 100%;
 }
-/* line 265, sass/style.scss */
+/* line 266, sass/style.scss */
 .nav ul li a {
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
@@ -338,12 +339,12 @@ strong {
   text-decoration: none;
   padding-left: 12%;
 }
-/* line 277, sass/style.scss */
+/* line 278, sass/style.scss */
 .nav ul li a:hover {
   background-color: #101112;
 }
 
-/* line 288, sass/style.scss */
+/* line 289, sass/style.scss */
 #nightmode {
   background: #101112 url(images/nightmode.svg) no-repeat center top;
   width: 30px;
@@ -351,7 +352,7 @@ strong {
   border: 5px solid #101112;
 }
 
-/* line 295, sass/style.scss */
+/* line 296, sass/style.scss */
 #daymode {
   background: #101112 url(images/daymode.svg) no-repeat center top;
   width: 30px;
@@ -360,7 +361,7 @@ strong {
   display: none;
 }
 
-/* line 309, sass/style.scss */
+/* line 310, sass/style.scss */
 .content {
   width: 100%;
   float: left;
@@ -368,14 +369,14 @@ strong {
   margin-right: 0;
 }
 
-/* line 313, sass/style.scss */
+/* line 314, sass/style.scss */
 .aside {
   background-color: none;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
 
-/* line 319, sass/style.scss */
+/* line 320, sass/style.scss */
 .header {
   position: fixed;
   top: 0px;
@@ -385,33 +386,33 @@ strong {
   margin-right: 0;
 }
 
-/* line 325, sass/style.scss */
+/* line 326, sass/style.scss */
 .sidebar {
   position: fixed;
   top: 0px;
   right: 0px;
 }
 
-/* line 331, sass/style.scss */
+/* line 332, sass/style.scss */
 .logo {
   width: 22.35294%;
   float: left;
   margin-right: 3.52941%;
 }
-/* line 334, sass/style.scss */
+/* line 335, sass/style.scss */
 .logo a {
   width: 100px;
   height: 100px;
 }
 
-/* line 340, sass/style.scss */
+/* line 341, sass/style.scss */
 .name {
   width: 48.23529%;
   float: left;
   margin-right: 3.52941%;
 }
 
-/* line 344, sass/style.scss */
+/* line 345, sass/style.scss */
 .mobile-nav {
   width: 22.35294%;
   float: right;
@@ -419,20 +420,20 @@ strong {
   display: block;
 }
 
-/* line 349, sass/style.scss */
+/* line 350, sass/style.scss */
 #mobile-collapse {
   display: block;
 }
 
 @media (min-width: 676px) {
-  /* line 375, sass/style.scss */
+  /* line 376, sass/style.scss */
   .content {
     width: 74.4186%;
     float: left;
     margin-right: 2.32558%;
   }
 
-  /* line 379, sass/style.scss */
+  /* line 380, sass/style.scss */
   .aside {
     width: 23.25581%;
     float: right;
@@ -443,13 +444,13 @@ strong {
     margin-bottom: -99999px;
   }
 
-  /* line 387, sass/style.scss */
+  /* line 388, sass/style.scss */
   .header {
     position: relative;
     float: none;
   }
 
-  /* line 392, sass/style.scss */
+  /* line 393, sass/style.scss */
   .sidebar {
     position: relative;
     -webkit-transform: translate(0, 0);
@@ -459,26 +460,25 @@ strong {
     transform: translate(0, 0);
   }
 
-  /* line 401, sass/style.scss */
+  /* line 402, sass/style.scss */
   .logo {
     float: none;
     width: 100%;
     margin-bottom: 20px;
   }
-  /* line 406, sass/style.scss */
+  /* line 407, sass/style.scss */
   .logo a {
     width: 200px;
     height: 200px;
     margin: 0 auto;
   }
 
-  /* line 413, sass/style.scss */
+  /* line 414, sass/style.scss */
   .name {
     float: none;
     width: 100%;
     padding: 0 10px;
     line-height: 1.1;
-    margin-bottom: 10px;
   }
 
   /* line 421, sass/style.scss */
