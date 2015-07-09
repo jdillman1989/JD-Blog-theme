@@ -155,8 +155,8 @@ strong{
 
 .stick{
 	position: fixed !important;
-	-webkit-transform: translate3d(0, 0, 0);
-	transform: translate3d(0, 0, 0);
+	-webkit-transform: translate(0, 0);
+	transform: translate(0, 0);
 	z-index: 1;
 }
 
@@ -425,11 +425,11 @@ strong{
 
 	.sidebar{
 		position: relative;
-		-webkit-transform: none; 
-		-moz-transform: none; 
-		-ms-transform: none; 
-		-o-transform: none; 
-		transform: none; 
+		-webkit-transform: translate(0, 0); 
+		-moz-transform: translate(0, 0); 
+		-ms-transform: translate(0, 0); 
+		-o-transform: translate(0, 0); 
+		transform: translate(0, 0); 
 	}
 
 	.logo{
