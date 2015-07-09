@@ -285,41 +285,18 @@ strong{
 	@extend %clearfix;
 }
 
-#collapse{
-	background: #101112 url( images/collapse.svg ) no-repeat center top;
-	width: 30px;
-	height: 30px;
-	border: 5px solid #101112;
-	margin-right: 15px; 
-	float: left;
-}
-
-#expand{
-	background: #101112 url( images/expand.svg ) no-repeat center top;
-	width: 30px;
-	height: 30px;
-	border: 5px solid #101112;
-	margin-right: 15px;
-	float: left;
-	display: none;
-}
-
 #nightmode{
 	background: #101112 url( images/nightmode.svg ) no-repeat center top;
 	width: 30px;
 	height: 30px;
-	border: 5px solid #101112;
-	margin-right: 15px;
-	float: left;	
+	border: 5px solid #101112;	
 }
 
 #daymode{
 	background: #101112 url( images/daymode.svg ) no-repeat center top;
 	width: 30px;
 	height: 30px;
-	float: left;
 	border: 5px solid #101112;	
-	margin-right: 15px;
 	display: none;
 }
 
@@ -387,14 +364,6 @@ strong{
 
 .controls{
 
-}
-
-#collapse{
-	display: none;
-}
-
-#expand{
-	display: none;
 }
 
 //desktop
@@ -471,13 +440,6 @@ strong{
 
 	.controls{
 
-	}
-	#collapse{
-		display: block;
-	}
-
-	#expand{
-		display: none;
 	}
 }
 

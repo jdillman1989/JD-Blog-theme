@@ -36,7 +36,7 @@ jQuery(document).ready(function() {
 
 				// lastScrollTop = st;
 
-				sidebar.css({"position":"fixed"});
+				sidebar.addClass( sidebarScroll );
 
 				// Check if window is smaller than sidebar
 				if( jQuery(window).height() < sidebarHeight ) {
@@ -45,7 +45,7 @@ jQuery(document).ready(function() {
 			} 
 			else {
 
-				sidebar.css({"position":"static"});
+				sidebar.removeClass( sidebarScroll );
 			}
 		});
 	};
@@ -76,32 +76,6 @@ jQuery(document).ready(function() {
 	mobileCollapse.click(function() {
 
 		sidebar.css({"transform":"translate(" + sidebar.width() + "px, 0px)"});	
-	});
-
-	// controls
-	// collapse
-
-	var collapse = jQuery("#collapse");
-	var expand = jQuery("#expand");
-
-	aside.css({"transform":"translate(0px, 0px)"});
-	aside.css({"z-index":"1"});
-
-	collapse.click(function() {
-
-		var asideWidth = aside.outerWidth();
-		var buttonWidth = collapse.outerWidth();
-
-		aside.css({"transform":"translate(" + (asideWidth - buttonWidth) + "px, 0px)"});
-		jQuery( this ).toggle();
-		expand.toggle();
-	});
-
-	expand.click(function() {
-
-		aside.css({"transform":"translate(0px, 0px)"});
-		jQuery( this ).toggle();
-		collapse.toggle();
 	});
 
 	// controls
