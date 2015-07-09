@@ -36,7 +36,7 @@ jQuery(document).ready(function() {
 
 				// lastScrollTop = st;
 
-				sidebar.addClass( sidebarScroll );
+				sidebar.css({"position":"fixed"});
 
 				// Check if window is smaller than sidebar
 				if( jQuery(window).height() < sidebarHeight ) {
