@@ -163,14 +163,13 @@ strong {
 
 /* line 112, sass/style.scss */
 .animate {
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  transition: all 1s ease;
+  -webkit-transition: -webkit-transform 1s ease, color 1s ease;
+  -moz-transition: -moz-transform 1s ease, color 1s ease;
+  -o-transition: -o-transform 1s ease, color 1s ease;
+  transition: transform 1s ease, color 1s ease;
 }
 
-/* line 120, sass/style.scss */
+/* line 119, sass/style.scss */
 .container {
   max-width: 100%;
   margin-left: auto;
@@ -185,36 +184,39 @@ strong {
   clear: both;
 }
 
-/* line 127, sass/style.scss */
+/* line 126, sass/style.scss */
 .nightmode {
   background-color: #101112;
   color: #f3f0e6;
 }
 
-/* line 136, sass/style.scss */
+/* line 135, sass/style.scss */
 .aside {
   color: #f3f0e6;
 }
 
-/* line 141, sass/style.scss */
+/* line 140, sass/style.scss */
 .post-container {
   margin: 0 auto;
   width: 85%;
 }
 
-/* line 146, sass/style.scss */
+/* line 145, sass/style.scss */
 .header {
   background-color: #212326;
 }
 
-/* line 151, sass/style.scss */
+/* line 150, sass/style.scss */
 .sidebar {
   background-color: #212326;
 }
 
-/* line 156, sass/style.scss */
+/* line 155, sass/style.scss */
 .stick {
   position: fixed !important;
+  width: 73.68421%;
+  float: right;
+  margin-right: 0;
 }
 
 /* line 162, sass/style.scss */
