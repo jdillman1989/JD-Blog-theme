@@ -84,6 +84,8 @@ jQuery(document).ready(function() {
 	var collapse = jQuery("#collapse");
 	var expand = jQuery("#expand");
 
+	aside.css({"transform":"translate(0px, 0px)"});
+
 	collapse.click(function() {
 
 		var asideWidth = aside.outerWidth();
