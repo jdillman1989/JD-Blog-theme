@@ -45,7 +45,7 @@ jQuery(document).ready(function() {
 			} 
 			else {
 
-				sidebar.removeClass( sidebarScroll );
+				sidebar.css({"position":"static"});
 			}
 		});
 	};
