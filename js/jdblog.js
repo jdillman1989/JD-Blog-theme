@@ -85,6 +85,7 @@ jQuery(document).ready(function() {
 	var expand = jQuery("#expand");
 
 	aside.css({"transform":"translate(0px, 0px)"});
+	aside.css({"z-index":"1"});
 
 	collapse.click(function() {
 
