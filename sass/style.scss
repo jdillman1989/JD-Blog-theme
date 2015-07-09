@@ -154,7 +154,7 @@ strong{
 
 .stick{
 	position: fixed !important;
-	@include span(3 at 10 last);
+	@include span(3 of 12 at 10 last);
 }
 
 .logo{
