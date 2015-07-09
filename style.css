@@ -215,6 +215,8 @@ strong {
 /* line 156, sass/style.scss */
 .stick {
   position: fixed !important;
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
   z-index: 1;
 }
 
