@@ -425,6 +425,11 @@ strong {
   display: block;
 }
 
+/* line 366, sass/style.scss */
+.controls {
+  position: static;
+}
+
 @media (min-width: 676px) {
   /* line 376, sass/style.scss */
   .content {
@@ -489,5 +494,12 @@ strong {
   /* line 425, sass/style.scss */
   #mobile-collapse {
     display: none;
+  }
+
+  /* line 441, sass/style.scss */
+  .controls {
+    position: absolute;
+    bottom: 15px;
+    left: 12%;
   }
 }
