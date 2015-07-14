@@ -163,10 +163,10 @@ strong {
 
 /* line 112, sass/style.scss */
 .animate {
-  -webkit-transition: -webkit-transform 1s ease, color 1s ease;
-  -moz-transition: -moz-transform 1s ease, color 1s ease;
-  -o-transition: -o-transform 1s ease, color 1s ease;
-  transition: transform 1s ease, color 1s ease;
+  -webkit-transition: -webkit-transform 1s ease, color 1s ease, background-color 1s ease;
+  -moz-transition: -moz-transform 1s ease, color 1s ease, background-color 1s ease;
+  -o-transition: -o-transform 1s ease, color 1s ease, background-color 1s ease;
+  transition: transform 1s ease, color 1s ease, background-color 1s ease;
 }
 
 /* line 119, sass/style.scss */
