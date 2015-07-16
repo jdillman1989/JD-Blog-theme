@@ -498,8 +498,6 @@ strong {
 
   /* line 441, sass/style.scss */
   .controls {
-    position: absolute;
-    bottom: 15px;
-    left: 12%;
+    padding-left: 12%;
   }
 }

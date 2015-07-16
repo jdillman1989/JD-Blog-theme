@@ -47,10 +47,6 @@
 
 	<div class="controls">
 
-		<div id="collapse"></div>
-
-		<div id="expand"></div>
-
 		<div id="nightmode"></div>
 
 		<div id="daymode"></div>
