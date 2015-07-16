@@ -498,6 +498,7 @@ strong {
 
   /* line 441, sass/style.scss */
   .controls {
+    padding-top: 15px;
     padding-left: 12%;
   }
 }

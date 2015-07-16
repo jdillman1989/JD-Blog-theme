@@ -104,7 +104,7 @@ jQuery(document).ready(function() {
 		container.removeClass( nightmode );
 		jQuery( this ).toggle();
 		nightButton.toggle();
-		location.hash = "";
+		location.hash = "day";
 
 		jQuery("a").each(function() {
 			$this = jQuery(this);
