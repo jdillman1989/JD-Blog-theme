@@ -12,22 +12,20 @@
 <?php get_header(); ?>
 
 <body>
-	<div style="overflow:hidden;">
-		<div class="container animate">
+	<div class="container animate">
 
-			<div class="content">
+		<div class="content">
 
-				<?php while ( have_posts() ) : the_post(); ?>
-					<div class="post-container">
-						<h2><?php the_title(); ?></h2> 
-						<?php the_content(); ?>
-					</div>
-				<?php endwhile; ?>
-			</div>
+			<?php while ( have_posts() ) : the_post(); ?>
+				<div class="post-container">
+					<h2><?php the_title(); ?></h2> 
+					<?php the_content(); ?>
+				</div>
+			<?php endwhile; ?>
+		</div>
 
-			<div class="aside animate">
-				<?php get_sidebar(); ?>
-			</div>
+		<div class="aside animate">
+			<?php get_sidebar(); ?>
 		</div>
 	</div>
 </body>

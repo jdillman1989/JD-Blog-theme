@@ -119,7 +119,6 @@ strong{
 .container{
 	@include container(100%);
 	@extend %clearfix;
-	background-color: #f3f0e6;
 	overflow: hidden;
 }
 
@@ -130,6 +129,7 @@ strong{
 
 .content{
 	@extend %clearfix;
+	background-color: #f3f0e6;
 }
 
 .aside{
@@ -375,6 +375,8 @@ strong{
 	
 	.content{
 		@include span(9);
+		padding-bottom: 99999px; 
+		margin-bottom: -99999px;
 	}
 
 	.aside{
