@@ -145,8 +145,12 @@ strong{
 	@extend %clearfix;
 	margin: 0 auto;
 	margin-top: 30px;
-	border-bottom: 1px dotted #212326;
 	width: 85%;
+	
+	a{
+		color: #dd7450;
+		text-decoration: underline;
+	}
 }
 
 .meta{
@@ -155,7 +159,7 @@ strong{
 }
 
 .date{
-	color: #363636;
+	color: #797979;
 	margin-bottom: 0;
 	float: left;
 }
