@@ -203,8 +203,8 @@ strong {
 /* line 144, sass/style.scss */
 .post-container {
   margin: 0 auto;
-  margin-top: 20px;
-  border-bottom: 2px dotted #212326;
+  margin-top: 30px;
+  border-bottom: 1px dotted #212326;
   width: 85%;
 }
 
