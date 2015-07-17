@@ -15,6 +15,13 @@
 			<?php while ( have_posts() ) : the_post(); ?>
 				<div class="post-container">
 					<h2><?php the_title(); ?></h2> 
+
+					<span class="date"><?php the_date(); ?></span>
+					
+					<div class="categories">
+						<?php the_category(); ?>
+					</div>
+					
 					<?php the_content(); ?>
 				</div>
 			<?php endwhile; ?>
