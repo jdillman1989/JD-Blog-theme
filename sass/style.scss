@@ -142,17 +142,20 @@ strong{
 }
 
 .post-container{
+	@extend %clearfix;
 	margin: 0 auto;
 	width: 85%;
 }
 
 .meta{
+	@extend %clearfix;
 	margin: 10px 0; 
 }
 
 .date{
 	color: #363636;
 	margin-bottom: 0;
+	float: left;
 }
 
 .post-categories{
@@ -160,15 +163,15 @@ strong{
 	li{
 		list-style: none;
 		float: left;
-		padding: 10px;
-		margin: 0 15px; 
+		padding: 7px;
+		margin: 0 5px; 
 		background-color: #212326;
 		
 		a{
 			display: block;
 			font-family: 'Montserrat', sans-serif;
-			font-size: 12px;
-			font-weight: 400;
+			font-size: 10px;
+			font-weight: 700;
 			color: #f3f0e6;
 			text-transform: uppercase;
 			margin: 0;
