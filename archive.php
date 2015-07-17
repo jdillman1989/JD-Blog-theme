@@ -26,7 +26,7 @@
 
 					<a href="<?php the_permalink(); ?>">
 						<h2><?php the_title(); ?></h2> 
-						<p class="date"><em><?php the_date(); ?></em></p>
+						<p class="date"><em><?php the_date(); ?></em> | </p>
 					</a>
 
 					<?php the_category(); ?>
