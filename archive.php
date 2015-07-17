@@ -22,7 +22,7 @@
 		<div class="content">
 
 			<div class="post-container">
-				<h1><?php single_cat_title(); ?> </h1>
+				<h1>Posts for category: <?php single_cat_title(); ?></h1>
 			</div>
 
 			<?php while ( have_posts() ) : the_post(); ?>
