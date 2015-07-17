@@ -21,18 +21,22 @@
 
 		<div class="content">
 
+			<div class="post-container">
+				<h1><?php single_cat_title(); ?> </h1>
+			</div>
+
 			<?php while ( have_posts() ) : the_post(); ?>
-				<div class="post-container">
+			<div class="post-container">
 
-					<a href="<?php the_permalink(); ?>">
-						<h2><?php the_title(); ?></h2> 
-						<p class="date"><em><?php the_date(); ?></em>  |  </p>
-					</a>
+				<a href="<?php the_permalink(); ?>">
+					<h2><?php the_title(); ?></h2> 
+					<p class="date"><em><?php the_date(); ?></em> | </p>
+				</a>
 
-					<?php the_category(); ?>
+				<?php the_category(); ?>
 
-					<p><?php the_excerpt(); ?></p>
-				</div>
+				<p><?php the_excerpt(); ?></p>
+			</div>
 			<?php endwhile; ?>
 		</div>
 
