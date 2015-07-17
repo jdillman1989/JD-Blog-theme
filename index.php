@@ -31,6 +31,7 @@
 
 				<div class="post-container">
 					<h2><?php the_title(); ?></h2> 
+					<p class="date"><em><?php the_date(); ?></em></p>
 					<?php the_content(); ?>
 				</div>
 

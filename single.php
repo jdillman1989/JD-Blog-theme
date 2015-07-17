@@ -16,12 +16,12 @@
 				<div class="post-container">
 					<h2><?php the_title(); ?></h2> 
 
-					<span class="date"><?php the_date(); ?></span>
+					<p class="date"><em><?php the_date(); ?></em></p>
 					
 					<div class="categories">
 						<?php the_category(); ?>
 					</div>
-					
+
 					<?php the_content(); ?>
 				</div>
 			<?php endwhile; ?>
