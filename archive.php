@@ -28,10 +28,8 @@
 						<h2><?php the_title(); ?></h2> 
 						<p class="date"><em><?php the_date(); ?></em></p>
 					</a>
-					
-					<div class="categories">
-						<?php the_category(); ?>
-					</div>
+
+					<?php the_category(); ?>
 
 					<p><?php the_excerpt(); ?></p>
 				</div>

@@ -152,10 +152,28 @@ strong{
 
 .date{
 	color: #363636;
+	margin-bottom: 0;
 }
 
-.categories{
-	
+.post-categories{
+
+	li{
+		list-style: none;
+		float: left;
+		padding: 10px;
+		margin: 0 15px; 
+		background-color: #212326;
+		
+		a{
+			display: block;
+			font-family: 'Montserrat', sans-serif;
+			font-size: 12px;
+			font-weight: 400;
+			color: #f3f0e6;
+			text-transform: uppercase;
+			margin: 0;
+		}
+	}
 }
 
 .header{

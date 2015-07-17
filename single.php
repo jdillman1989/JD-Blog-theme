@@ -20,9 +20,7 @@
 
 						<p class="date"><em><?php the_date(); ?></em></p>
 						
-						<div class="categories">
-							<?php the_category(); ?>
-						</div>
+						<?php the_category(); ?>
 					</div>
 
 					<?php the_content(); ?>
