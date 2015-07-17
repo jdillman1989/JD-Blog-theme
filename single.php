@@ -16,10 +16,13 @@
 				<div class="post-container">
 					<h2><?php the_title(); ?></h2> 
 
-					<p class="date"><em><?php the_date(); ?></em></p>
-					
-					<div class="categories">
-						<?php the_category(); ?>
+					<div class="meta">
+
+						<p class="date"><em><?php the_date(); ?></em></p>
+						
+						<div class="categories">
+							<?php the_category(); ?>
+						</div>
 					</div>
 
 					<?php the_content(); ?>
