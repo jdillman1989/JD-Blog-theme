@@ -144,6 +144,8 @@ strong{
 .post-container{
 	@extend %clearfix;
 	margin: 0 auto;
+	margin-top: 20px;
+	border-bottom: 2px dotted #212326;
 	width: 85%;
 }
 
