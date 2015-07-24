@@ -374,7 +374,7 @@ strong{
 }
 
 .logo{
-	@include span(1);
+	@include span(2);
 		
 	a{
 		width: 100%;
@@ -383,10 +383,10 @@ strong{
 }
 
 .name{
-	@include span(5 at 2);
+	@include span(4 at 3);
 	
 	h1{
-		font-size: 29px;
+		font-size: 28px;
 	}
 }
 
