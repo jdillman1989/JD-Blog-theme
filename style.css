@@ -539,18 +539,22 @@ strong {
     line-height: 1.1;
     margin-top: 0px;
   }
+  /* line 475, sass/style.scss */
+  .name h1 {
+    font-size: 32px;
+  }
 
-  /* line 476, sass/style.scss */
+  /* line 480, sass/style.scss */
   .mobile-nav {
     display: none;
   }
 
-  /* line 480, sass/style.scss */
+  /* line 484, sass/style.scss */
   #mobile-collapse {
     display: none;
   }
 
-  /* line 496, sass/style.scss */
+  /* line 500, sass/style.scss */
   .controls {
     padding-top: 15px;
     padding-left: 12%;
