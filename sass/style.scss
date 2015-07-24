@@ -385,6 +385,7 @@ strong{
 
 .name{
 	@include span(4 at 3);
+	margin-top: 28px;
 	
 	h1{
 		font-size: 28px;
@@ -394,6 +395,7 @@ strong{
 .mobile-nav{
 	@include span(2 at 7 last);
 	display: block;
+	margin-top: 33px;
 }
 
 #mobile-collapse{
@@ -465,7 +467,8 @@ strong{
 		float: none;
 		width: 100%;
 		padding: 0 10px;
-		line-height: 1.1;  
+		line-height: 1.1;
+		margin-top: 0px;
 	}
 
 	.mobile-nav{

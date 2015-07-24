@@ -454,39 +454,41 @@ strong {
   width: 48.71795%;
   float: left;
   margin-right: 2.5641%;
+  margin-top: 28px;
 }
-/* line 389, sass/style.scss */
+/* line 390, sass/style.scss */
 .name h1 {
   font-size: 28px;
 }
 
-/* line 394, sass/style.scss */
+/* line 395, sass/style.scss */
 .mobile-nav {
   width: 23.07692%;
   float: right;
   margin-right: 0;
   display: block;
+  margin-top: 33px;
 }
 
-/* line 399, sass/style.scss */
+/* line 401, sass/style.scss */
 #mobile-collapse {
   display: block;
 }
 
-/* line 415, sass/style.scss */
+/* line 417, sass/style.scss */
 .controls {
   position: static;
 }
 
 @media (min-width: 676px) {
-  /* line 425, sass/style.scss */
+  /* line 427, sass/style.scss */
   .content {
     width: 74.57627%;
     float: left;
     margin-right: 1.69492%;
   }
 
-  /* line 429, sass/style.scss */
+  /* line 431, sass/style.scss */
   .aside {
     width: 23.72881%;
     float: right;
@@ -497,13 +499,13 @@ strong {
     margin-bottom: -99999px;
   }
 
-  /* line 437, sass/style.scss */
+  /* line 439, sass/style.scss */
   .header {
     position: relative;
     float: none;
   }
 
-  /* line 442, sass/style.scss */
+  /* line 444, sass/style.scss */
   .sidebar {
     position: relative;
     -webkit-transform: translate(0, 0);
@@ -513,39 +515,40 @@ strong {
     transform: translate(0, 0);
   }
 
-  /* line 451, sass/style.scss */
+  /* line 453, sass/style.scss */
   .logo {
     float: none;
     width: 100%;
     margin-bottom: 20px;
     padding: 0;
   }
-  /* line 457, sass/style.scss */
+  /* line 459, sass/style.scss */
   .logo a {
     width: 200px;
     height: 200px;
     margin: 0 auto;
   }
 
-  /* line 464, sass/style.scss */
+  /* line 466, sass/style.scss */
   .name {
     float: none;
     width: 100%;
     padding: 0 10px;
     line-height: 1.1;
+    margin-top: 0px;
   }
 
-  /* line 471, sass/style.scss */
+  /* line 474, sass/style.scss */
   .mobile-nav {
     display: none;
   }
 
-  /* line 475, sass/style.scss */
+  /* line 478, sass/style.scss */
   #mobile-collapse {
     display: none;
   }
 
-  /* line 491, sass/style.scss */
+  /* line 494, sass/style.scss */
   .controls {
     padding-top: 15px;
     padding-left: 12%;
