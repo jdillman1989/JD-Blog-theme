@@ -353,6 +353,7 @@ strong{
 
 .content{
 	@include span(8);
+	margin-top: 90px;
 }
 
 .aside{
@@ -426,6 +427,7 @@ strong{
 	
 	.content{
 		@include span(9);
+		margin-top: 0px;
 	}
 
 	.aside{
