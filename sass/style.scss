@@ -153,6 +153,23 @@ strong{
 	}
 }
 
+.alignleft{
+	@extend %clearfix;
+	float: left;
+	margin-right: 10px; 
+}
+
+.aligncenter{
+	@extend %clearfix;
+	margin: 0 auto; 
+}
+
+.alignright{
+	@extend %clearfix;
+	float: right;
+	margin-left: 10px; 
+}
+
 .meta{
 	@extend %clearfix;
 	margin: 10px 0; 
@@ -417,6 +434,20 @@ strong{
 
 .controls{
 	position: static;
+}
+
+.alignleft{
+	float: none;
+	margin-right: 0; 
+}
+
+.aligncenter{
+	margin: 0; 
+}
+
+.alignright{
+	float: none;
+	margin-left: 0; 
 }
 
 //desktop
