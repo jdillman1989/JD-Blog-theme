@@ -226,13 +226,13 @@ strong{
 	h1{
 		font-family: Georgia, serif;
 		font-size: 18px;
-	}
-
-	span{
-		font-family: 'Montserrat', sans-serif;
-		font-size: 32px;
-		font-weight: 700;
-		margin: 0;	
+		
+		span{
+			font-family: 'Montserrat', sans-serif;
+			font-size: 32px;
+			font-weight: 700;
+			margin: 0;	
+		}
 	}
 }
 
@@ -493,6 +493,7 @@ strong{
 .grid-head{
 	@include span(8);
 	border-bottom: 2px solid #dd7450;
+	border-right: none;
 	height: auto; 
 }
 
@@ -586,6 +587,7 @@ strong{
 	.grid-head{
 		@include span(4);
 		border-right: 2px solid #dd7450;
+		border-bottom: none;
 		height: 100%;
 	}
 

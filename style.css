@@ -296,8 +296,8 @@ strong {
   font-family: Georgia, serif;
   font-size: 18px;
 }
-/* line 231, sass/style.scss */
-.grid-head span {
+/* line 230, sass/style.scss */
+.grid-head h1 span {
   font-family: 'Montserrat', sans-serif;
   font-size: 32px;
   font-weight: 700;
@@ -572,10 +572,11 @@ strong {
   margin-left: 0;
   margin-right: 0;
   border-bottom: 2px solid #dd7450;
+  border-right: none;
   height: auto;
 }
 
-/* line 499, sass/style.scss */
+/* line 500, sass/style.scss */
 .grid {
   width: 48.71795%;
   float: left;
@@ -583,7 +584,7 @@ strong {
 }
 
 @media (min-width: 676px) {
-  /* line 509, sass/style.scss */
+  /* line 510, sass/style.scss */
   .content {
     width: 74.57627%;
     float: left;
@@ -591,7 +592,7 @@ strong {
     margin-top: 0px;
   }
 
-  /* line 514, sass/style.scss */
+  /* line 515, sass/style.scss */
   .aside {
     width: 23.72881%;
     float: right;
@@ -602,13 +603,13 @@ strong {
     margin-bottom: -99999px;
   }
 
-  /* line 522, sass/style.scss */
+  /* line 523, sass/style.scss */
   .header {
     position: relative;
     float: none;
   }
 
-  /* line 527, sass/style.scss */
+  /* line 528, sass/style.scss */
   .sidebar {
     position: relative;
     -webkit-transform: translate(0, 0);
@@ -618,21 +619,21 @@ strong {
     transform: translate(0, 0);
   }
 
-  /* line 536, sass/style.scss */
+  /* line 537, sass/style.scss */
   .logo {
     float: none;
     width: 100%;
     margin-bottom: 20px;
     padding: 0;
   }
-  /* line 542, sass/style.scss */
+  /* line 543, sass/style.scss */
   .logo a {
     width: 200px;
     height: 200px;
     margin: 0 auto;
   }
 
-  /* line 549, sass/style.scss */
+  /* line 550, sass/style.scss */
   .name {
     float: none;
     width: 100%;
@@ -640,37 +641,38 @@ strong {
     line-height: 1.1;
     margin-top: 0px;
   }
-  /* line 556, sass/style.scss */
+  /* line 557, sass/style.scss */
   .name h1 {
     font-size: 32px;
   }
 
-  /* line 561, sass/style.scss */
+  /* line 562, sass/style.scss */
   .mobile-nav {
     display: none;
   }
 
-  /* line 565, sass/style.scss */
+  /* line 566, sass/style.scss */
   #mobile-collapse {
     display: none;
   }
 
-  /* line 581, sass/style.scss */
+  /* line 582, sass/style.scss */
   .controls {
     padding-top: 15px;
     padding-left: 12%;
   }
 
-  /* line 586, sass/style.scss */
+  /* line 587, sass/style.scss */
   .grid-head {
     width: 32.20339%;
     float: left;
     margin-right: 1.69492%;
     border-right: 2px solid #dd7450;
+    border-bottom: none;
     height: 100%;
   }
 
-  /* line 592, sass/style.scss */
+  /* line 594, sass/style.scss */
   .grid {
     width: 15.25424%;
     float: left;
