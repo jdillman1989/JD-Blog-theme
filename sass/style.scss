@@ -203,6 +203,17 @@ strong{
 	}
 }
 
+.about{
+	
+}
+
+.img-box{
+	@extend %clearfix;
+	float: left;
+	margin-right: 2%;
+	background-color: #dd7450; 
+}
+
 .header{
 	@extend %clearfix;
 	background-color: #212326;

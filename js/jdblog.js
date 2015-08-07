@@ -120,6 +120,35 @@ jQuery(document).ready(function() {
 			nightButton.trigger( "click" );
 		};
 	}
+
+	// Responsive photo grid
+
+	var imgBox = jQuery(".img-box");
+	var postContainer = jQuery(".post-container");
+	var postContainerWidth = postContainer.width();
+
+	function updateCrop() {
+
+		var imgBoxSizing = (postContainerWidth / 2) - (postContainerWidth / 25);
+
+		jQuery(imgBox).each(function () {
+
+			var imgBoxMargin = parseInt(jQuery(this).css('marginRight'));
+
+			jQuery(this).css({
+				'width': imgBoxSizing,
+				'height': imgBoxSizing,
+				'margin-bottom': imgBoxMargin
+			});
+		});
+	}
+
+	updateCrop();
+
+	jQuery(window).resize(function(){
+		updateCrop();
+	});
+
 });
 
 
