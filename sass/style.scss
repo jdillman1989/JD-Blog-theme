@@ -204,6 +204,7 @@ strong{
 }
 
 .about{
+	@extend %clearfix;
 	width: 100%;
 	background-color: #212326;
 	margin-bottom: 20px; 
@@ -221,6 +222,7 @@ strong{
 }
 
 .grid-head{
+	@extend %clearfix;
 	color: #f3f0e6;
 	
 	h1{
@@ -234,6 +236,10 @@ strong{
 			margin: 0;	
 		}
 	}
+}
+
+.grid{
+	@extend %clearfix;
 }
 
 .img-box{
@@ -491,6 +497,7 @@ strong{
 }
 
 .grid-head{
+	float: left;
 	width: 100%;
 	border-bottom: 2px solid #dd7450;
 	border-right: none;
@@ -498,6 +505,7 @@ strong{
 }
 
 .grid{
+	float: left;
 	width: 49.5%;
 }
 
@@ -585,6 +593,7 @@ strong{
 	}
 
 	.grid-head{
+		float: left;
 		width: 30%;
 		border-right: 2px solid #dd7450;
 		border-bottom: none;
@@ -592,6 +601,7 @@ strong{
 	}
 
 	.grid{
+		float: left;
 		width: 17%;
 	}
 }
