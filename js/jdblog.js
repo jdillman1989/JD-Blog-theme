@@ -125,9 +125,10 @@ jQuery(document).ready(function() {
 
 	var imgBox = jQuery(".img-box");
 	var postContainer = jQuery(".post-container");
-	var postContainerWidth = postContainer.width();
 
 	function updateCrop() {
+
+		var postContainerWidth = postContainer.width();
 
 		var imgBoxSizing = (postContainerWidth / 2) - (postContainerWidth / 25);
 
