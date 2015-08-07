@@ -263,18 +263,10 @@ strong {
 
 /* line 206, sass/style.scss */
 .about {
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
   background-color: #212326;
   margin-bottom: 20px;
   padding: 15px;
-}
-/* line 12, ../../../.rvm/gems/ruby-2.1.2@global/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
-.about:after {
-  content: " ";
-  display: block;
-  clear: both;
 }
 /* line 212, sass/style.scss */
 .about h3 {
@@ -568,9 +560,6 @@ strong {
 /* line 493, sass/style.scss */
 .grid-head {
   width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
   border-bottom: 2px solid #dd7450;
   border-right: none;
   height: auto;
@@ -578,9 +567,7 @@ strong {
 
 /* line 500, sass/style.scss */
 .grid {
-  width: 48.71795%;
-  float: left;
-  margin-right: 2.5641%;
+  width: 49.5%;
 }
 
 @media (min-width: 676px) {
@@ -664,9 +651,7 @@ strong {
 
   /* line 587, sass/style.scss */
   .grid-head {
-    width: 32.20339%;
-    float: left;
-    margin-right: 1.69492%;
+    width: 30%;
     border-right: 2px solid #dd7450;
     border-bottom: none;
     height: 100%;
@@ -674,8 +659,6 @@ strong {
 
   /* line 594, sass/style.scss */
   .grid {
-    width: 15.25424%;
-    float: left;
-    margin-right: 1.69492%;
+    width: 17%;
   }
 }
