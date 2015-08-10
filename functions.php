@@ -111,8 +111,7 @@ function form_shortcode( $atts ) {
 					<div class="field">
 						<button type="submit">Send</button>
 					</div>
-				</form>
-			</div>';
+				</form>';
 }
 
 add_shortcode( 'contact_jesse', 'form_shortcode' );
