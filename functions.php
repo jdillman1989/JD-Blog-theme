@@ -64,11 +64,11 @@ function form_mail() {
 			$timestamp = date('l jS \of F Y h:i:s A');
 
 			// Build the email content.
-			$email_content = "Name: $name\n";
+			$email_content = "Sent: $timestamp\n\n";
+			$email_content .= "Name: $name\n";
 			$email_content .= "Email: $email\n\n";
 			$email_content .= "Message:\n$message\n\n";
-			$email_content .= "Sent: $timestamp\n";
-			$email_content .= "\n**********************************\n\n";
+			$email_content .= "**********************************\n\n";
 
 			file_put_contents($file, $email_content, FILE_APPEND | LOCK_EX);
 
