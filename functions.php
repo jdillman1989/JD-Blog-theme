@@ -66,9 +66,9 @@ function form_mail() {
 			// Build the email content.
 			$email_content = "Name: $name\n";
 			$email_content .= "Email: $email\n\n";
-			$email_content .= "Message:\n$message\n";
-			$email_content .= "Sent:\n$timestamp\n";
-			$email_content .= "\n*************************\n";
+			$email_content .= "Message:\n$message\n\n";
+			$email_content .= "Sent: $timestamp\n";
+			$email_content .= "\n**********************************\n\n";
 
 			file_put_contents($file, $email_content, FILE_APPEND | LOCK_EX);
 
