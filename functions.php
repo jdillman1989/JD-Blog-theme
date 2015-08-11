@@ -101,7 +101,7 @@ function form_shortcode( $atts ) {
 					</div>
 
 					<div class="field">
-						<label for="message">Message:</label>
+						<p>Message:</p>
 						<textarea id="message" name="message" required></textarea>
 					</div>
 
