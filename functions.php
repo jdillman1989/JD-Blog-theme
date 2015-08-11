@@ -57,19 +57,24 @@ function form_mail() {
 		else{
 
 			// Set the recipient email address.
-			$file = "../../site_mail.txt";
+			$file = "../../../site_mail.txt";
 
 			// Build the email content.
 			$email_content = "Name: $name\n";
 			$email_content .= "Email: $email\n\n";
 			$email_content .= "Message:\n$message\n";
 
-			file_put_contents($file, $email_content, FILE_APPEND | LOCK_EX);
-
-			// Set a 200 (okay) response code.
-			http_response_code(200);
-			echo "Thank You! Your message has been sent.";
-			die();
+			if( file_put_contents($file, $email_content, FILE_APPEND | LOCK_EX) !== false){
+				// Set a 200 (okay) response code.
+				http_response_code(200);
+				echo "Thank You! Your message has been sent.";
+				die();
+			}
+			else{
+				http_response_code(500);
+				echo "Oops! Something went wrong and we couldn't send your message.";
+				die();
+			}
 		}
 	} else {
 		// Not a POST request, set a 403 (forbidden) response code.
