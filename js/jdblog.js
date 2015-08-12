@@ -158,12 +158,12 @@ jQuery(document).ready(function() {
 	// Get the messages div.
 	var formMessages = jQuery('#form-messages');
 
-	formMessages.css({"transform":"translate( 0px, " + (formMessages.height() + 10) * -1 + "px )"});
-
 	// Set up an event listener for the contact form.
 	jQuery(form).submit(function(e) {
 		// Stop the browser from submitting the form.
 		e.preventDefault();
+
+		formMessages.css({"transform":"translate( 0px, 0px)"});
 
 		// Serialize the form data.
 		var formData = jQuery(form).serialize();
@@ -180,7 +180,7 @@ jQuery(document).ready(function() {
 			// Set the message text.
 			jQuery(formMessages).text(response);
 
-			formMessages.css({"transform":"translate( 0px, 0px)"});
+			formMessages.css({"transform":"translate( 0px, " + formMessages.height() + 10 + "px )"});
 
 			// Clear the form.
 			jQuery('#name').val('');
