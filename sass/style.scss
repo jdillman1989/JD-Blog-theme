@@ -203,6 +203,11 @@ strong{
 	}
 }
 
+#ajax-contact{
+	background-color: #f3f0e6;
+	z-index: 100; 
+}
+
 .field{
 	@extend %clearfix;
 	width: 33%;
@@ -242,6 +247,21 @@ strong{
 		-webkit-border-radius: 0; 
 		border-radius: 0; 
 	}
+}
+
+#form-messages{
+	background-color: #dd7450;
+	color: #f3f0e6;
+	text-align: center;  
+	width: 100%;
+	position: relative;
+	bottom: 0px;
+	z-index: -1;  
+	-webkit-transform: translate(0, 0); 
+	-moz-transform: translate(0, 0); 
+	-ms-transform: translate(0, 0); 
+	-o-transform: translate(0, 0); 
+	transform: translate(0, 0); 
 }
 
 .img-box{

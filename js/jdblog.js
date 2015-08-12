@@ -163,6 +163,8 @@ jQuery(document).ready(function() {
 		// Stop the browser from submitting the form.
 		e.preventDefault();
 
+		formMessages.css({"transform":"translate( 0px, 0px)"});
+
 		// Serialize the form data.
 		var formData = jQuery(form).serialize();
 
@@ -172,28 +174,28 @@ jQuery(document).ready(function() {
 			url: jQuery(form).attr('action'),
 			data: formData
 		})
+
 		.done(function(response) {
-			// Make sure that the formMessages div has the 'success' class.
-			jQuery(formMessages).removeClass('error');
-			jQuery(formMessages).addClass('success');
 
 			// Set the message text.
 			jQuery(formMessages).text(response);
+
+			formMessages.css({"transform":"translate(" + formMessages.height() + 10 + "px, 0px)"});
 
 			// Clear the form.
 			jQuery('#name').val('');
 			jQuery('#email').val('');
 			jQuery('#message').val('');
 		})
+
 		.fail(function(data) {
-			// Make sure that the formMessages div has the 'error' class.
-			jQuery(formMessages).removeClass('success');
-			jQuery(formMessages).addClass('error');
 
 			// Set the message text.
 			if (data.responseText !== '') {
 				jQuery(formMessages).text(data.responseText);
-			} else {
+			} 
+
+			else {
 				jQuery(formMessages).text('Oops! An error occured and your message could not be sent.');
 			}
 		});
