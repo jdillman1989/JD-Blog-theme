@@ -90,21 +90,18 @@ function form_shortcode( $atts ) {
 	return '<div id="form-messages"></div>
 
 				<form id="ajax-contact" method="post" action="'. admin_url('admin-ajax.php?action=mail_form') .'">
-				
+
 					<div class="field">
+
 						<input type="text" id="name" name="name" placeholder="Name" required>
-					</div>
 
-					<div class="field">
 						<input type="email" id="email" name="email" placeholder="Email" required>
-					</div>
 
-					<div class="field">
-						<textarea id="message" name="message" placeholder="Message" required></textarea>
-					</div>
-
-					<div class="field">
 						<button type="submit">Send</button>
+					</div>
+
+					<div class="email-message">
+						<textarea id="message" name="message" placeholder="Message" required></textarea>
 					</div>
 				</form>';
 }
