@@ -206,11 +206,13 @@ strong{
 .form-container{
 	position: relative;
 	width: 100%;
+	height: 150px; 
 }
 
 .contact-jesse{
 	@extend %clearfix;
 	position: absolute;
+	bottom: 0px;
 	width: 100%;
 	z-index: 300; 
 	background-color: #f3f0e6;
