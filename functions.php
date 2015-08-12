@@ -87,9 +87,9 @@ function form_mail() {
 
 function form_shortcode( $atts ) {
 
-	return '<div id="form-messages" class="animate"></div>
+	return '<form id="ajax-contact" method="post" action="'. admin_url('admin-ajax.php?action=mail_form') .'">
 
-			<form id="ajax-contact" method="post" action="'. admin_url('admin-ajax.php?action=mail_form') .'">
+				<div id="form-messages" class="animate"></div>
 
 				<div class="field">
 
