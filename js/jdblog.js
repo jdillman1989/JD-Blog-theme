@@ -50,6 +50,14 @@ jQuery(document).ready(function() {
 		});
 	};
 
+	// full height content
+
+	var container = jQuery(".container");
+
+	if ( container.height() < jQuery(window).height() ) {
+		container.css({"height":"100%"});
+	};
+
 	// mobile nav
 
 	var mobileNav = jQuery(".mobile-nav");
