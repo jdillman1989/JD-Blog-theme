@@ -264,16 +264,17 @@ strong {
 /* line 206, sass/style.scss */
 #ajax-contact {
   background-color: #f3f0e6;
-  z-index: 100;
+  z-index: 300;
+  width: 100%;
 }
 
-/* line 211, sass/style.scss */
+/* line 212, sass/style.scss */
 .field {
   width: 33%;
   margin-right: 2%;
   float: left;
 }
-/* line 217, sass/style.scss */
+/* line 218, sass/style.scss */
 .field input {
   width: 100%;
   margin: 0 0 10px 0;
@@ -282,7 +283,7 @@ strong {
   -webkit-border-radius: 0;
   border-radius: 0;
 }
-/* line 226, sass/style.scss */
+/* line 227, sass/style.scss */
 .field button {
   width: 100%;
   background-color: #212326;
@@ -293,12 +294,12 @@ strong {
   border-radius: 0;
 }
 
-/* line 237, sass/style.scss */
+/* line 238, sass/style.scss */
 .email-message {
   width: 64%;
   float: left;
 }
-/* line 242, sass/style.scss */
+/* line 243, sass/style.scss */
 .email-message textarea {
   width: 100%;
   height: 110px;
@@ -308,15 +309,17 @@ strong {
   border-radius: 0;
 }
 
-/* line 252, sass/style.scss */
+/* line 253, sass/style.scss */
 #form-messages {
   background-color: #dd7450;
   color: #f3f0e6;
   text-align: center;
   width: 100%;
+  height: 70px;
+  padding: 10px;
   position: relative;
   bottom: 0px;
-  z-index: -1;
+  z-index: 100;
   -webkit-transform: translate(0, 0);
   -moz-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
@@ -324,67 +327,67 @@ strong {
   transform: translate(0, 0);
 }
 
-/* line 267, sass/style.scss */
+/* line 270, sass/style.scss */
 .img-box {
   float: left;
   margin-right: 2%;
   background-color: #dd7450;
 }
 
-/* line 274, sass/style.scss */
+/* line 277, sass/style.scss */
 .header {
   background-color: #212326;
 }
 
-/* line 279, sass/style.scss */
+/* line 282, sass/style.scss */
 .sidebar {
   background-color: #212326;
   padding-top: 17px;
 }
 
-/* line 285, sass/style.scss */
+/* line 288, sass/style.scss */
 .stick {
   position: fixed !important;
   width: 23.25581%;
 }
 
-/* line 292, sass/style.scss */
+/* line 295, sass/style.scss */
 .logo a {
   display: block;
   background: url(images/logo.svg) no-repeat center top;
 }
 
-/* line 298, sass/style.scss */
+/* line 301, sass/style.scss */
 .name {
   text-transform: uppercase;
   text-align: center;
 }
 
-/* line 303, sass/style.scss */
+/* line 306, sass/style.scss */
 .mobile-nav {
   background: url(images/mobile-nav.svg) no-repeat center top;
   width: 30px;
   height: 30px;
 }
 
-/* line 309, sass/style.scss */
+/* line 312, sass/style.scss */
 .social {
   width: 100%;
   max-width: 200px;
   margin: 0 auto 20px auto;
 }
-/* line 315, sass/style.scss */
+/* line 318, sass/style.scss */
 .social ul {
   margin: 0 auto;
 }
-/* line 318, sass/style.scss */
+/* line 321, sass/style.scss */
 .social ul li {
   list-style: none;
   float: left;
   width: 33%;
   height: 40px;
 }
-/* line 324, sass/style.scss */
+/* line 327, sass/style.scss */
 .social ul li a {
   display: block;
   width: 100%;
@@ -393,7 +396,7 @@ strong {
   text-indent: -9999px;
 }
 
-/* line 335, sass/style.scss */
+/* line 338, sass/style.scss */
 #mobile-collapse {
   background: #101112 url(images/collapse.svg) no-repeat center top;
   width: 30px;
@@ -401,27 +404,27 @@ strong {
   border: 5px solid #101112;
 }
 
-/* line 342, sass/style.scss */
+/* line 345, sass/style.scss */
 .social a[href*="twitter.com"] {
   background: url(images/twitter.svg) no-repeat center top;
 }
 
-/* line 346, sass/style.scss */
+/* line 349, sass/style.scss */
 .social a[href*="github.com"] {
   background: url(images/github.svg) no-repeat center top;
 }
 
-/* line 350, sass/style.scss */
+/* line 353, sass/style.scss */
 .social a[href*="linkedin.com"] {
   background: url(images/linkedin.svg) no-repeat center top;
 }
 
-/* line 354, sass/style.scss */
+/* line 357, sass/style.scss */
 .search {
   height: 34px;
   margin-bottom: 15px;
 }
-/* line 358, sass/style.scss */
+/* line 361, sass/style.scss */
 .search form {
   padding: 0;
   margin: 0 auto;
@@ -429,7 +432,7 @@ strong {
   background-color: #f3f0e6;
 }
 
-/* line 366, sass/style.scss */
+/* line 369, sass/style.scss */
 #s {
   float: left;
   background-color: #f3f0e6;
@@ -441,7 +444,7 @@ strong {
   width: 80%;
 }
 
-/* line 377, sass/style.scss */
+/* line 380, sass/style.scss */
 .search-submit {
   float: left;
   width: 18%;
@@ -452,12 +455,12 @@ strong {
   background: #f3f0e6 url(images/search.svg) no-repeat right center;
 }
 
-/* line 391, sass/style.scss */
+/* line 394, sass/style.scss */
 .nav ul li {
   list-style: none;
   width: 100%;
 }
-/* line 395, sass/style.scss */
+/* line 398, sass/style.scss */
 .nav ul li a {
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
@@ -469,12 +472,12 @@ strong {
   text-decoration: none;
   padding-left: 12%;
 }
-/* line 407, sass/style.scss */
+/* line 410, sass/style.scss */
 .nav ul li a:hover {
   background-color: #101112;
 }
 
-/* line 418, sass/style.scss */
+/* line 421, sass/style.scss */
 #nightmode {
   background: #101112 url(images/nightmode.svg) no-repeat center top;
   width: 30px;
@@ -482,7 +485,7 @@ strong {
   border: 5px solid #101112;
 }
 
-/* line 425, sass/style.scss */
+/* line 428, sass/style.scss */
 #daymode {
   background: #101112 url(images/daymode.svg) no-repeat center top;
   width: 30px;
@@ -491,7 +494,7 @@ strong {
   display: none;
 }
 
-/* line 439, sass/style.scss */
+/* line 442, sass/style.scss */
 .content {
   width: 100%;
   float: left;
@@ -500,14 +503,14 @@ strong {
   margin-top: 90px;
 }
 
-/* line 444, sass/style.scss */
+/* line 447, sass/style.scss */
 .aside {
   background-color: none;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
 
-/* line 450, sass/style.scss */
+/* line 453, sass/style.scss */
 .header {
   position: fixed;
   top: 0px;
@@ -517,39 +520,39 @@ strong {
   margin-right: 0;
 }
 
-/* line 456, sass/style.scss */
+/* line 459, sass/style.scss */
 .sidebar {
   position: fixed;
   top: 0px;
   right: 0px;
 }
 
-/* line 462, sass/style.scss */
+/* line 465, sass/style.scss */
 .logo {
   width: 23.07692%;
   float: left;
   margin-right: 2.5641%;
   padding: 10px;
 }
-/* line 466, sass/style.scss */
+/* line 469, sass/style.scss */
 .logo a {
   width: 100%;
   height: 65px;
 }
 
-/* line 472, sass/style.scss */
+/* line 475, sass/style.scss */
 .name {
   width: 48.71795%;
   float: left;
   margin-right: 2.5641%;
   margin-top: 28px;
 }
-/* line 476, sass/style.scss */
+/* line 479, sass/style.scss */
 .name h1 {
   font-size: 20px;
 }
 
-/* line 481, sass/style.scss */
+/* line 484, sass/style.scss */
 .mobile-nav {
   width: 23.07692%;
   float: right;
@@ -558,34 +561,34 @@ strong {
   margin-top: 28px;
 }
 
-/* line 487, sass/style.scss */
+/* line 490, sass/style.scss */
 #mobile-collapse {
   display: block;
 }
 
-/* line 503, sass/style.scss */
+/* line 506, sass/style.scss */
 .controls {
   position: static;
 }
 
-/* line 507, sass/style.scss */
+/* line 510, sass/style.scss */
 .alignleft {
   float: none;
   margin-right: 0;
 }
 
-/* line 512, sass/style.scss */
+/* line 515, sass/style.scss */
 .aligncenter {
   margin: 0;
 }
 
-/* line 516, sass/style.scss */
+/* line 519, sass/style.scss */
 .alignright {
   float: none;
   margin-left: 0;
 }
 
-/* line 521, sass/style.scss */
+/* line 524, sass/style.scss */
 .grid-head {
   float: left;
   width: 100%;
@@ -594,14 +597,14 @@ strong {
   height: auto;
 }
 
-/* line 529, sass/style.scss */
+/* line 532, sass/style.scss */
 .grid {
   float: left;
   width: 49.5%;
 }
 
 @media (min-width: 676px) {
-  /* line 540, sass/style.scss */
+  /* line 543, sass/style.scss */
   .content {
     width: 74.57627%;
     float: left;
@@ -609,7 +612,7 @@ strong {
     margin-top: 0px;
   }
 
-  /* line 545, sass/style.scss */
+  /* line 548, sass/style.scss */
   .aside {
     width: 23.72881%;
     float: right;
@@ -620,13 +623,13 @@ strong {
     margin-bottom: -99999px;
   }
 
-  /* line 553, sass/style.scss */
+  /* line 556, sass/style.scss */
   .header {
     position: relative;
     float: none;
   }
 
-  /* line 558, sass/style.scss */
+  /* line 561, sass/style.scss */
   .sidebar {
     position: relative;
     -webkit-transform: translate(0, 0);
@@ -636,21 +639,21 @@ strong {
     transform: translate(0, 0);
   }
 
-  /* line 567, sass/style.scss */
+  /* line 570, sass/style.scss */
   .logo {
     float: none;
     width: 100%;
     margin-bottom: 20px;
     padding: 0;
   }
-  /* line 573, sass/style.scss */
+  /* line 576, sass/style.scss */
   .logo a {
     width: 200px;
     height: 200px;
     margin: 0 auto;
   }
 
-  /* line 580, sass/style.scss */
+  /* line 583, sass/style.scss */
   .name {
     float: none;
     width: 100%;
@@ -658,28 +661,28 @@ strong {
     line-height: 1.1;
     margin-top: 0px;
   }
-  /* line 587, sass/style.scss */
+  /* line 590, sass/style.scss */
   .name h1 {
     font-size: 32px;
   }
 
-  /* line 592, sass/style.scss */
+  /* line 595, sass/style.scss */
   .mobile-nav {
     display: none;
   }
 
-  /* line 596, sass/style.scss */
+  /* line 599, sass/style.scss */
   #mobile-collapse {
     display: none;
   }
 
-  /* line 612, sass/style.scss */
+  /* line 615, sass/style.scss */
   .controls {
     padding-top: 15px;
     padding-left: 12%;
   }
 
-  /* line 617, sass/style.scss */
+  /* line 620, sass/style.scss */
   .grid-head {
     float: left;
     width: 30%;
@@ -688,7 +691,7 @@ strong {
     height: 100%;
   }
 
-  /* line 625, sass/style.scss */
+  /* line 628, sass/style.scss */
   .grid {
     float: left;
     width: 17%;
