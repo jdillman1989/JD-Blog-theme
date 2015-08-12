@@ -38,6 +38,7 @@ add_action( 'wp_enqueue_scripts', 'theme_scripts' );
 // AJAX form
 
 add_action( 'wp_ajax_mail_form', 'form_mail' );
+add_action( 'wp_ajax_nopriv_mail_form', 'form_mail' );
 
 function form_mail() {
 	if ($_SERVER["REQUEST_METHOD"] == "POST") {
