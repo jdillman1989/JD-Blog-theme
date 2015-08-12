@@ -180,7 +180,7 @@ jQuery(document).ready(function() {
 			// Set the message text.
 			jQuery(formMessages).text(response);
 
-			formMessages.css({"transform":"translate( 0px, " + formMessages.height() + 10 + "px )"});
+			formMessages.css({"transform":"translate( 0px, " + 80 + "px )"});
 
 			// Clear the form.
 			jQuery('#name').val('');
