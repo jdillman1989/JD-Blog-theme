@@ -203,8 +203,20 @@ strong{
 	}
 }
 
-#ajax-contact{
+.form-container{
 	position: relative;
+	width: 100%;
+}
+
+.contact-jesse{
+	@extend %clearfix;
+	position: absolute;
+	width: 100%;
+	z-index: 300; 
+	background-color: #f3f0e6;
+}
+
+#ajax-contact{
 	width: 100%;
 }
 
@@ -213,8 +225,6 @@ strong{
 	width: 33%;
 	margin-right: 2%;
 	float: left; 
-	background-color: #f3f0e6;
-	z-index: 300; 
 	
 	input{
 		width: 100%;
@@ -239,9 +249,7 @@ strong{
 .email-message{
 	@extend %clearfix;
 	width: 64%;
-	float: left; 
-	background-color: #f3f0e6;
-	z-index: 400; 
+	float: left;
 	
 	textarea{
 		width: 100%;
