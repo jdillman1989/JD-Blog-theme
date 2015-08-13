@@ -358,20 +358,22 @@ strong{
 .social a[href*="twitter.com"]{
 	background: url( images/twitter.svg ) no-repeat center top;
 	background-color: #f3f0e6; 
+	background-size: cover;
 }
 
 .social a[href*="github.com"]{
 	background: url( images/github.svg ) no-repeat center top;
 	background-color: #f3f0e6; 
+	background-size: cover;
 }
 
 .social a[href*="linkedin.com"]{
 	background: url( images/linkedin.svg ) no-repeat center top;
 	background-color: #f3f0e6; 
+	background-size: cover;
 }
 
 .social a{
-	background-size: contain; 
 	-webkit-transition: -webkit-transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
 	-moz-transition: -moz-transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
 	-o-transition: -o-transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
