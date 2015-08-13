@@ -336,6 +336,12 @@ strong{
 			float: left;
 			width: 33%;
 			height: 40px; 
+			background-color: #f3f0e6;
+			-webkit-transform: translate(0, 0); 
+			-moz-transform: translate(0, 0); 
+			-ms-transform: translate(0, 0); 
+			-o-transform: translate(0, 0); 
+			transform: translate(0, 0);
 			
 			a{
 				display: block;
@@ -344,6 +350,15 @@ strong{
 				margin-right: 0; 
 				text-indent:-9999px;
 			}
+		}
+
+		li:hover{
+			background-color: #dd7450;
+			-webkit-transform: translate(0, -10px); 
+			-moz-transform: translate(0, -10px); 
+			-ms-transform: translate(0, -10px); 
+			-o-transform: translate(0, -10px); 
+			transform: translate(0, -10px);
 		}
 	}
 }
@@ -355,30 +370,19 @@ strong{
 	border: 5px solid #101112;
 }
 
-.social a{
-	background-color: #f3f0e6; 
-	background-size: cover; 
-}
-
 .social a[href*="twitter.com"]{
 	background: url( images/twitter.svg ) no-repeat center top;
+	background-size: cover; 
 }
 
 .social a[href*="github.com"]{
 	background: url( images/github.svg ) no-repeat center top;
+	background-size: cover; 
 }
 
 .social a[href*="linkedin.com"]{
 	background: url( images/linkedin.svg ) no-repeat center top;
-}
-
-.social a:hover{
-	background-color: #dd7450;
-	-webkit-transform: translate(0, -10px); 
-	-moz-transform: translate(0, -10px); 
-	-ms-transform: translate(0, -10px); 
-	-o-transform: translate(0, -10px); 
-	transform: translate(0, -10px);
+	background-size: cover; 
 }
 
 .search{
