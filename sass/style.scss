@@ -320,6 +320,7 @@ strong{
 	background: url( images/mobile-nav.svg ) no-repeat center top;
 	width: 30px;
 	height: 30px;
+	cursor: pointer;
 }
 
 .social{
@@ -353,6 +354,7 @@ strong{
 	width: 30px;
 	height: 30px;
 	border: 5px solid #101112;
+	cursor: pointer;
 }
 
 .social a[href*="twitter.com"]{
@@ -425,6 +427,7 @@ strong{
 	padding: 0;
 	border: 5px solid #f3f0e6;
 	background: #f3f0e6 url(images/search.svg) no-repeat right center;
+	cursor: pointer;
 }
 
 .nav{
@@ -472,6 +475,7 @@ strong{
 
 #nightmode:hover{
 	background-color: #dd7450;
+	cursor: pointer;
 }
 
 #daymode{
@@ -489,6 +493,7 @@ strong{
 
 #daymode:hover{
 	background-color: #dd7450;
+	cursor: pointer;
 }
 
 //layouts:

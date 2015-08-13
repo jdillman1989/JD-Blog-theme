@@ -382,26 +382,27 @@ strong {
   background: url(images/mobile-nav.svg) no-repeat center top;
   width: 30px;
   height: 30px;
+  cursor: pointer;
 }
 
-/* line 325, sass/style.scss */
+/* line 326, sass/style.scss */
 .social {
   width: 100%;
   max-width: 200px;
   margin: 0 auto 20px auto;
 }
-/* line 331, sass/style.scss */
+/* line 332, sass/style.scss */
 .social ul {
   margin: 0 auto;
 }
-/* line 334, sass/style.scss */
+/* line 335, sass/style.scss */
 .social ul li {
   list-style: none;
   float: left;
   width: 33%;
   height: 40px;
 }
-/* line 340, sass/style.scss */
+/* line 341, sass/style.scss */
 .social ul li a {
   display: block;
   width: 100%;
@@ -410,36 +411,37 @@ strong {
   text-indent: -9999px;
 }
 
-/* line 351, sass/style.scss */
+/* line 352, sass/style.scss */
 #mobile-collapse {
   background: #101112 url(images/collapse.svg) no-repeat center top;
   width: 30px;
   height: 30px;
   border: 5px solid #101112;
+  cursor: pointer;
 }
 
-/* line 358, sass/style.scss */
+/* line 360, sass/style.scss */
 .social a[href*="twitter.com"] {
   background: url(images/twitter.svg) no-repeat center top;
   background-color: #f3f0e6;
   background-size: cover;
 }
 
-/* line 364, sass/style.scss */
+/* line 366, sass/style.scss */
 .social a[href*="github.com"] {
   background: url(images/github.svg) no-repeat center top;
   background-color: #f3f0e6;
   background-size: cover;
 }
 
-/* line 370, sass/style.scss */
+/* line 372, sass/style.scss */
 .social a[href*="linkedin.com"] {
   background: url(images/linkedin.svg) no-repeat center top;
   background-color: #f3f0e6;
   background-size: cover;
 }
 
-/* line 376, sass/style.scss */
+/* line 378, sass/style.scss */
 .social a {
   -webkit-transition: -webkit-transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
   -moz-transition: -moz-transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
@@ -452,7 +454,7 @@ strong {
   transform: translate(0, 0);
 }
 
-/* line 388, sass/style.scss */
+/* line 390, sass/style.scss */
 .social a:hover {
   background-color: #dd7450;
   -webkit-transform: translate(0, -5px);
@@ -462,12 +464,12 @@ strong {
   transform: translate(0, -5px);
 }
 
-/* line 397, sass/style.scss */
+/* line 399, sass/style.scss */
 .search {
   height: 34px;
   margin-bottom: 15px;
 }
-/* line 401, sass/style.scss */
+/* line 403, sass/style.scss */
 .search form {
   padding: 0;
   margin: 0 auto;
@@ -475,7 +477,7 @@ strong {
   background-color: #f3f0e6;
 }
 
-/* line 409, sass/style.scss */
+/* line 411, sass/style.scss */
 #s {
   float: left;
   background-color: #f3f0e6;
@@ -487,7 +489,7 @@ strong {
   width: 80%;
 }
 
-/* line 420, sass/style.scss */
+/* line 422, sass/style.scss */
 .search-submit {
   float: left;
   width: 18%;
@@ -496,14 +498,15 @@ strong {
   padding: 0;
   border: 5px solid #f3f0e6;
   background: #f3f0e6 url(images/search.svg) no-repeat right center;
+  cursor: pointer;
 }
 
-/* line 434, sass/style.scss */
+/* line 437, sass/style.scss */
 .nav ul li {
   list-style: none;
   width: 100%;
 }
-/* line 438, sass/style.scss */
+/* line 441, sass/style.scss */
 .nav ul li a {
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
@@ -515,12 +518,12 @@ strong {
   text-decoration: none;
   padding-left: 12%;
 }
-/* line 450, sass/style.scss */
+/* line 453, sass/style.scss */
 .nav ul li a:hover {
   background-color: #101112;
 }
 
-/* line 461, sass/style.scss */
+/* line 464, sass/style.scss */
 #nightmode {
   background: url(images/nightmode.svg) no-repeat center top;
   background-size: cover;
@@ -533,12 +536,13 @@ strong {
   transition: background-color 0.3s ease;
 }
 
-/* line 473, sass/style.scss */
+/* line 476, sass/style.scss */
 #nightmode:hover {
   background-color: #dd7450;
+  cursor: pointer;
 }
 
-/* line 477, sass/style.scss */
+/* line 481, sass/style.scss */
 #daymode {
   background: url(images/daymode.svg) no-repeat center top;
   background-size: cover;
@@ -552,12 +556,13 @@ strong {
   display: none;
 }
 
-/* line 490, sass/style.scss */
+/* line 494, sass/style.scss */
 #daymode:hover {
   background-color: #dd7450;
+  cursor: pointer;
 }
 
-/* line 500, sass/style.scss */
+/* line 505, sass/style.scss */
 .content {
   width: 100%;
   float: left;
@@ -566,14 +571,14 @@ strong {
   margin-top: 90px;
 }
 
-/* line 505, sass/style.scss */
+/* line 510, sass/style.scss */
 .aside {
   background-color: none;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
 
-/* line 511, sass/style.scss */
+/* line 516, sass/style.scss */
 .header {
   position: fixed;
   top: 0px;
@@ -583,39 +588,39 @@ strong {
   margin-right: 0;
 }
 
-/* line 517, sass/style.scss */
+/* line 522, sass/style.scss */
 .sidebar {
   position: fixed;
   top: 0px;
   right: 0px;
 }
 
-/* line 523, sass/style.scss */
+/* line 528, sass/style.scss */
 .logo {
   width: 23.07692%;
   float: left;
   margin-right: 2.5641%;
   padding: 10px;
 }
-/* line 527, sass/style.scss */
+/* line 532, sass/style.scss */
 .logo a {
   width: 100%;
   height: 65px;
 }
 
-/* line 533, sass/style.scss */
+/* line 538, sass/style.scss */
 .name {
   width: 48.71795%;
   float: left;
   margin-right: 2.5641%;
   margin-top: 28px;
 }
-/* line 537, sass/style.scss */
+/* line 542, sass/style.scss */
 .name h1 {
   font-size: 20px;
 }
 
-/* line 542, sass/style.scss */
+/* line 547, sass/style.scss */
 .mobile-nav {
   width: 23.07692%;
   float: right;
@@ -624,34 +629,34 @@ strong {
   margin-top: 28px;
 }
 
-/* line 548, sass/style.scss */
+/* line 553, sass/style.scss */
 #mobile-collapse {
   display: block;
 }
 
-/* line 564, sass/style.scss */
+/* line 569, sass/style.scss */
 .controls {
   position: static;
 }
 
-/* line 568, sass/style.scss */
+/* line 573, sass/style.scss */
 .alignleft {
   float: none;
   margin-right: 0;
 }
 
-/* line 573, sass/style.scss */
+/* line 578, sass/style.scss */
 .aligncenter {
   margin: 0;
 }
 
-/* line 577, sass/style.scss */
+/* line 582, sass/style.scss */
 .alignright {
   float: none;
   margin-left: 0;
 }
 
-/* line 582, sass/style.scss */
+/* line 587, sass/style.scss */
 .grid-head {
   float: left;
   width: 100%;
@@ -660,14 +665,14 @@ strong {
   height: auto;
 }
 
-/* line 590, sass/style.scss */
+/* line 595, sass/style.scss */
 .grid {
   float: left;
   width: 49.5%;
 }
 
 @media (min-width: 676px) {
-  /* line 601, sass/style.scss */
+  /* line 606, sass/style.scss */
   .content {
     width: 74.57627%;
     float: left;
@@ -675,7 +680,7 @@ strong {
     margin-top: 0px;
   }
 
-  /* line 606, sass/style.scss */
+  /* line 611, sass/style.scss */
   .aside {
     width: 23.72881%;
     float: right;
@@ -686,13 +691,13 @@ strong {
     margin-bottom: -99999px;
   }
 
-  /* line 614, sass/style.scss */
+  /* line 619, sass/style.scss */
   .header {
     position: relative;
     float: none;
   }
 
-  /* line 619, sass/style.scss */
+  /* line 624, sass/style.scss */
   .sidebar {
     position: relative;
     -webkit-transform: translate(0, 0);
@@ -702,21 +707,21 @@ strong {
     transform: translate(0, 0);
   }
 
-  /* line 628, sass/style.scss */
+  /* line 633, sass/style.scss */
   .logo {
     float: none;
     width: 100%;
     margin-bottom: 20px;
     padding: 0;
   }
-  /* line 634, sass/style.scss */
+  /* line 639, sass/style.scss */
   .logo a {
     width: 200px;
     height: 200px;
     margin: 0 auto;
   }
 
-  /* line 641, sass/style.scss */
+  /* line 646, sass/style.scss */
   .name {
     float: none;
     width: 100%;
@@ -724,28 +729,28 @@ strong {
     line-height: 1.1;
     margin-top: 0px;
   }
-  /* line 648, sass/style.scss */
+  /* line 653, sass/style.scss */
   .name h1 {
     font-size: 32px;
   }
 
-  /* line 653, sass/style.scss */
+  /* line 658, sass/style.scss */
   .mobile-nav {
     display: none;
   }
 
-  /* line 657, sass/style.scss */
+  /* line 662, sass/style.scss */
   #mobile-collapse {
     display: none;
   }
 
-  /* line 673, sass/style.scss */
+  /* line 678, sass/style.scss */
   .controls {
     padding-top: 15px;
     padding-left: 12%;
   }
 
-  /* line 678, sass/style.scss */
+  /* line 683, sass/style.scss */
   .grid-head {
     float: left;
     width: 30%;
@@ -754,7 +759,7 @@ strong {
     height: 100%;
   }
 
-  /* line 686, sass/style.scss */
+  /* line 691, sass/style.scss */
   .grid {
     float: left;
     width: 17%;
