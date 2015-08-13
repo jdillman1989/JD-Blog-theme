@@ -371,7 +371,7 @@ strong{
 }
 
 .social a{
-	background-size: cover; 
+	background-size: contain; 
 	-webkit-transition: -webkit-transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
 	-moz-transition: -moz-transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
 	-o-transition: -o-transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
