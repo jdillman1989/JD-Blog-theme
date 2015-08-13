@@ -327,8 +327,6 @@ strong{
 	width: 100%;
 	max-width: 200px;
 	margin: 0 auto 20px auto; 
-	background-color: #f3f0e6; 
-	background-size: cover; 
 	
 	ul{
 		margin: 0 auto; 
@@ -357,6 +355,11 @@ strong{
 	border: 5px solid #101112;
 }
 
+.social a{
+	background-color: #f3f0e6; 
+	background-size: cover; 
+}
+
 .social a[href*="twitter.com"]{
 	background: url( images/twitter.svg ) no-repeat center top;
 }
@@ -369,13 +372,13 @@ strong{
 	background: url( images/linkedin.svg ) no-repeat center top;
 }
 
-.social:hover{
+.social a:hover{
 	background-color: #dd7450;
-	-webkit-transform: translate(0, 10px); 
-	-moz-transform: translate(0, 10px); 
-	-ms-transform: translate(0, 10px); 
-	-o-transform: translate(0, 10px); 
-	transform: translate(0, 10px);
+	-webkit-transform: translate(0, -10px); 
+	-moz-transform: translate(0, -10px); 
+	-ms-transform: translate(0, -10px); 
+	-o-transform: translate(0, -10px); 
+	transform: translate(0, -10px);
 }
 
 .search{
