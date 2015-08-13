@@ -458,10 +458,12 @@ strong{
 	@extend %clearfix;
 }
 
-.mode-button{
-	width: 40px;
-	height: 40px;
+#nightmode{
+	background: url( images/nightmode.svg ) no-repeat center top;
+	background-size: cover;
 	background-color: #f3f0e6; 
+	width: 35px;
+	height: 35px;
 	-webkit-transition: -webkit-transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
 	-moz-transition: -moz-transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
 	-o-transition: -o-transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
@@ -473,7 +475,7 @@ strong{
 	transform: translate(0, 0);
 }
 
-.mode-button:hover{
+#nightmode:hover{
 	background-color: #dd7450;
 	-webkit-transform: translate(0, -5px); 
 	-moz-transform: translate(0, -5px); 
@@ -482,15 +484,31 @@ strong{
 	transform: translate(0, -5px);
 }
 
-#nightmode{
-	background: url( images/nightmode.svg ) no-repeat center top;
-	background-size: cover;
-}
-
 #daymode{
 	background: url( images/daymode.svg ) no-repeat center top;
 	background-size: cover;
+	background-color: #f3f0e6; 
+	width: 35px;
+	height: 35px;
+	-webkit-transition: -webkit-transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+	-moz-transition: -moz-transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+	-o-transition: -o-transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+	transition: transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+	-webkit-transform: translate(0, 0); 
+	-moz-transform: translate(0, 0); 
+	-ms-transform: translate(0, 0); 
+	-o-transform: translate(0, 0); 
+	transform: translate(0, 0);
 	display: none;
+}
+
+#daymode:hover{
+	background-color: #dd7450;
+	-webkit-transform: translate(0, -5px); 
+	-moz-transform: translate(0, -5px); 
+	-ms-transform: translate(0, -5px); 
+	-o-transform: translate(0, -5px); 
+	transform: translate(0, -5px);
 }
 
 //layouts:
