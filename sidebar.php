@@ -23,7 +23,7 @@
 
 	<div id="mobile-collapse"></div>
 
-	<div class="social">
+	<div class="social animate">
 		<?php
 			wp_nav_menu( 
 				array( 'theme_location' => 'social' ) 
