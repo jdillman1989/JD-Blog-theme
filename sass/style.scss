@@ -464,24 +464,14 @@ strong{
 	background-color: #f3f0e6; 
 	width: 35px;
 	height: 35px;
-	-webkit-transition: -webkit-transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
-	-moz-transition: -moz-transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
-	-o-transition: -o-transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
-	transition: transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
-	-webkit-transform: translate(0, 0); 
-	-moz-transform: translate(0, 0); 
-	-ms-transform: translate(0, 0); 
-	-o-transform: translate(0, 0); 
-	transform: translate(0, 0);
+	-webkit-transition: color 0.3s ease;
+	-moz-transition: color 0.3s ease;
+	-o-transition: color 0.3s ease;
+	transition: color 0.3s ease;
 }
 
 #nightmode:hover{
 	background-color: #dd7450;
-	-webkit-transform: translate(0, -5px); 
-	-moz-transform: translate(0, -5px); 
-	-ms-transform: translate(0, -5px); 
-	-o-transform: translate(0, -5px); 
-	transform: translate(0, -5px);
 }
 
 #daymode{
@@ -490,25 +480,15 @@ strong{
 	background-color: #f3f0e6; 
 	width: 35px;
 	height: 35px;
-	-webkit-transition: -webkit-transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
-	-moz-transition: -moz-transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
-	-o-transition: -o-transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
-	transition: transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
-	-webkit-transform: translate(0, 0); 
-	-moz-transform: translate(0, 0); 
-	-ms-transform: translate(0, 0); 
-	-o-transform: translate(0, 0); 
-	transform: translate(0, 0);
+	-webkit-transition: color 0.3s ease;
+	-moz-transition: color 0.3s ease;
+	-o-transition: color 0.3s ease;
+	transition: color 0.3s ease;
 	display: none;
 }
 
 #daymode:hover{
 	background-color: #dd7450;
-	-webkit-transform: translate(0, -5px); 
-	-moz-transform: translate(0, -5px); 
-	-ms-transform: translate(0, -5px); 
-	-o-transform: translate(0, -5px); 
-	transform: translate(0, -5px);
 }
 
 //layouts:

@@ -527,57 +527,37 @@ strong {
   background-color: #f3f0e6;
   width: 35px;
   height: 35px;
-  -webkit-transition: -webkit-transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
-  -moz-transition: -moz-transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
-  -o-transition: -o-transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
-  transition: transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
-  -webkit-transform: translate(0, 0);
-  -moz-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
-  -o-transform: translate(0, 0);
-  transform: translate(0, 0);
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
 }
 
-/* line 478, sass/style.scss */
+/* line 473, sass/style.scss */
 #nightmode:hover {
   background-color: #dd7450;
-  -webkit-transform: translate(0, -5px);
-  -moz-transform: translate(0, -5px);
-  -ms-transform: translate(0, -5px);
-  -o-transform: translate(0, -5px);
-  transform: translate(0, -5px);
 }
 
-/* line 487, sass/style.scss */
+/* line 477, sass/style.scss */
 #daymode {
   background: url(images/daymode.svg) no-repeat center top;
   background-size: cover;
   background-color: #f3f0e6;
   width: 35px;
   height: 35px;
-  -webkit-transition: -webkit-transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
-  -moz-transition: -moz-transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
-  -o-transition: -o-transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
-  transition: transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
-  -webkit-transform: translate(0, 0);
-  -moz-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
-  -o-transform: translate(0, 0);
-  transform: translate(0, 0);
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
   display: none;
 }
 
-/* line 505, sass/style.scss */
+/* line 490, sass/style.scss */
 #daymode:hover {
   background-color: #dd7450;
-  -webkit-transform: translate(0, -5px);
-  -moz-transform: translate(0, -5px);
-  -ms-transform: translate(0, -5px);
-  -o-transform: translate(0, -5px);
-  transform: translate(0, -5px);
 }
 
-/* line 520, sass/style.scss */
+/* line 500, sass/style.scss */
 .content {
   width: 100%;
   float: left;
@@ -586,14 +566,14 @@ strong {
   margin-top: 90px;
 }
 
-/* line 525, sass/style.scss */
+/* line 505, sass/style.scss */
 .aside {
   background-color: none;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
 
-/* line 531, sass/style.scss */
+/* line 511, sass/style.scss */
 .header {
   position: fixed;
   top: 0px;
@@ -603,39 +583,39 @@ strong {
   margin-right: 0;
 }
 
-/* line 537, sass/style.scss */
+/* line 517, sass/style.scss */
 .sidebar {
   position: fixed;
   top: 0px;
   right: 0px;
 }
 
-/* line 543, sass/style.scss */
+/* line 523, sass/style.scss */
 .logo {
   width: 23.07692%;
   float: left;
   margin-right: 2.5641%;
   padding: 10px;
 }
-/* line 547, sass/style.scss */
+/* line 527, sass/style.scss */
 .logo a {
   width: 100%;
   height: 65px;
 }
 
-/* line 553, sass/style.scss */
+/* line 533, sass/style.scss */
 .name {
   width: 48.71795%;
   float: left;
   margin-right: 2.5641%;
   margin-top: 28px;
 }
-/* line 557, sass/style.scss */
+/* line 537, sass/style.scss */
 .name h1 {
   font-size: 20px;
 }
 
-/* line 562, sass/style.scss */
+/* line 542, sass/style.scss */
 .mobile-nav {
   width: 23.07692%;
   float: right;
@@ -644,34 +624,34 @@ strong {
   margin-top: 28px;
 }
 
-/* line 568, sass/style.scss */
+/* line 548, sass/style.scss */
 #mobile-collapse {
   display: block;
 }
 
-/* line 584, sass/style.scss */
+/* line 564, sass/style.scss */
 .controls {
   position: static;
 }
 
-/* line 588, sass/style.scss */
+/* line 568, sass/style.scss */
 .alignleft {
   float: none;
   margin-right: 0;
 }
 
-/* line 593, sass/style.scss */
+/* line 573, sass/style.scss */
 .aligncenter {
   margin: 0;
 }
 
-/* line 597, sass/style.scss */
+/* line 577, sass/style.scss */
 .alignright {
   float: none;
   margin-left: 0;
 }
 
-/* line 602, sass/style.scss */
+/* line 582, sass/style.scss */
 .grid-head {
   float: left;
   width: 100%;
@@ -680,14 +660,14 @@ strong {
   height: auto;
 }
 
-/* line 610, sass/style.scss */
+/* line 590, sass/style.scss */
 .grid {
   float: left;
   width: 49.5%;
 }
 
 @media (min-width: 676px) {
-  /* line 621, sass/style.scss */
+  /* line 601, sass/style.scss */
   .content {
     width: 74.57627%;
     float: left;
@@ -695,7 +675,7 @@ strong {
     margin-top: 0px;
   }
 
-  /* line 626, sass/style.scss */
+  /* line 606, sass/style.scss */
   .aside {
     width: 23.72881%;
     float: right;
@@ -706,13 +686,13 @@ strong {
     margin-bottom: -99999px;
   }
 
-  /* line 634, sass/style.scss */
+  /* line 614, sass/style.scss */
   .header {
     position: relative;
     float: none;
   }
 
-  /* line 639, sass/style.scss */
+  /* line 619, sass/style.scss */
   .sidebar {
     position: relative;
     -webkit-transform: translate(0, 0);
@@ -722,21 +702,21 @@ strong {
     transform: translate(0, 0);
   }
 
-  /* line 648, sass/style.scss */
+  /* line 628, sass/style.scss */
   .logo {
     float: none;
     width: 100%;
     margin-bottom: 20px;
     padding: 0;
   }
-  /* line 654, sass/style.scss */
+  /* line 634, sass/style.scss */
   .logo a {
     width: 200px;
     height: 200px;
     margin: 0 auto;
   }
 
-  /* line 661, sass/style.scss */
+  /* line 641, sass/style.scss */
   .name {
     float: none;
     width: 100%;
@@ -744,28 +724,28 @@ strong {
     line-height: 1.1;
     margin-top: 0px;
   }
-  /* line 668, sass/style.scss */
+  /* line 648, sass/style.scss */
   .name h1 {
     font-size: 32px;
   }
 
-  /* line 673, sass/style.scss */
+  /* line 653, sass/style.scss */
   .mobile-nav {
     display: none;
   }
 
-  /* line 677, sass/style.scss */
+  /* line 657, sass/style.scss */
   #mobile-collapse {
     display: none;
   }
 
-  /* line 693, sass/style.scss */
+  /* line 673, sass/style.scss */
   .controls {
     padding-top: 15px;
     padding-left: 12%;
   }
 
-  /* line 698, sass/style.scss */
+  /* line 678, sass/style.scss */
   .grid-head {
     float: left;
     width: 30%;
@@ -774,7 +754,7 @@ strong {
     height: 100%;
   }
 
-  /* line 706, sass/style.scss */
+  /* line 686, sass/style.scss */
   .grid {
     float: left;
     width: 17%;

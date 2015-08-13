@@ -47,9 +47,9 @@
 
 	<div class="controls">
 
-		<div id="nightmode" class="mode-button"></div>
+		<div id="nightmode"></div>
 
-		<div id="daymode" class="mode-button"></div>
+		<div id="daymode"></div>
 	</div>
 </div>
 
