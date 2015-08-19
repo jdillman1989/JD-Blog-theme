@@ -48,8 +48,10 @@
 			</div>
 			<?php endwhile; ?>
 
-			<p style="float:right;"><?php next_posts_link( 'Previous &raquo;', $the_query->max_num_pages );?></p>
-			<p style="float:left;"><?php previous_posts_link( '&laquo; Next' ); ?></p>
+			<div class="post-container">
+				<p class="previous paged animate"><?php next_posts_link( 'Previous &raquo;', $the_query->max_num_pages );?></p>
+				<p class="next paged animate"><?php previous_posts_link( '&laquo; Next' ); ?></p>
+			</div>
 		</div>
 
 		<div class="aside animate">
