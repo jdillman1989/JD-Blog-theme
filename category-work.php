@@ -19,7 +19,7 @@
 
 					<div class="work-thumbnail" id="<?php echo $post->post_name; ?>-thumbnail" style="background-image: url(<?php echo $featuredimage; ?>); background-size:cover;">
 
-						<h2 id="work-title animate"><?php the_title(); ?></h2> 
+						<h2 id="work-title" class="animate"><?php the_title(); ?></h2> 
 					</div>
 
 					<div class="work-description" id="<?php echo $post->post_name;?>-description" style="display:none;"><?php the_content(); ?></div>
@@ -40,7 +40,7 @@
 
 					<div class="work-thumbnail" id="<?php echo $post->post_name; ?>-thumbnail" style="background-image: url(<?php echo $featuredimage; ?>); background-size:cover;">
 
-						<h2 id="work-title animate"><?php the_title(); ?></h2> 
+						<h2 id="work-title" class="animate"><?php the_title(); ?></h2> 
 					</div>
 
 					<div class="work-description" id="<?php echo $post->post_name;?>-description" style="display:none;"><?php the_content(); ?></div>
@@ -61,7 +61,7 @@
 
 					<div class="work-thumbnail" id="<?php echo $post->post_name; ?>-thumbnail" style="background-image: url(<?php echo $featuredimage; ?>); background-size:cover;">
 
-						<h2 id="work-title animate"><?php the_title(); ?></h2> 
+						<h2 id="work-title" class="animate"><?php the_title(); ?></h2> 
 					</div>
 
 					<div class="work-description" id="<?php echo $post->post_name;?>-description" style="display:none;"><?php the_content(); ?></div>
