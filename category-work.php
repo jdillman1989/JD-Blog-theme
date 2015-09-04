@@ -22,7 +22,7 @@
 						<h2 id="work-title"><?php the_title(); ?></h2> 
 					</div>
 
-					<p class="work-description <?php echo $post->post_name;?>-description" style="display:none;"><?php the_content(); ?></p>
+					<div class="work-description" id="<?php echo $post->post_name;?>-description" style="display:none;"><?php the_content(); ?></div>
 				<?php endwhile; ?>
 				<?php wp_reset_query(); ?>
 			</div>
@@ -43,7 +43,7 @@
 						<h2 id="work-title"><?php the_title(); ?></h2> 
 					</div>
 
-					<p class="work-description <?php echo $post->post_name;?>-description" style="display:none;"><?php the_content(); ?></p>
+					<div class="work-description" id="<?php echo $post->post_name;?>-description" style="display:none;"><?php the_content(); ?></div>
 				<?php endwhile; ?>
 				<?php wp_reset_query(); ?>
 			</div>
@@ -64,7 +64,7 @@
 						<h2 id="work-title"><?php the_title(); ?></h2> 
 					</div>
 
-					<p class="work-description <?php echo $post->post_name;?>-description" style="display:none;"><?php the_content(); ?></p>
+					<div class="work-description" id="<?php echo $post->post_name;?>-description" style="display:none;"><?php the_content(); ?></div>
 				<?php endwhile; ?>
 				<?php wp_reset_query(); ?>
 			</div>
