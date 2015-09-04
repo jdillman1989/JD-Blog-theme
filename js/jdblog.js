@@ -19,23 +19,6 @@ jQuery(document).ready(function() {
 
 			if( jQuery(this).scrollTop() > prevHeight ) {
 
-				// var st = jQuery(window).scrollTop();
-
-				// if(Math.abs(lastScrollTop - st) <= delta)
-				//   return;
-
-				// if (st > lastScrollTop){
-				// 	// downscroll code
-				// 	console.log('scroll down');
-				// } 
-
-				// else {
-				// 	// upscroll code
-				// 	console.log('scroll up');
-				// }
-
-				// lastScrollTop = st;
-
 				sidebar.addClass( sidebarScroll );
 
 				// Check if window is smaller than sidebar
@@ -207,9 +190,11 @@ jQuery(document).ready(function() {
 				jQuery(formMessages).text('Oops! An error occured and your message could not be sent.');
 			}
 		});
-
 	});
 
+	// Work Portfolio
+
+	
 });
 
 
