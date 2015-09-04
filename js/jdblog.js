@@ -194,7 +194,10 @@ jQuery(document).ready(function() {
 
 	// Work Portfolio
 
-	
+	// Animate thumbnails on hover
+	var workThumbnails = jQuery(".work-thumbnail");
+
+	workThumbnails.hover( jQuery(this).children('h2').css({"transform":"translate( 0px, 0px )"}) );
 });
 
 
