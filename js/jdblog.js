@@ -202,6 +202,11 @@ jQuery(document).ready(function() {
 		function() {
 
 			jQuery(this).children('h2').css({"transform":"translate( 0px, 0px )"});
+		},
+
+		function() {
+
+			jQuery(this).children('h2').removeAttr("style");
 		}
 	);
 });
