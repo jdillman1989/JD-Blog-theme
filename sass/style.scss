@@ -522,6 +522,30 @@ strong{
 	cursor: pointer;
 }
 
+.work-thumbnail{
+	@extend %clearfix;
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 20px; 
+	background-color: #dd7450;
+	width: 45%;
+	height: 150px;
+	overflow: hidden;
+}
+
+#work-title{
+	display: block;
+	font-size: 15px;
+	font-weight: bold;
+	color: #f3f0e6; 
+	margin: 20px 0 0 0;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	padding: 0 2% 0 2%;
+	background-color: rgba( 221, 116, 80, .5);  
+}
+
 //layouts:
 
 //mobile

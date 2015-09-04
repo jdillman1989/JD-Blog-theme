@@ -4,24 +4,71 @@
 	<div class="container animate">
 
 		<div class="content">
+			
+			<div class="post-container">
 
-			<?php while ( have_posts() ) : the_post(); ?>
+				<p>Page in development (6-30-2015)</p>
 
-				<div class="post-container">
-					<h2><?php the_title(); ?></h2> 
+				<h2>Web</h2>
 
-					<div class="meta">
+				<?php query_posts('cat=15'); ?>
 
-						<p class="date"><em><?php the_date(); ?></em> | </p>
-						
-						<?php the_category(); ?>
+				<?php while ( have_posts() ) : the_post(); ?>
+
+					<?php $featuredimage = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
+
+					<div class="work-thumbnail" id="<?php echo $post->post_name; ?>-thumbnail" style="background-image: url(<?php echo $featuredimage; ?>); background-size:cover;">
+
+						<h2 id="work-title"><?php the_title(); ?></h2> 
 					</div>
 
-					<?php the_content(); ?>
-				</div>
+					<p class="work-description <?php echo $post->post_name;?>-description" style="display:none;"><?php the_content(); ?></p>
+				<?php endwhile; ?>
+				<?php wp_reset_query(); ?>
+			</div>
 
-			<?php endwhile; ?>
-			
+
+			<div class="post-container">
+
+				<h2>Illustration</h2>
+
+				<?php query_posts('cat=17'); ?>
+
+				<?php while ( have_posts() ) : the_post(); ?>
+
+					<?php $featuredimage = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
+
+					<div class="work-thumbnail" id="<?php echo $post->post_name; ?>-thumbnail" style="background-image: url(<?php echo $featuredimage; ?>); background-size:cover;">
+
+						<h2 id="work-title"><?php the_title(); ?></h2> 
+					</div>
+
+					<p class="work-description <?php echo $post->post_name;?>-description" style="display:none;"><?php the_content(); ?></p>
+				<?php endwhile; ?>
+				<?php wp_reset_query(); ?>
+			</div>
+
+
+			<div class="post-container">
+
+				<h2>Design</h2>
+
+				<?php query_posts('cat=16'); ?>
+
+				<?php while ( have_posts() ) : the_post(); ?>
+
+					<?php $featuredimage = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
+
+					<div class="work-thumbnail" id="<?php echo $post->post_name; ?>-thumbnail" style="background-image: url(<?php echo $featuredimage; ?>); background-size:cover;">
+
+						<h2 id="work-title"><?php the_title(); ?></h2> 
+					</div>
+
+					<p class="work-description <?php echo $post->post_name;?>-description" style="display:none;"><?php the_content(); ?></p>
+				<?php endwhile; ?>
+				<?php wp_reset_query(); ?>
+			</div>
+
 			<div class="full-size-work"></div>
 		</div>
 
@@ -29,7 +76,7 @@
 			<?php get_sidebar(); ?>
 		</div>
 
-		<div class="description"></div>
+		<div class="description-container"></div>
 	</div>
 </body>
 
