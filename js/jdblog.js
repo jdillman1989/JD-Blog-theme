@@ -233,8 +233,6 @@ jQuery(document).ready(function() {
 		fullSizeContainer.css({"transform":"translate( 0px, 0px )"});
 
 		descriptionContainer.css({"transform":"translate( 0px, 0px )"});
-
-		descriptionContainer.html( "" );
 	});
 });
 
