@@ -533,7 +533,6 @@ strong{
 }
 
 .exit{
-	@extend %clearfix;
 	background: url( images/exit.svg ) no-repeat center top;
 	background-size: cover;
 	background-color: #f3f0e6; 
@@ -576,7 +575,6 @@ strong{
 	}
 
 	h2{
-		@extend %clearfix;
 		color: #f3f0e6;
 		float: left;
 	}
