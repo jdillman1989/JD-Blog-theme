@@ -213,6 +213,7 @@ jQuery(document).ready(function() {
 	// Thumbnail click event
 	var fullSizeContainer = jQuery(".full-size-work");
 	var descriptionContainer = jQuery(".description-container");
+	var exit = jQuery(".exit");
 
 	workThumbnails.click(function() {
 
