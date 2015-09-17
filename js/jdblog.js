@@ -213,9 +213,19 @@ jQuery(document).ready(function() {
 	// Thumbnail click event
 	var fullSizeContainer = jQuery(".full-size-work");
 	var descriptionContainer = jQuery(".description-container");
-	var exit = jQuery(".exit");
 
 	workThumbnails.click(function() {
+
+		fullSizeContainer.css({"width":postContainer.width()});
+
+		if ( jQuery(window).width() > 676 ) {
+
+			descriptionContainer.css({"height":jQuery(window).height()});
+		}
+		else{
+
+			descriptionContainer.css({"height":"auto"});
+		};
 
 		var selected = jQuery(this);
 
@@ -233,17 +243,14 @@ jQuery(document).ready(function() {
 
 		fullSizeContainer.css({"transform":"translate( " + fullSizeTranslate + "px, 0px )"});
 
-		if ( jQuery(window).width() > 676 ) {
+		descriptionContainer.css({"transform":"translate( 0px, " + descriptionContainer.height() + "px )"});
 
-			descriptionContainer.css({"transform":"translate( 0px, " + jQuery(window).height() + "px )"});
-		}
-		else{
-
-			descriptionContainer.css({"transform":"translate( 0px, " + descriptionContainer.height() + "px )"});
-		};
+		var exit = jQuery(".exit");
 	});
 
 	exit.click(function() {
+
+		console.log("clicked "+jQuery(this));
 
 		fullSizeContainer.css({"transform":"translate( 0px, 0px )"});
 		descriptionContainer.css({"transform":"translate( 0px, 0px )"});
