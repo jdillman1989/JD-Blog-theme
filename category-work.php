@@ -22,7 +22,7 @@
 					<div class="work-description" id="<?php echo $post->post_name;?>-description" style="display:none;">
 						
 						<div class="exit"></div>
-						
+						<h2><?php the_title(); ?></h2>
 						<?php the_content(); ?>
 					</div>
 				<?php endwhile; ?>
@@ -45,7 +45,7 @@
 					<div class="work-description" id="<?php echo $post->post_name;?>-description" style="display:none;">
 						
 						<div class="exit"></div>
-						
+						<h2><?php the_title(); ?></h2>
 						<?php the_content(); ?>
 					</div>
 				<?php endwhile; ?>
@@ -68,7 +68,7 @@
 					<div class="work-description" id="<?php echo $post->post_name;?>-description" style="display:none;">
 						
 						<div class="exit"></div>
-						
+						<h2><?php the_title(); ?></h2>
 						<?php the_content(); ?>
 					</div>
 				<?php endwhile; ?>
