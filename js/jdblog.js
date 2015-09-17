@@ -215,12 +215,7 @@ jQuery(document).ready(function() {
 		};
 
 		var selected = jQuery(this);
-
-		var imgSrcRaw = selected.attr("style");
-		var imgSrcStartIndex = imgSrcRaw.indexOf("(");
-		var imgSrcEndIndex = imgSrcRaw.indexOf(")");
-		var imgSrc = imgSrcRaw.substring(imgSrcStartIndex + 1, imgSrcEndIndex);
-
+		var imgSrc = selected.attr("src"));
 		var descriptionContent = selected.next().html();
 
 		fullSizeContainer.attr( "src", imgSrc );
