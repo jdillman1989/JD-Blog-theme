@@ -551,6 +551,39 @@ strong{
 	transform: translate(0, 100%);
 }
 
+.exit{
+	background: url( images/exit.svg ) no-repeat center top;
+	background-size: cover;
+	background-color: #f3f0e6; 
+	width: 35px;
+	height: 35px;
+	-webkit-transition: background-color 0.3s ease;
+	-moz-transition: background-color 0.3s ease;
+	-o-transition: background-color 0.3s ease;
+	transition: background-color 0.3s ease;
+}
+
+.exit:hover{
+	background-color: #dd7450;
+	cursor: pointer;
+}
+
+.full-size-work{
+	position: fixed;
+	top: 0;
+	right: 100%;
+	width: 100%;
+	height: auto; 
+}
+
+.description-container{
+	background-color: #212326;
+	color: #f3f0e6;
+	position: fixed;
+	bottom: 100%;
+	right: 0;
+}
+
 //layouts:
 
 //mobile
@@ -652,6 +685,10 @@ strong{
 	width: 49.5%;
 }
 
+.description-container{
+	width: 100%; 
+}
+
 //desktop
 
 @include breakpoint(676px){
@@ -746,6 +783,10 @@ strong{
 	.grid{
 		float: left;
 		width: 17%;
+	}
+
+	.description-container{
+		width: 23.25581%; 
 	}
 }
 

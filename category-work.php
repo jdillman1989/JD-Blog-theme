@@ -22,7 +22,12 @@
 						<h2 id="work-title" class="animate"><?php the_title(); ?></h2> 
 					</div>
 
-					<div class="work-description" id="<?php echo $post->post_name;?>-description" style="display:none;"><?php the_content(); ?></div>
+					<div class="work-description" id="<?php echo $post->post_name;?>-description" style="display:none;">
+						
+						<div class="exit"></div>
+						
+						<?php the_content(); ?>
+					</div>
 				<?php endwhile; ?>
 				<?php wp_reset_query(); ?>
 			</div>
@@ -43,7 +48,12 @@
 						<h2 id="work-title" class="animate"><?php the_title(); ?></h2> 
 					</div>
 
-					<div class="work-description" id="<?php echo $post->post_name;?>-description" style="display:none;"><?php the_content(); ?></div>
+					<div class="work-description" id="<?php echo $post->post_name;?>-description" style="display:none;">
+						
+						<div class="exit"></div>
+						
+						<?php the_content(); ?>
+					</div>
 				<?php endwhile; ?>
 				<?php wp_reset_query(); ?>
 			</div>
@@ -64,12 +74,17 @@
 						<h2 id="work-title" class="animate"><?php the_title(); ?></h2> 
 					</div>
 
-					<div class="work-description" id="<?php echo $post->post_name;?>-description" style="display:none;"><?php the_content(); ?></div>
+					<div class="work-description" id="<?php echo $post->post_name;?>-description" style="display:none;">
+						
+						<div class="exit"></div>
+						
+						<?php the_content(); ?>
+					</div>
 				<?php endwhile; ?>
 				<?php wp_reset_query(); ?>
 			</div>
 
-			<div class="full-size-work"></div>
+			<img class="full-size-work" src="/wp-content/uploads/2015/09/ptf-holland.jpg">
 		</div>
 
 		<div class="aside animate">

@@ -209,6 +209,45 @@ jQuery(document).ready(function() {
 			jQuery(this).children('h2').removeAttr("style");
 		}
 	);
+
+	// Thumbnail click event
+	var fullSizeContainer = jQuery(".full-size-work");
+	var descriptionContainer = jQuery(".description-container");
+	var exit = jQuery(".exit");
+
+	workThumbnails.click(function() {
+
+		var selected = jQuery(this);
+
+		var imgSrcRaw = selected.attr("style");
+		var imgSrcStartIndex = imgSrc1.indexOf("(");
+		var imgSrcEndIndex = imgSrc1.indexOf(")");
+		var imgSrc = imgSrcRaw.substring(imgSrcStartIndex, imgSrcEndIndex);
+		var descriptionContent = selected.next().html();
+
+		fullSizeContainer.attr( "src", imgSrc );
+		descriptionContainer.html( descriptionContent );
+
+		var fullSizeTranslate = fullSizeContainer.width() + parseInt(postContainer.css("marginLeft"));
+
+		fullSizeContainer.css({"transform":"translate( " + fullSizeTranslate + "px, 0px )"});
+
+		if ( jQuery(window).width() > 676 ) {
+
+			descriptionContainer.css({"transform":"translate( 0px, " + jQuery(window).height() + "px )"});
+		}
+		else{
+
+			descriptionContainer.css({"transform":"translate( 0px, " + descriptionContainer.height() + "px )"});
+		};
+	});
+
+	exit.click(function() {
+
+		fullSizeContainer.css({"transform":"translate( 0px, 0px )"});
+		descriptionContainer.css({"transform":"translate( 0px, 0px )"});
+		descriptionContainer.html( "" );
+	});
 });
 
 
