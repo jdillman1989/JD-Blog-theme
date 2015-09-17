@@ -222,7 +222,7 @@ jQuery(document).ready(function() {
 		descriptionContainer.html( descriptionContent );
 
 		if ( jQuery(window).width() < 676 ) {
-			fullSizeContainer.css({"margin-top":descriptionContainer.height()});
+			fullSizeContainer.css({"margin-top":descriptionContainer.outerHeight()});
 		}
 
 		var fullSizeTranslate = fullSizeContainer.width() + parseInt(postContainer.css("marginLeft"));
