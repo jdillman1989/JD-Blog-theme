@@ -215,7 +215,7 @@ jQuery(document).ready(function() {
 		};
 
 		var selected = jQuery(this);
-		var imgSrc = selected.attr("src"));
+		var imgSrc = selected.attr("src");
 		var descriptionContent = selected.next().html();
 
 		fullSizeContainer.attr( "src", imgSrc );
