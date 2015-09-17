@@ -222,7 +222,8 @@ jQuery(document).ready(function() {
 		var imgSrcRaw = selected.attr("style");
 		var imgSrcStartIndex = imgSrcRaw.indexOf("(");
 		var imgSrcEndIndex = imgSrcRaw.indexOf(")");
-		var imgSrc = imgSrcRaw.substring(imgSrcStartIndex, imgSrcEndIndex);
+		var imgSrc = imgSrcRaw.substring(imgSrcStartIndex + 1, imgSrcEndIndex);
+
 		var descriptionContent = selected.next().html();
 
 		fullSizeContainer.attr( "src", imgSrc );

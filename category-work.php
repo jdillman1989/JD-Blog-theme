@@ -76,7 +76,7 @@
 
 					<div class="work-description" id="<?php echo $post->post_name;?>-description" style="display:none;">
 						
-						<div class="exit animate"></div>
+						<div class="exit"></div>
 						
 						<?php the_content(); ?>
 					</div>
@@ -84,7 +84,7 @@
 				<?php wp_reset_query(); ?>
 			</div>
 
-			<img class="full-size-work" src="/wp-content/uploads/2015/09/ptf-holland.jpg">
+			<img class="full-size-work animate" src="/wp-content/uploads/2015/09/ptf-holland.jpg">
 		</div>
 
 		<div class="aside animate">
