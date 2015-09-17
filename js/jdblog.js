@@ -212,7 +212,6 @@ jQuery(document).ready(function() {
 		else{
 
 			descriptionContainer.css({"height":"auto"});
-			fullSizeContainer.css({"margin-top":descriptionContainer.height()});
 		};
 
 		var selected = jQuery(this);
@@ -221,6 +220,10 @@ jQuery(document).ready(function() {
 
 		fullSizeContainer.attr( "src", imgSrc );
 		descriptionContainer.html( descriptionContent );
+
+		if ( jQuery(window).width() < 676 ) {
+			fullSizeContainer.css({"margin-top":descriptionContainer.height()});
+		}
 
 		var fullSizeTranslate = fullSizeContainer.width() + parseInt(postContainer.css("marginLeft"));
 
