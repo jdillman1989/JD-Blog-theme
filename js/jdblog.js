@@ -213,7 +213,6 @@ jQuery(document).ready(function() {
 	// Thumbnail click event
 	var fullSizeContainer = jQuery(".full-size-work");
 	var descriptionContainer = jQuery(".description-container");
-	var exit = jQuery(".exit");
 
 	workThumbnails.click(function() {
 
@@ -245,11 +244,9 @@ jQuery(document).ready(function() {
 		fullSizeContainer.css({"transform":"translate( " + fullSizeTranslate + "px, 0px )"});
 
 		descriptionContainer.css({"transform":"translate( 0px, " + descriptionContainer.height() + "px )"});
-
-		var exit = jQuery(".exit");
 	});
 
-	exit.click(function() {
+	descriptionContainer.on('click', '.exit', function(){
 
 		console.log("clicked "+jQuery(this));
 

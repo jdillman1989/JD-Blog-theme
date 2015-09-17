@@ -555,12 +555,14 @@ strong{
 	background: url( images/exit.svg ) no-repeat center top;
 	background-size: cover;
 	background-color: #f3f0e6; 
+	border: 2px solid #101112;
 	width: 35px;
 	height: 35px;
 	-webkit-transition: background-color 0.3s ease;
 	-moz-transition: background-color 0.3s ease;
 	-o-transition: background-color 0.3s ease;
 	transition: background-color 0.3s ease;
+	margin-bottom: 20px; 
 }
 
 .exit:hover{
@@ -582,6 +584,7 @@ strong{
 	position: fixed;
 	bottom: 100%;
 	right: 0;
+	padding: 20px;
 }
 
 //layouts:
