@@ -868,7 +868,7 @@ strong {
 
   /* line 791, sass/style.scss */
   .description-container {
-    background-image: linear-gradient(to bottom, #212326 90%, #212326);
+    background-image: linear-gradient(to bottom, #212326 90%, rgba(33, 35, 38, 0));
     width: 23.25581%;
   }
 }
