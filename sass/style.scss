@@ -578,11 +578,16 @@ strong{
 }
 
 .description-container{
+	background-color: #212326; 
 	color: #f3f0e6;
 	position: fixed;
 	bottom: 100%;
 	right: 0;
 	padding: 20px;
+	
+	a{
+		color: #dd7450;
+	}
 }
 
 //layouts:
@@ -687,7 +692,6 @@ strong{
 }
 
 .description-container{
-	background-image: #212326;
 	width: 100%; 
 }
 
@@ -788,7 +792,6 @@ strong{
 	}
 
 	.description-container{
-		background-image: linear-gradient(to bottom, rgba(33, 35, 38, 1) 90%, rgba(33, 35, 38, 0));
 		width: 23.25581%; 
 	}
 }
