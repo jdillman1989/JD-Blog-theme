@@ -248,10 +248,10 @@ jQuery(document).ready(function() {
 
 	descriptionContainer.on('click', '.exit', function(){
 
-		console.log("clicked "+jQuery(this));
-
 		fullSizeContainer.css({"transform":"translate( 0px, 0px )"});
+
 		descriptionContainer.css({"transform":"translate( 0px, 0px )"});
+		
 		descriptionContainer.html( "" );
 	});
 });

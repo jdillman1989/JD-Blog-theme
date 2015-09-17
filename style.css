@@ -655,7 +655,7 @@ strong {
   position: fixed;
   bottom: 100%;
   right: 0;
-  padding: 20px;
+  margin: 20px;
 }
 
 /* line 596, sass/style.scss */
