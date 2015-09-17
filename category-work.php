@@ -18,8 +18,6 @@
 					<?php $featuredimage = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 
 					<div class="work-thumbnail" id="<?php echo $post->post_name; ?>-thumbnail" style="background-image: url(<?php echo $featuredimage; ?>); background-size:cover;">
-
-						<h2 id="work-title" class="animate"><?php the_title(); ?></h2> 
 					</div>
 
 					<div class="work-description" id="<?php echo $post->post_name;?>-description" style="display:none;">
@@ -44,8 +42,6 @@
 					<?php $featuredimage = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 
 					<div class="work-thumbnail" id="<?php echo $post->post_name; ?>-thumbnail" style="background-image: url(<?php echo $featuredimage; ?>); background-size:cover;">
-
-						<h2 id="work-title" class="animate"><?php the_title(); ?></h2> 
 					</div>
 
 					<div class="work-description" id="<?php echo $post->post_name;?>-description" style="display:none;">
@@ -70,8 +66,6 @@
 					<?php $featuredimage = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 
 					<div class="work-thumbnail" id="<?php echo $post->post_name; ?>-thumbnail" style="background-image: url(<?php echo $featuredimage; ?>); background-size:cover;">
-
-						<h2 id="work-title" class="animate"><?php the_title(); ?></h2> 
 					</div>
 
 					<div class="work-description" id="<?php echo $post->post_name;?>-description" style="display:none;">

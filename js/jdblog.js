@@ -197,19 +197,6 @@ jQuery(document).ready(function() {
 	// Animate thumbnails on hover
 	var workThumbnails = jQuery(".work-thumbnail");
 
-	workThumbnails.hover(
-
-		function() {
-
-			jQuery(this).children('h2').css({"transform":"translate( 0px, 0px )"});
-		},
-
-		function() {
-
-			jQuery(this).children('h2').removeAttr("style");
-		}
-	);
-
 	// Thumbnail click event
 	var fullSizeContainer = jQuery(".full-size-work");
 	var descriptionContainer = jQuery(".description-container");
