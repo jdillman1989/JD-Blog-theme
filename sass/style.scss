@@ -543,7 +543,6 @@ strong{
 	-o-transition: background-color 0.3s ease;
 	transition: background-color 0.3s ease;
 	margin-bottom: 20px; 
-	float: left;
 }
 
 .exit:hover{
@@ -562,7 +561,6 @@ strong{
 }
 
 .description-container{
-	@extend %clearfix;
 	background-color: #212326; 
 	color: #f3f0e6;
 	position: fixed;
@@ -576,7 +574,6 @@ strong{
 
 	h2{
 		color: #f3f0e6;
-		float: left;
 	}
 }
 

@@ -89,7 +89,7 @@ html, body {
 
 /* clearfix placeholder selector: not complied to CSS unless used with @extend %clearfix; */
 /* line 41, sass/style.scss */
-.container:after, .content:after, .aside:after, .post-container:after, .alignleft:after, .aligncenter:after, .alignright:after, .meta:after, .contact-jesse:after, .field:after, .email-message:after, .img-box:after, .header:after, .sidebar:after, .social:after, .controls:after, .description-container:after {
+.container:after, .content:after, .aside:after, .post-container:after, .alignleft:after, .aligncenter:after, .alignright:after, .meta:after, .contact-jesse:after, .field:after, .email-message:after, .img-box:after, .header:after, .sidebar:after, .social:after, .controls:after {
   content: "";
   display: table;
   clear: both;
@@ -611,16 +611,15 @@ strong {
   -o-transition: background-color 0.3s ease;
   transition: background-color 0.3s ease;
   margin-bottom: 20px;
-  float: left;
 }
 
-/* line 549, sass/style.scss */
+/* line 548, sass/style.scss */
 .exit:hover {
   background-color: #dd7450;
   cursor: pointer;
 }
 
-/* line 554, sass/style.scss */
+/* line 553, sass/style.scss */
 .full-size-work {
   position: fixed;
   top: 0;
@@ -631,7 +630,7 @@ strong {
   border: 3px solid #f3f0e6;
 }
 
-/* line 564, sass/style.scss */
+/* line 563, sass/style.scss */
 .description-container {
   background-color: #212326;
   color: #f3f0e6;
@@ -640,17 +639,16 @@ strong {
   right: 0;
   padding: 20px;
 }
-/* line 573, sass/style.scss */
+/* line 571, sass/style.scss */
 .description-container a {
   color: #dd7450;
 }
-/* line 577, sass/style.scss */
+/* line 575, sass/style.scss */
 .description-container h2 {
   color: #f3f0e6;
-  float: left;
 }
 
-/* line 589, sass/style.scss */
+/* line 586, sass/style.scss */
 .content {
   width: 100%;
   float: left;
@@ -659,14 +657,14 @@ strong {
   margin-top: 90px;
 }
 
-/* line 594, sass/style.scss */
+/* line 591, sass/style.scss */
 .aside {
   background-color: none;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
 
-/* line 600, sass/style.scss */
+/* line 597, sass/style.scss */
 .header {
   position: fixed;
   top: 0px;
@@ -676,39 +674,39 @@ strong {
   margin-right: 0;
 }
 
-/* line 606, sass/style.scss */
+/* line 603, sass/style.scss */
 .sidebar {
   position: fixed;
   top: 0px;
   right: 0px;
 }
 
-/* line 612, sass/style.scss */
+/* line 609, sass/style.scss */
 .logo {
   width: 23.07692%;
   float: left;
   margin-right: 2.5641%;
   padding: 10px;
 }
-/* line 616, sass/style.scss */
+/* line 613, sass/style.scss */
 .logo a {
   width: 100%;
   height: 65px;
 }
 
-/* line 622, sass/style.scss */
+/* line 619, sass/style.scss */
 .name {
   width: 48.71795%;
   float: left;
   margin-right: 2.5641%;
   margin-top: 28px;
 }
-/* line 626, sass/style.scss */
+/* line 623, sass/style.scss */
 .name h1 {
   font-size: 20px;
 }
 
-/* line 631, sass/style.scss */
+/* line 628, sass/style.scss */
 .mobile-nav {
   width: 23.07692%;
   float: right;
@@ -717,34 +715,34 @@ strong {
   margin-top: 28px;
 }
 
-/* line 637, sass/style.scss */
+/* line 634, sass/style.scss */
 #mobile-collapse {
   display: block;
 }
 
-/* line 653, sass/style.scss */
+/* line 650, sass/style.scss */
 .controls {
   position: static;
 }
 
-/* line 657, sass/style.scss */
+/* line 654, sass/style.scss */
 .alignleft {
   float: none;
   margin-right: 0;
 }
 
-/* line 662, sass/style.scss */
+/* line 659, sass/style.scss */
 .aligncenter {
   margin: 0;
 }
 
-/* line 666, sass/style.scss */
+/* line 663, sass/style.scss */
 .alignright {
   float: none;
   margin-left: 0;
 }
 
-/* line 671, sass/style.scss */
+/* line 668, sass/style.scss */
 .grid-head {
   float: left;
   width: 100%;
@@ -753,19 +751,19 @@ strong {
   height: auto;
 }
 
-/* line 679, sass/style.scss */
+/* line 676, sass/style.scss */
 .grid {
   float: left;
   width: 49.5%;
 }
 
-/* line 684, sass/style.scss */
+/* line 681, sass/style.scss */
 .description-container {
   width: 100%;
 }
 
 @media (min-width: 676px) {
-  /* line 694, sass/style.scss */
+  /* line 691, sass/style.scss */
   .content {
     width: 74.57627%;
     float: left;
@@ -773,7 +771,7 @@ strong {
     margin-top: 0px;
   }
 
-  /* line 699, sass/style.scss */
+  /* line 696, sass/style.scss */
   .aside {
     width: 23.72881%;
     float: right;
@@ -784,13 +782,13 @@ strong {
     margin-bottom: -99999px;
   }
 
-  /* line 707, sass/style.scss */
+  /* line 704, sass/style.scss */
   .header {
     position: relative;
     float: none;
   }
 
-  /* line 712, sass/style.scss */
+  /* line 709, sass/style.scss */
   .sidebar {
     position: relative;
     -webkit-transform: translate(0, 0);
@@ -800,21 +798,21 @@ strong {
     transform: translate(0, 0);
   }
 
-  /* line 721, sass/style.scss */
+  /* line 718, sass/style.scss */
   .logo {
     float: none;
     width: 100%;
     margin-bottom: 20px;
     padding: 0;
   }
-  /* line 727, sass/style.scss */
+  /* line 724, sass/style.scss */
   .logo a {
     width: 200px;
     height: 200px;
     margin: 0 auto;
   }
 
-  /* line 734, sass/style.scss */
+  /* line 731, sass/style.scss */
   .name {
     float: none;
     width: 100%;
@@ -822,28 +820,28 @@ strong {
     line-height: 1.1;
     margin-top: 0px;
   }
-  /* line 741, sass/style.scss */
+  /* line 738, sass/style.scss */
   .name h1 {
     font-size: 32px;
   }
 
-  /* line 746, sass/style.scss */
+  /* line 743, sass/style.scss */
   .mobile-nav {
     display: none;
   }
 
-  /* line 750, sass/style.scss */
+  /* line 747, sass/style.scss */
   #mobile-collapse {
     display: none;
   }
 
-  /* line 766, sass/style.scss */
+  /* line 763, sass/style.scss */
   .controls {
     padding-top: 15px;
     padding-left: 12%;
   }
 
-  /* line 771, sass/style.scss */
+  /* line 768, sass/style.scss */
   .grid-head {
     float: left;
     width: 30%;
@@ -852,13 +850,13 @@ strong {
     height: 100%;
   }
 
-  /* line 779, sass/style.scss */
+  /* line 776, sass/style.scss */
   .grid {
     float: left;
     width: 17%;
   }
 
-  /* line 784, sass/style.scss */
+  /* line 781, sass/style.scss */
   .description-container {
     width: 23.25581%;
   }
