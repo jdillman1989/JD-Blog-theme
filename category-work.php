@@ -76,7 +76,7 @@
 
 					<div class="work-description" id="<?php echo $post->post_name;?>-description" style="display:none;">
 						
-						<div class="exit"></div>
+						<div class="exit animate"></div>
 						
 						<?php the_content(); ?>
 					</div>
@@ -91,7 +91,7 @@
 			<?php get_sidebar(); ?>
 		</div>
 
-		<div class="description-container"></div>
+		<div class="description-container animate"></div>
 	</div>
 </body>
 

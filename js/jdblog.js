@@ -220,8 +220,8 @@ jQuery(document).ready(function() {
 		var selected = jQuery(this);
 
 		var imgSrcRaw = selected.attr("style");
-		var imgSrcStartIndex = imgSrc1.indexOf("(");
-		var imgSrcEndIndex = imgSrc1.indexOf(")");
+		var imgSrcStartIndex = imgSrcRaw.indexOf("(");
+		var imgSrcEndIndex = imgSrcRaw.indexOf(")");
 		var imgSrc = imgSrcRaw.substring(imgSrcStartIndex, imgSrcEndIndex);
 		var descriptionContent = selected.next().html();
 
