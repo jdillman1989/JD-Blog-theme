@@ -212,6 +212,7 @@ jQuery(document).ready(function() {
 		else{
 
 			descriptionContainer.css({"height":"auto"});
+			fullSizeContainer.css({"margin-top":descriptionContainer.height()});
 		};
 
 		var selected = jQuery(this);
