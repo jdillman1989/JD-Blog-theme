@@ -25,14 +25,6 @@
 				<h1>Posts for category: <?php single_cat_title(); ?></h1>
 			</div>
 
-			<?php
-			// set the "paged" parameter (use 'page' if the query is on a static front page)
-			$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
-
-			// the query
-			query_posts('&paged=' . $paged);
-			?>
-
 			<?php while ( have_posts() ) : the_post(); ?>
 			<div class="post-container">
 				<a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2></a>
