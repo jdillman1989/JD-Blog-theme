@@ -21,14 +21,11 @@
 
 			<!--Start the Loop.-->
 			<?php
-			// exclude portfolio posts
-			query_posts('cat=-14');
-
 			// set the "paged" parameter (use 'page' if the query is on a static front page)
 			$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 
 			// the query
-			$the_query = new WP_Query( '&paged=' . $paged ); 
+			$the_query = new WP_Query( 'cat=-14&paged=' . $paged ); 
 			?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
