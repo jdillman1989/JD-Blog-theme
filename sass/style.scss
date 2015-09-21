@@ -162,7 +162,6 @@ strong{
 .alignleft{
 	@extend %clearfix;
 	float: left;
-	margin-right: 10px; 
 }
 
 .aligncenter{
@@ -173,7 +172,6 @@ strong{
 .alignright{
 	@extend %clearfix;
 	float: right;
-	margin-left: 10px; 
 }
 
 .meta{
@@ -618,11 +616,6 @@ strong{
 	}
 }
 
-.alignleft{
-	@extend %clearfix;
-	float: left;
-}
-
 .size-full{
 	width: 45%;
 	margin-right: 2%;
@@ -702,20 +695,6 @@ strong{
 
 .controls{
 	position: static;
-}
-
-.alignleft{
-	float: none;
-	margin-right: 0; 
-}
-
-.aligncenter{
-	margin: 0; 
-}
-
-.alignright{
-	float: none;
-	margin-left: 0; 
 }
 
 .grid-head{
