@@ -618,6 +618,18 @@ strong{
 	}
 }
 
+.alignleft{
+	@extend %clearfix;
+	float: left;
+}
+
+.size-full{
+	width: 45%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	height: auto;   
+}
+
 //layouts:
 
 //mobile
