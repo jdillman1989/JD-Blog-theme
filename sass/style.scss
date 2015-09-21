@@ -462,17 +462,12 @@ strong{
 	cursor: pointer;
 }
 
-
-
-
-
-
 .search-404{
 	
 	form {
 		padding: 0;
-		margin: 0 auto;
 		width: 75%;
+		max-width: 500px; 
 		background-color: $navy;
 	}
 
@@ -491,6 +486,7 @@ strong{
 	.search-submit{
 		float: left;
 		width: 18%;
+		max-width: 36px; 
 		height: 34px;
 		margin: 0;
 		padding: 0;
@@ -499,14 +495,6 @@ strong{
 		cursor: pointer;
 	}
 }
-
-
-
-
-
-
-
-
 
 .nav{
 		
