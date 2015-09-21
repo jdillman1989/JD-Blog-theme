@@ -30,7 +30,7 @@
 			$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 
 			// the query
-			query_posts('cat=-14&posts_per_page='.get_option('posts_per_page').'&paged=' . $paged);
+			query_posts('&paged=' . $paged);
 			?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
