@@ -30,7 +30,7 @@
 			$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 
 			// the query
-			$the_query = new WP_Query( '&paged=' . $paged ); 
+			query_posts('posts_per_page='.get_option('posts_per_page').'&paged=' . $paged);
 			?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
