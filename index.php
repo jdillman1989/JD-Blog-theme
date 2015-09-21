@@ -28,7 +28,7 @@
 			$the_query = new WP_Query( '&paged=' . $paged ); 
 
 			// exclude portfolio posts
-			query_posts('cat=-14');
+			// query_posts('cat=-14');
 			?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
