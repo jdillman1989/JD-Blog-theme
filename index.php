@@ -24,8 +24,8 @@
 			// set the "paged" parameter (use 'page' if the query is on a static front page)
 			$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 
-			// the query
-			$the_query = new WP_Query( 'cat=-14&paged=' . $paged ); 
+			// exclude portfolio posts
+			query_posts('cat=-14&posts_per_page='.get_option('posts_per_page').'&paged=' . $paged);
 			?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
