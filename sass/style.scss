@@ -53,6 +53,12 @@ html, body {
 
 // base styles
 
+$dark-navy: #101112;
+$tan: #f3f0e6;
+$red: #dd7450;
+$navy: #212326;
+$gray: #797979;
+
 html {
 	-webkit-font-smoothing: antialiased;
 }
@@ -123,13 +129,13 @@ strong{
 .container{
 	@include container(100%);
 	@extend %clearfix;
-	background-color: #f3f0e6;
+	background-color: $tan;
 	overflow: hidden;
 }
 
 .nightmode{
-	background-color: #101112;
-	color: #f3f0e6; 
+	background-color: $dark-navy;
+	color: $tan; 
 }
 
 .content{
@@ -138,7 +144,7 @@ strong{
 
 .aside{
 	@extend %clearfix;
-	color: #f3f0e6;
+	color: $tan;
 }
 
 .post-container{
@@ -148,7 +154,7 @@ strong{
 	width: 85%;
 	
 	a{
-		color: #dd7450;
+		color: $red;
 		text-decoration: underline;
 	}
 }
@@ -176,7 +182,7 @@ strong{
 }
 
 .date{
-	color: #797979;
+	color: $gray;
 	margin-bottom: 0;
 	float: left;
 }
@@ -188,14 +194,14 @@ strong{
 		float: left;
 		padding: 5px 7px;
 		margin: 0 5px; 
-		background-color: #212326;
+		background-color: $navy;
 		
 		a{
 			display: block;
 			font-family: 'Montserrat', sans-serif;
 			font-size: 10px;
 			font-weight: 700;
-			color: #f3f0e6;
+			color: $tan;
 			text-transform: uppercase;
 			text-decoration: none;
 			margin: 0;
@@ -215,7 +221,7 @@ strong{
 	bottom: 0px;
 	width: 100%;
 	z-index: 300; 
-	background-color: #f3f0e6;
+	background-color: $tan;
 }
 
 #ajax-contact{
@@ -239,8 +245,8 @@ strong{
 
 	button{
 		width: 100%;
-		background-color: #212326;
-		color: #f3f0e6;
+		background-color: $navy;
+		color: $tan;
 		padding: 8px; 
 		border: 0px; 
 		-webkit-border-radius: 0; 
@@ -264,8 +270,8 @@ strong{
 }
 
 #form-messages{
-	background-color: #dd7450;
-	color: #f3f0e6;
+	background-color: $red;
+	color: $tan;
 	text-align: center;  
 	width: 99%;
 	height: 70px; 
@@ -284,7 +290,7 @@ strong{
 	@extend %clearfix;
 	float: left;
 	margin-right: 2%;
-	background-color: #dd7450; 
+	background-color: $red; 
 }
 
 .paged{
@@ -293,14 +299,14 @@ strong{
 		font-family: 'Montserrat', sans-serif;
 		font-size: 14px;
 		font-weight: 700;
-		background-color: #212326;
-		color: #f3f0e6;
+		background-color: $navy;
+		color: $tan;
 		text-transform: uppercase;
 		text-decoration: none;
 		padding: 6px;
 		
 		&:hover{
-			background-color: #dd7450;
+			background-color: $red;
 		}
 	}
 }
@@ -315,12 +321,12 @@ strong{
 
 .header{
 	@extend %clearfix;
-	background-color: #212326;
+	background-color: $navy;
 }
 
 .sidebar{
 	@extend %clearfix;
-	background-color: #212326;
+	background-color: $navy;
 	padding-top: 17px;
 }
 
@@ -376,28 +382,28 @@ strong{
 }
 
 #mobile-collapse{
-	background: #101112 url( images/collapse.svg ) no-repeat center top;
+	background: $dark-navy url( images/collapse.svg ) no-repeat center top;
 	width: 30px;
 	height: 30px;
-	border: 5px solid #101112;
+	border: 5px solid $dark-navy;
 	cursor: pointer;
 }
 
 .social a[href*="twitter.com"]{
 	background: url( images/twitter.svg ) no-repeat center top;
-	background-color: #f3f0e6; 
+	background-color: $tan; 
 	background-size: cover;
 }
 
 .social a[href*="github.com"]{
 	background: url( images/github.svg ) no-repeat center top;
-	background-color: #f3f0e6; 
+	background-color: $tan; 
 	background-size: cover;
 }
 
 .social a[href*="linkedin.com"]{
 	background: url( images/linkedin.svg ) no-repeat center top;
-	background-color: #f3f0e6; 
+	background-color: $tan; 
 	background-size: cover;
 }
 
@@ -414,7 +420,7 @@ strong{
 }
 
 .social a:hover{
-	background-color: #dd7450;
+	background-color: $red;
 	-webkit-transform: translate(0, -5px); 
 	-moz-transform: translate(0, -5px); 
 	-ms-transform: translate(0, -5px); 
@@ -430,18 +436,18 @@ strong{
 		padding: 0;
 		margin: 0 auto;
 		width: 75%;
-		background-color: #f3f0e6;
+		background-color: $tan;
 	}
 }
 
 #s{
 	float: left;
-	background-color: #f3f0e6; 
+	background-color: $tan; 
 	margin: 0;
 	padding: 0 10px;
 	font-size: 17px;
 	height: 34px;
-	border: 0px solid #f3f0e6;
+	border: 0px solid $tan;
 	width: 80%;
 }
 
@@ -451,10 +457,56 @@ strong{
 	height: 34px;
 	margin: 0;
 	padding: 0;
-	border: 5px solid #f3f0e6;
-	background: #f3f0e6 url(images/search.svg) no-repeat right center;
+	border: 5px solid $tan;
+	background: $tan url(images/search.svg) no-repeat right center;
 	cursor: pointer;
 }
+
+
+
+
+
+
+.search-404{
+	
+	form {
+		padding: 0;
+		margin: 0 auto;
+		width: 75%;
+		background-color: $navy;
+	}
+
+	#s{
+		float: left;
+		background-color: $navy; 
+		color: $tan; 
+		margin: 0;
+		padding: 0 10px;
+		font-size: 17px;
+		height: 34px;
+		border: 0px solid $navy;
+		width: 80%;
+	}
+
+	.search-submit{
+		float: left;
+		width: 18%;
+		height: 34px;
+		margin: 0;
+		padding: 0;
+		border: 5px solid $navy;
+		background: $navy url(images/search404.svg) no-repeat right center;
+		cursor: pointer;
+	}
+}
+
+
+
+
+
+
+
+
 
 .nav{
 		
@@ -468,7 +520,7 @@ strong{
 				font-family: 'Montserrat', sans-serif;
 				font-size: 25px;
 				font-weight: 700;
-				color: #f3f0e6;
+				color: $tan;
 				text-transform: uppercase;
 				display: block;
 				width: 100%;
@@ -477,7 +529,7 @@ strong{
 			}
 
 			a:hover{
-				background-color: #101112; 
+				background-color: $dark-navy; 
 			}
 		}
 	}
@@ -490,7 +542,7 @@ strong{
 #nightmode{
 	background: url( images/nightmode.svg ) no-repeat center top;
 	background-size: cover;
-	background-color: #f3f0e6; 
+	background-color: $tan; 
 	width: 35px;
 	height: 35px;
 	-webkit-transition: background-color 0.3s ease;
@@ -500,14 +552,14 @@ strong{
 }
 
 #nightmode:hover{
-	background-color: #dd7450;
+	background-color: $red;
 	cursor: pointer;
 }
 
 #daymode{
 	background: url( images/daymode.svg ) no-repeat center top;
 	background-size: cover;
-	background-color: #f3f0e6; 
+	background-color: $tan; 
 	width: 35px;
 	height: 35px;
 	-webkit-transition: background-color 0.3s ease;
@@ -518,7 +570,7 @@ strong{
 }
 
 #daymode:hover{
-	background-color: #dd7450;
+	background-color: $red;
 	cursor: pointer;
 }
 
@@ -526,7 +578,7 @@ strong{
 	float: left;
 	margin-right: 2%;
 	margin-bottom: 2%; 
-	background-color: #dd7450;
+	background-color: $red;
 	width: 45%;
 	height: auto;
 	cursor: pointer;
@@ -535,7 +587,7 @@ strong{
 .exit{
 	background: url( images/exit.svg ) no-repeat center top;
 	background-size: cover;
-	background-color: #f3f0e6; 
+	background-color: $tan; 
 	width: 35px;
 	height: 35px;
 	-webkit-transition: background-color 0.3s ease;
@@ -546,7 +598,7 @@ strong{
 }
 
 .exit:hover{
-	background-color: #dd7450;
+	background-color: $red;
 	cursor: pointer;
 }
 
@@ -557,23 +609,23 @@ strong{
 	width: 100%;
 	height: auto; 
 	margin-top: 20px; 
-	border: 7px solid #f3f0e6;
+	border: 7px solid $tan;
 }
 
 .description-container{
-	background-color: #212326; 
-	color: #f3f0e6;
+	background-color: $navy; 
+	color: $tan;
 	position: fixed;
 	bottom: 100%;
 	right: 0;
 	padding: 20px;
 	
 	a{
-		color: #dd7450;
+		color: $red;
 	}
 
 	h2{
-		color: #f3f0e6;
+		color: $tan;
 		margin-bottom: 10px;
 	}
 }
@@ -669,7 +721,7 @@ strong{
 .grid-head{
 	float: left;
 	width: 100%;
-	border-bottom: 2px solid #dd7450;
+	border-bottom: 2px solid $red;
 	border-right: none;
 	height: auto; 
 }
@@ -696,7 +748,7 @@ strong{
 
 	.aside{
 		@include span(3 at 10 last);
-		background-color: #212326;
+		background-color: $navy;
 		padding-top: 20px;
 		padding-bottom: 99999px; 
 		margin-bottom: -99999px; 
@@ -769,7 +821,7 @@ strong{
 	.grid-head{
 		float: left;
 		width: 30%;
-		border-right: 2px solid #dd7450;
+		border-right: 2px solid $red;
 		border-bottom: none;
 		height: 100%;
 	}
