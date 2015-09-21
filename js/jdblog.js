@@ -112,35 +112,6 @@ jQuery(document).ready(function() {
 		};
 	}
 
-	// Responsive photo grid
-
-	var imgBox = jQuery(".img-box");
-	var postContainer = jQuery(".post-container");
-
-	function updateCrop() {
-
-		var postContainerWidth = postContainer.width();
-
-		var imgBoxSizing = (postContainerWidth / 2) - (postContainerWidth / 25);
-
-		jQuery(imgBox).each(function () {
-
-			var imgBoxMargin = parseInt(jQuery(this).css('marginRight'));
-
-			jQuery(this).css({
-				'width': imgBoxSizing,
-				'height': imgBoxSizing,
-				'margin-bottom': imgBoxMargin
-			});
-		});
-	}
-
-	updateCrop();
-
-	jQuery(window).resize(function(){
-		updateCrop();
-	});
-
 	// Contact form
 
 	// Get the form.

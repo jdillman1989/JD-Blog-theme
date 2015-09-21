@@ -284,13 +284,6 @@ strong{
 	transform: translate(0, 0); 
 }
 
-.img-box{
-	@extend %clearfix;
-	float: left;
-	margin-right: 2%;
-	background-color: $red; 
-}
-
 .paged{
 
 	a{
@@ -617,7 +610,7 @@ strong{
 }
 
 .size-full{
-	width: 45%;
+	width: 47%;
 	margin-right: 2%;
 	margin-bottom: 2%;
 	height: auto;   
@@ -681,33 +674,8 @@ strong{
 	display: block;
 }
 
-.social{
-
-}
-
-.search{
-	
-}
-
-.nav{
-	
-}
-
 .controls{
 	position: static;
-}
-
-.grid-head{
-	float: left;
-	width: 100%;
-	border-bottom: 2px solid $red;
-	border-right: none;
-	height: auto; 
-}
-
-.grid{
-	float: left;
-	width: 49.5%;
 }
 
 .description-container{
@@ -780,34 +748,9 @@ strong{
 		display: none;
 	}
 
-	.social{
-
-	}
-
-	.search{
-		
-	}
-
-	.nav{
-		
-	}
-
 	.controls{
 		padding-top: 15px; 
 		padding-left: 12%; 
-	}
-
-	.grid-head{
-		float: left;
-		width: 30%;
-		border-right: 2px solid $red;
-		border-bottom: none;
-		height: 100%;
-	}
-
-	.grid{
-		float: left;
-		width: 17%;
 	}
 
 	.description-container{
