@@ -2,6 +2,8 @@ jQuery(document).ready(function() {
 
 	// sticky sidebar
 
+	var postContainer = jQuery(".post-container");
+
 	var aside = jQuery(".aside");
 	var sidebar = jQuery(".sidebar");
 	var content = jQuery(".content");
