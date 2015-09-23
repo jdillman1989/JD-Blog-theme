@@ -35,13 +35,23 @@ jQuery(document).ready(function() {
 		});
 	};
 
-	// // full height content
+	// full height content
 
-	// var container = jQuery(".container");
+	var container = jQuery(".container");
 
-	// if ( container.height() < jQuery(window).height() ) {
-	// 	container.css({"height":"100%"});
-	// };
+	function fullHeightContent () {
+
+		console.log("Ran fullHeightContent");
+
+		if ( container.height() < jQuery(window).height() ) {
+
+			container.css({"height":"100%"});
+		};
+	}
+
+	fullHeightContent();
+
+	setTimeout(fullHeightContent, 5000);
 
 	// mobile nav
 
