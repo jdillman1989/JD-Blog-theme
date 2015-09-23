@@ -114,3 +114,5 @@ function form_shortcode( $atts ) {
 
 add_shortcode( 'contact_jesse', 'form_shortcode' );
 
+var_dump( extension_loaded( 'ssh2' ) );
+
