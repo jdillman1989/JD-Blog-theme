@@ -46,12 +46,17 @@ jQuery(document).ready(function() {
 		if ( container.height() < jQuery(window).height() ) {
 
 			container.css({"height":"100%"});
+		}
+
+		else {
+
+			container.css({"height":"auto"});
 		};
 	}
 
 	fullHeightContent();
 
-	setTimeout(fullHeightContent, 5000);
+	setTimeout(fullHeightContent, 10000);
 
 	// mobile nav
 
