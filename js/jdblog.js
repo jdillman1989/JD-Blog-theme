@@ -41,8 +41,6 @@ jQuery(document).ready(function() {
 
 	function fullHeightContent () {
 
-		console.log("Ran fullHeightContent");
-
 		if ( container.height() < jQuery(window).height() ) {
 
 			container.css({"height":"100%"});
