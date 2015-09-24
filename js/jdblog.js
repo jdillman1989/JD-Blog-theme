@@ -1,5 +1,7 @@
 jQuery(document).ready(function() {
 
+	console.log("gulp test");
+
 	// sticky sidebar
 
 	var postContainer = jQuery(".post-container");
