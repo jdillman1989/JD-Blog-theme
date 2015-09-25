@@ -11,3 +11,4 @@ Requires:
 -NPM
 --Gulp
 ---Gulp Uglify
+---Gulp Uglify CSS
