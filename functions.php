@@ -31,7 +31,7 @@ function theme_scripts() {
 	wp_enqueue_style( 'JDBlog-style', get_stylesheet_uri() );
 
 	// Load theme js
-	wp_enqueue_script( 'JDBlog-script', get_template_directory_uri() . '/js/jdblog.js', array( 'jquery' ), false, true );
+	wp_enqueue_script( 'JDBlog-script', get_template_directory_uri() . '/js/min/jdblog.js', array( 'jquery' ), false, true );
 }
 add_action( 'wp_enqueue_scripts', 'theme_scripts' );
 

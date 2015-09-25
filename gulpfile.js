@@ -1,6 +1,8 @@
-var gulp = require('gulp'),
+var gulp = require('gulp');
 
-	uglify = require('gulp-uglify');
+var uglify = require('gulp-uglify');
+
+var uglifycss = require('gulp-uglifycss');
 
 gulp.task('default', function () {
 
@@ -9,4 +11,10 @@ gulp.task('default', function () {
 	.pipe(uglify())
 
 	.pipe(gulp.dest('js/min'));
+
+	gulp.src('./sass/*.css')
+
+	.pipe(uglifycss())
+
+	.pipe(gulp.dest('./'));
 });
