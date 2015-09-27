@@ -49,7 +49,7 @@ jQuery(document).ready(function() {
 
 		else if ( container.height() == jQuery(window).height() ){
 
-			container.css({"height":"auto"});
+			container.css({"height":"100%"});
 			console.log("=");
 		}
 
