@@ -221,8 +221,12 @@ jQuery(document).ready(function() {
 		};
 	}
 
-	if ( !workThumbnails.length() ) {
-			fullHeightContent();
+	if ( workThumbnails.length() ) {
+	}
+
+	else{
+		
+		fullHeightContent();
 	};
 });
 
