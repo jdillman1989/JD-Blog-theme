@@ -221,13 +221,10 @@ jQuery(document).ready(function() {
 		};
 	}
 
-	if ( workThumbnails.length() ) {
-	}
+	if ( !workThumbnails.length ) {
 
-	else{
-		
 		fullHeightContent();
-	};
+	}
 });
 
 
