@@ -7,8 +7,6 @@
 			
 			<div class="post-container">
 
-				<p>Page in development (last updated 9-4-2015)</p>
-
 				<h2>Web</h2>
 
 				<?php query_posts('cat=15'); ?>
