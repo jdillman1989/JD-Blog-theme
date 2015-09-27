@@ -1,7 +1,5 @@
 jQuery(document).ready(function() {
 
-	console.log("gulp test");
-
 	// sticky sidebar
 
 	var postContainer = jQuery(".post-container");
@@ -27,7 +25,7 @@ jQuery(document).ready(function() {
 
 				// Check if window is smaller than sidebar
 				if( jQuery(window).height() < sidebarHeight ) {
-					console.log(" small screen ");
+					// console.log(" small screen ");
 				}
 			} 
 			else {
@@ -48,6 +46,11 @@ jQuery(document).ready(function() {
 			container.css({"height":"100%"});
 		}
 
+		else if ( container.height() == jQuery(window).height() ){
+
+			container.css({"height":"auto"});
+		}
+
 		else {
 
 			container.css({"height":"auto"});
@@ -55,6 +58,8 @@ jQuery(document).ready(function() {
 	}
 
 	fullHeightContent();
+
+	console.log("Container Height: " + container.outerHeight() + "Window Height: " + window.height());
 
 	setTimeout(fullHeightContent, 10000);
 
