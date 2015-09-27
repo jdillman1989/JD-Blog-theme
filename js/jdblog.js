@@ -59,7 +59,7 @@ jQuery(document).ready(function() {
 
 	fullHeightContent();
 
-	console.log("Container Height: " + container.outerHeight() + "Window Height: " + window.height());
+	console.log("Container Height: " + container.height() + "Window Height: " + jQuery(window).height());
 
 	setTimeout(fullHeightContent, 10000);
 
