@@ -35,37 +35,6 @@ jQuery(document).ready(function() {
 		});
 	};
 
-	// full height content
-
-	var container = jQuery(".container");
-
-	function fullHeightContent () {
-
-		if ( container.height() < jQuery(window).height() ) {
-
-			container.css({"height":"100%"});
-			console.log("<");
-		}
-
-		else if ( container.height() == jQuery(window).height() ){
-
-			container.css({"height":"100%"});
-			console.log("=");
-		}
-
-		else {
-
-			container.css({"height":"auto"});
-			console.log(">");
-		};
-
-		console.log("Container Height: " + container.height() + ", Window Height: " + jQuery(window).height());
-	}
-
-	fullHeightContent();
-
-	setTimeout(fullHeightContent, 10000);
-
 	// mobile nav
 
 	var mobileNav = jQuery(".mobile-nav");
@@ -234,6 +203,27 @@ jQuery(document).ready(function() {
 
 		descriptionContainer.css({"transform":"translate( 0px, 0px )"});
 	});
+
+	// full height content
+
+	var container = jQuery(".container");
+
+	function fullHeightContent () {
+
+		if ( container.height() < jQuery(window).height() ) {
+
+			container.css({"height":"100%"});
+		}
+
+		else {
+
+			container.css({"height":"auto"});
+		};
+	}
+
+	if ( !workThumbnails.length() ) {
+			fullHeightContent();
+	};
 });
 
 
