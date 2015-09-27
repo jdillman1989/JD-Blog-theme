@@ -44,22 +44,25 @@ jQuery(document).ready(function() {
 		if ( container.height() < jQuery(window).height() ) {
 
 			container.css({"height":"100%"});
+			console.log("<");
 		}
 
 		else if ( container.height() == jQuery(window).height() ){
 
 			container.css({"height":"auto"});
+			console.log("=");
 		}
 
 		else {
 
 			container.css({"height":"auto"});
+			console.log(">");
 		};
+
+		console.log("Container Height: " + container.height() + ", Window Height: " + jQuery(window).height());
 	}
 
 	fullHeightContent();
-
-	console.log("Container Height: " + container.height() + "Window Height: " + jQuery(window).height());
 
 	setTimeout(fullHeightContent, 10000);
 
