@@ -382,19 +382,19 @@ strong{
 
 .social a[href*="twitter.com"]{
 	background: url( images/twitter.svg ) no-repeat center top;
-	background-color: $tan; 
+	background-color: $navy; 
 	background-size: cover;
 }
 
 .social a[href*="github.com"]{
 	background: url( images/github.svg ) no-repeat center top;
-	background-color: $tan; 
+	background-color: $navy; 
 	background-size: cover;
 }
 
 .social a[href*="linkedin.com"]{
 	background: url( images/linkedin.svg ) no-repeat center top;
-	background-color: $tan; 
+	background-color: $navy; 
 	background-size: cover;
 }
 
@@ -411,7 +411,6 @@ strong{
 }
 
 .social a:hover{
-	background-color: $red;
 	-webkit-transform: translate(0, -5px); 
 	-moz-transform: translate(0, -5px); 
 	-ms-transform: translate(0, -5px); 
