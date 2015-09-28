@@ -441,21 +441,21 @@ strong {
 .social a[href*="twitter.com"] {
   background: url(images/twitter.svg) no-repeat center top;
   background-color: #212326;
-  background-size: cover;
+  background-size: contain;
 }
 
 /* line 389, style.scss */
 .social a[href*="github.com"] {
   background: url(images/github.svg) no-repeat center top;
   background-color: #212326;
-  background-size: cover;
+  background-size: contain;
 }
 
 /* line 395, style.scss */
 .social a[href*="linkedin.com"] {
   background: url(images/linkedin.svg) no-repeat center top;
   background-color: #212326;
-  background-size: cover;
+  background-size: contain;
 }
 
 /* line 401, style.scss */
