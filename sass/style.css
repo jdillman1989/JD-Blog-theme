@@ -214,32 +214,35 @@ strong {
 
 /* line 162, style.scss */
 .alignleft {
+  width: 47%;
   float: left;
 }
 
-/* line 167, style.scss */
+/* line 168, style.scss */
 .aligncenter {
+  width: 100%;
   margin: 0 auto;
 }
 
-/* line 172, style.scss */
+/* line 174, style.scss */
 .alignright {
+  width: 47%;
   float: right;
 }
 
-/* line 177, style.scss */
+/* line 180, style.scss */
 .meta {
   margin: 10px 0;
 }
 
-/* line 182, style.scss */
+/* line 185, style.scss */
 .date {
   color: #797979;
   margin-bottom: 0;
   float: left;
 }
 
-/* line 190, style.scss */
+/* line 193, style.scss */
 .post-categories li {
   list-style: none;
   float: left;
@@ -247,7 +250,7 @@ strong {
   margin: 0 5px;
   background-color: #212326;
 }
-/* line 197, style.scss */
+/* line 200, style.scss */
 .post-categories li a {
   display: block;
   font-family: 'Montserrat', sans-serif;
@@ -259,14 +262,14 @@ strong {
   margin: 0;
 }
 
-/* line 210, style.scss */
+/* line 213, style.scss */
 .form-container {
   position: relative;
   width: 100%;
   height: 150px;
 }
 
-/* line 216, style.scss */
+/* line 219, style.scss */
 .contact-jesse {
   position: absolute;
   bottom: 0px;
@@ -275,18 +278,18 @@ strong {
   background-color: #f3f0e6;
 }
 
-/* line 225, style.scss */
+/* line 228, style.scss */
 #ajax-contact {
   width: 100%;
 }
 
-/* line 229, style.scss */
+/* line 232, style.scss */
 .field {
   width: 33%;
   margin-right: 2%;
   float: left;
 }
-/* line 235, style.scss */
+/* line 238, style.scss */
 .field input {
   width: 100%;
   margin: 0 0 10px 0;
@@ -295,7 +298,7 @@ strong {
   -webkit-border-radius: 0;
   border-radius: 0;
 }
-/* line 244, style.scss */
+/* line 247, style.scss */
 .field button {
   width: 100%;
   background-color: #212326;
@@ -306,12 +309,12 @@ strong {
   border-radius: 0;
 }
 
-/* line 255, style.scss */
+/* line 258, style.scss */
 .email-message {
   width: 64%;
   float: left;
 }
-/* line 260, style.scss */
+/* line 263, style.scss */
 .email-message textarea {
   width: 100%;
   height: 110px;
@@ -321,7 +324,7 @@ strong {
   border-radius: 0;
 }
 
-/* line 270, style.scss */
+/* line 273, style.scss */
 #form-messages {
   background-color: #dd7450;
   color: #f3f0e6;
@@ -339,7 +342,7 @@ strong {
   transform: translate(0, 0);
 }
 
-/* line 289, style.scss */
+/* line 292, style.scss */
 .paged a {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
@@ -350,51 +353,51 @@ strong {
   text-decoration: none;
   padding: 6px;
 }
-/* line 299, style.scss */
+/* line 302, style.scss */
 .paged a:hover {
   background-color: #dd7450;
 }
 
-/* line 305, style.scss */
+/* line 308, style.scss */
 .next {
   float: left;
 }
 
-/* line 309, style.scss */
+/* line 312, style.scss */
 .previous {
   float: right;
 }
 
-/* line 313, style.scss */
+/* line 316, style.scss */
 .header {
   background-color: #212326;
 }
 
-/* line 318, style.scss */
+/* line 321, style.scss */
 .sidebar {
   background-color: #212326;
   padding-top: 17px;
 }
 
-/* line 324, style.scss */
+/* line 327, style.scss */
 .stick {
   position: fixed !important;
   width: 23.25581%;
 }
 
-/* line 331, style.scss */
+/* line 334, style.scss */
 .logo a {
   display: block;
   background: url(images/logo.svg) no-repeat center top;
 }
 
-/* line 337, style.scss */
+/* line 340, style.scss */
 .name {
   text-transform: uppercase;
   text-align: center;
 }
 
-/* line 342, style.scss */
+/* line 345, style.scss */
 .mobile-nav {
   background: url(images/mobile-nav.svg) no-repeat center top;
   width: 30px;
@@ -402,24 +405,24 @@ strong {
   cursor: pointer;
 }
 
-/* line 349, style.scss */
+/* line 352, style.scss */
 .social {
   width: 100%;
   max-width: 200px;
   margin: 0 auto 20px auto;
 }
-/* line 355, style.scss */
+/* line 358, style.scss */
 .social ul {
   margin: 0 auto;
 }
-/* line 358, style.scss */
+/* line 361, style.scss */
 .social ul li {
   list-style: none;
   float: left;
   width: 33%;
   height: 40px;
 }
-/* line 364, style.scss */
+/* line 367, style.scss */
 .social ul li a {
   display: block;
   width: 100%;
@@ -428,7 +431,7 @@ strong {
   text-indent: -9999px;
 }
 
-/* line 375, style.scss */
+/* line 378, style.scss */
 #mobile-collapse {
   background: #101112 url(images/collapse.svg) no-repeat center top;
   width: 30px;
@@ -437,28 +440,28 @@ strong {
   cursor: pointer;
 }
 
-/* line 383, style.scss */
+/* line 386, style.scss */
 .social a[href*="twitter.com"] {
   background: url(images/twitter.svg) no-repeat center top;
   background-color: #212326;
   background-size: contain;
 }
 
-/* line 389, style.scss */
+/* line 392, style.scss */
 .social a[href*="github.com"] {
   background: url(images/github.svg) no-repeat center top;
   background-color: #212326;
   background-size: contain;
 }
 
-/* line 395, style.scss */
+/* line 398, style.scss */
 .social a[href*="linkedin.com"] {
   background: url(images/linkedin.svg) no-repeat center top;
   background-color: #212326;
   background-size: contain;
 }
 
-/* line 401, style.scss */
+/* line 404, style.scss */
 .social a {
   -webkit-transition: -webkit-transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
   -moz-transition: -moz-transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
@@ -471,7 +474,7 @@ strong {
   transform: translate(0, 0);
 }
 
-/* line 413, style.scss */
+/* line 416, style.scss */
 .social a:hover {
   -webkit-transform: translate(0, -5px);
   -moz-transform: translate(0, -5px);
@@ -480,12 +483,12 @@ strong {
   transform: translate(0, -5px);
 }
 
-/* line 421, style.scss */
+/* line 424, style.scss */
 .search {
   height: 34px;
   margin-bottom: 15px;
 }
-/* line 425, style.scss */
+/* line 428, style.scss */
 .search form {
   padding: 0;
   margin: 0 auto;
@@ -493,7 +496,7 @@ strong {
   background-color: #f3f0e6;
 }
 
-/* line 433, style.scss */
+/* line 436, style.scss */
 #s {
   float: left;
   background-color: #f3f0e6;
@@ -505,7 +508,7 @@ strong {
   width: 80%;
 }
 
-/* line 444, style.scss */
+/* line 447, style.scss */
 .search-submit {
   float: left;
   width: 18%;
@@ -517,14 +520,14 @@ strong {
   cursor: pointer;
 }
 
-/* line 457, style.scss */
+/* line 460, style.scss */
 .search-404 form {
   padding: 0;
   width: 75%;
   max-width: 500px;
   background-color: #212326;
 }
-/* line 464, style.scss */
+/* line 467, style.scss */
 .search-404 #s {
   float: left;
   background-color: #212326;
@@ -536,7 +539,7 @@ strong {
   border: 0px solid #212326;
   width: 80%;
 }
-/* line 476, style.scss */
+/* line 479, style.scss */
 .search-404 .search-submit {
   float: left;
   width: 18%;
@@ -549,12 +552,12 @@ strong {
   cursor: pointer;
 }
 
-/* line 493, style.scss */
+/* line 496, style.scss */
 .nav ul li {
   list-style: none;
   width: 100%;
 }
-/* line 497, style.scss */
+/* line 500, style.scss */
 .nav ul li a {
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
@@ -566,12 +569,12 @@ strong {
   text-decoration: none;
   padding-left: 12%;
 }
-/* line 509, style.scss */
+/* line 512, style.scss */
 .nav ul li a:hover {
   background-color: #101112;
 }
 
-/* line 520, style.scss */
+/* line 523, style.scss */
 #nightmode {
   background: url(images/nightmode.svg) no-repeat center top;
   background-size: cover;
@@ -584,13 +587,13 @@ strong {
   transition: background-color 0.3s ease;
 }
 
-/* line 532, style.scss */
+/* line 535, style.scss */
 #nightmode:hover {
   background-color: #dd7450;
   cursor: pointer;
 }
 
-/* line 537, style.scss */
+/* line 540, style.scss */
 #daymode {
   background: url(images/daymode.svg) no-repeat center top;
   background-size: cover;
@@ -604,13 +607,13 @@ strong {
   display: none;
 }
 
-/* line 550, style.scss */
+/* line 553, style.scss */
 #daymode:hover {
   background-color: #dd7450;
   cursor: pointer;
 }
 
-/* line 555, style.scss */
+/* line 558, style.scss */
 .work-thumbnail {
   float: left;
   margin-right: 2%;
@@ -621,7 +624,7 @@ strong {
   cursor: pointer;
 }
 
-/* line 565, style.scss */
+/* line 568, style.scss */
 .exit {
   background: url(images/exit.svg) no-repeat center top;
   background-size: cover;
@@ -635,13 +638,13 @@ strong {
   margin-bottom: 10px;
 }
 
-/* line 578, style.scss */
+/* line 581, style.scss */
 .exit:hover {
   background-color: #dd7450;
   cursor: pointer;
 }
 
-/* line 583, style.scss */
+/* line 586, style.scss */
 .full-size-work {
   position: fixed;
   top: 0;
@@ -652,7 +655,7 @@ strong {
   border: 7px solid #f3f0e6;
 }
 
-/* line 593, style.scss */
+/* line 596, style.scss */
 .description-container {
   background-color: #212326;
   color: #f3f0e6;
@@ -661,25 +664,24 @@ strong {
   right: 0;
   padding: 20px;
 }
-/* line 601, style.scss */
+/* line 604, style.scss */
 .description-container a {
   color: #dd7450;
 }
-/* line 605, style.scss */
+/* line 608, style.scss */
 .description-container h2 {
   color: #f3f0e6;
   margin-bottom: 10px;
 }
 
-/* line 611, style.scss */
+/* line 614, style.scss */
 .size-full {
-  width: 47%;
   margin-right: 2%;
   margin-bottom: 2%;
   height: auto;
 }
 
-/* line 624, style.scss */
+/* line 626, style.scss */
 .content {
   width: 100%;
   float: left;
@@ -688,14 +690,14 @@ strong {
   margin-top: 90px;
 }
 
-/* line 629, style.scss */
+/* line 631, style.scss */
 .aside {
   background-color: none;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
 
-/* line 635, style.scss */
+/* line 637, style.scss */
 .header {
   position: fixed;
   top: 0px;
@@ -705,39 +707,39 @@ strong {
   margin-right: 0;
 }
 
-/* line 641, style.scss */
+/* line 643, style.scss */
 .sidebar {
   position: fixed;
   top: 0px;
   right: 0px;
 }
 
-/* line 647, style.scss */
+/* line 649, style.scss */
 .logo {
   width: 23.07692%;
   float: left;
   margin-right: 2.5641%;
   padding: 10px;
 }
-/* line 651, style.scss */
+/* line 653, style.scss */
 .logo a {
   width: 100%;
   height: 65px;
 }
 
-/* line 657, style.scss */
+/* line 659, style.scss */
 .name {
   width: 48.71795%;
   float: left;
   margin-right: 2.5641%;
   margin-top: 28px;
 }
-/* line 661, style.scss */
+/* line 663, style.scss */
 .name h1 {
   font-size: 20px;
 }
 
-/* line 666, style.scss */
+/* line 668, style.scss */
 .mobile-nav {
   width: 23.07692%;
   float: right;
@@ -746,23 +748,23 @@ strong {
   margin-top: 28px;
 }
 
-/* line 672, style.scss */
+/* line 674, style.scss */
 #mobile-collapse {
   display: block;
 }
 
-/* line 676, style.scss */
+/* line 678, style.scss */
 .controls {
   position: static;
 }
 
-/* line 680, style.scss */
+/* line 682, style.scss */
 .description-container {
   width: 100%;
 }
 
 @media (min-width: 676px) {
-  /* line 690, style.scss */
+  /* line 692, style.scss */
   .content {
     width: 74.57627%;
     float: left;
@@ -770,7 +772,7 @@ strong {
     margin-top: 0px;
   }
 
-  /* line 695, style.scss */
+  /* line 697, style.scss */
   .aside {
     width: 23.72881%;
     float: right;
@@ -781,13 +783,13 @@ strong {
     margin-bottom: -99999px;
   }
 
-  /* line 703, style.scss */
+  /* line 705, style.scss */
   .header {
     position: relative;
     float: none;
   }
 
-  /* line 708, style.scss */
+  /* line 710, style.scss */
   .sidebar {
     position: relative;
     -webkit-transform: translate(0, 0);
@@ -797,21 +799,21 @@ strong {
     transform: translate(0, 0);
   }
 
-  /* line 717, style.scss */
+  /* line 719, style.scss */
   .logo {
     float: none;
     width: 100%;
     margin-bottom: 20px;
     padding: 0;
   }
-  /* line 723, style.scss */
+  /* line 725, style.scss */
   .logo a {
     width: 200px;
     height: 200px;
     margin: 0 auto;
   }
 
-  /* line 730, style.scss */
+  /* line 732, style.scss */
   .name {
     float: none;
     width: 100%;
@@ -819,28 +821,28 @@ strong {
     line-height: 1.1;
     margin-top: 0px;
   }
-  /* line 737, style.scss */
+  /* line 739, style.scss */
   .name h1 {
     font-size: 32px;
   }
 
-  /* line 742, style.scss */
+  /* line 744, style.scss */
   .mobile-nav {
     display: none;
   }
 
-  /* line 746, style.scss */
+  /* line 748, style.scss */
   #mobile-collapse {
     display: none;
   }
 
-  /* line 750, style.scss */
+  /* line 752, style.scss */
   .controls {
     padding-top: 15px;
     padding-left: 12%;
   }
 
-  /* line 755, style.scss */
+  /* line 757, style.scss */
   .description-container {
     width: 23.25581%;
   }

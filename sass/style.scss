@@ -161,16 +161,19 @@ strong{
 
 .alignleft{
 	@extend %clearfix;
+	width: 47%;
 	float: left;
 }
 
 .aligncenter{
 	@extend %clearfix;
+	width: 100%;
 	margin: 0 auto; 
 }
 
 .alignright{
 	@extend %clearfix;
+	width: 47%;
 	float: right;
 }
 
@@ -609,7 +612,6 @@ strong{
 }
 
 .size-full{
-	width: 47%;
 	margin-right: 2%;
 	margin-bottom: 2%;
 	height: auto;   
