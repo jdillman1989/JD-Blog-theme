@@ -225,6 +225,13 @@ jQuery(document).ready(function() {
 
 		fullHeightContent();
 	}
+
+	var illustrationPost = jQuery(".wp-image-136");
+
+	if ( illustrationPost.length ) {
+
+		container.css({"height":"auto"});
+	}
 });
 
 
