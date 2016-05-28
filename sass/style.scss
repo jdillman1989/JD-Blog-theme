@@ -782,6 +782,10 @@ strong{
 	right: 15px;
 	text-decoration: none;
 	
+	&:hover{
+		color: $navy;
+	}
+	
 	span{
 		display: inline-block;
 		margin-right: 10px;

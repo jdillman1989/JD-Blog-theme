@@ -873,6 +873,10 @@ strong {
   text-decoration: none;
 }
 
+.freelance:hover{
+  color: #212326;
+}
+
 .freelance span{
   display: inline-block;
   margin-right: 10px;
