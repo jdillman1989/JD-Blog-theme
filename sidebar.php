@@ -53,5 +53,10 @@
 	</div>
 </div>
 
-<a href="/i-am-currently-accepting-freelance/" class="freelance"><span></span>Currently Accepting Freelance</a>
+<?php
+
+if (!is_page(163)) {
+	echo '<a href="/i-am-currently-accepting-freelance/" class="freelance"><span></span>Currently Accepting Freelance</a>';
+}
+?>
 
