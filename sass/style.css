@@ -856,3 +856,25 @@ strong {
     width: 23.25581%;
   }
 }
+
+.freelance{
+  display: block;
+  border-radius: 50%;
+  background-color: #f3f0e6;
+  color: #212326;
+  text-transform: uppercase;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+.freelance span{
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #dd7450;
+  border-radius: 50%;
+  padding: 5px; 
+}
