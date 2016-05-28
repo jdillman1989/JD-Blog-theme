@@ -51,7 +51,7 @@
 
 		<div id="daymode"></div>
 	</div>
-
-	<a href="/i-am-currently-accepting-freelance/" class="freelance"><span></span>Currently Accepting Freelance</a>
 </div>
+
+<a href="/i-am-currently-accepting-freelance/" class="freelance"><span></span>Currently Accepting Freelance</a>
 

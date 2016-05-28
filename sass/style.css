@@ -859,16 +859,18 @@ strong {
 
 .freelance{
   display: block;
-  border-radius: 50%;
+  border-radius: 60px;
   background-color: #f3f0e6;
   color: #212326;
   text-transform: uppercase;
   padding: 10px;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
+  font-weight: bold;
   position: absolute;
   bottom: 15px;
   right: 15px;
+  text-decoration: none;
 }
 
 .freelance span{
