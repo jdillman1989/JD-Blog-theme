@@ -9,7 +9,7 @@
 
 				<h2>Web</h2>
 
-				<?php query_posts('cat=15'); ?>
+				<?php query_posts('cat=15&posts_per_page=10'); ?>
 
 				<?php while ( have_posts() ) : the_post(); ?>
 
@@ -32,7 +32,7 @@
 
 				<h2>Illustration</h2>
 
-				<?php query_posts('cat=17'); ?>
+				<?php query_posts('cat=17&posts_per_page=10'); ?>
 
 				<?php while ( have_posts() ) : the_post(); ?>
 
