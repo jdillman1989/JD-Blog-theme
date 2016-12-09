@@ -1,4 +1,6 @@
+
 echo "Installing WordPress";
+echo $PUBLIC;
 cd $PUBLIC;
 wget http://wordpress.org/latest.tar.gz;
 tar xfz latest.tar.gz;
@@ -34,7 +36,6 @@ echo '{
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^0.0.10",
     "gulp-combine-mq": "^0.4.0",
-    "gulp-css-globbing": "^0.1.2",
     "gulp-newer": "^0.3.0",
     "gulp-sass": "^2.0.4",
     "gulp-uglify": "^1.0.1"

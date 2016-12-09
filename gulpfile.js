@@ -3,14 +3,12 @@ var gulp = require('gulp'),
     autoprefixer = require('gulp-autoprefixer'),
     uglify = require('gulp-uglify'),
     newer = require('gulp-newer'),
-    globbing = require('gulp-css-globbing'),
     cmq = require('gulp-combine-mq'),
 
 // ROOT TASKS // ---------------------------------------------------------
 // Main style task
 gulp.task('css', function() {
   return gulp.src('styles/application.scss')
-    .pipe(globbing({extensions: '.scss'}))
     .pipe(sass())
     .on('error', handleError)
     .pipe(cmq()) // combine all @media queries into the page base
