@@ -1,6 +1,5 @@
 
 echo "Installing WordPress";
-echo $PUBLIC;
 cd $PUBLIC;
 wget http://wordpress.org/latest.tar.gz;
 tar xfz latest.tar.gz;
