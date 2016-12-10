@@ -35,7 +35,6 @@ jQuery(document).ready(function() {
 	};
 
 	// mobile nav
-
 	var mobileNav = jQuery(".mobile-nav");
 	var mobileCollapse = jQuery("#mobile-collapse");
 
