@@ -1,4 +1,5 @@
 jQuery(document).ready(function() {
+	
 	// sticky sidebar
 
 	var postContainer = jQuery(".post-container");
@@ -10,6 +11,7 @@ jQuery(document).ready(function() {
 	var sidebarHeight = sidebar.height();
 	var prevHeight = jQuery('.header').outerHeight();
 	var windowHeight = jQuery(window).height();
+
 	var sidebarScroll = "stick";
 	var lastScrollTop = 0, delta = 5;
 
@@ -34,6 +36,7 @@ jQuery(document).ready(function() {
 	};
 
 	// mobile nav
+
 	var mobileNav = jQuery(".mobile-nav");
 	var mobileCollapse = jQuery("#mobile-collapse");
 
