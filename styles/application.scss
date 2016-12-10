@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(../http://fonts.googleapis.com/css?family=Montserrat:400,700);
 /* line 5, ../../../../.rvm/gems/ruby-2.1.2@global/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -387,7 +387,7 @@ strong {
 /* line 342, style.scss */
 .logo a {
   display: block;
-  background: url(images/logo.svg) no-repeat center top;
+  background: url(../images/logo.svg) no-repeat center top;
 }
 
 /* line 348, style.scss */
@@ -398,7 +398,7 @@ strong {
 
 /* line 353, style.scss */
 .mobile-nav {
-  background: url(images/mobile-nav.svg) no-repeat center top;
+  background: url(../images/mobile-nav.svg) no-repeat center top;
   width: 30px;
   height: 30px;
   cursor: pointer;
@@ -432,7 +432,7 @@ strong {
 
 /* line 386, style.scss */
 #mobile-collapse {
-  background: #101112 url(images/collapse.svg) no-repeat center top;
+  background: #101112 url(../images/collapse.svg) no-repeat center top;
   width: 30px;
   height: 30px;
   border: 5px solid #101112;
@@ -441,21 +441,21 @@ strong {
 
 /* line 394, style.scss */
 .social a[href*="twitter.com"] {
-  background: url(images/twitter.svg) no-repeat center top;
+  background: url(../images/twitter.svg) no-repeat center top;
   background-color: #212326;
   background-size: contain;
 }
 
 /* line 400, style.scss */
 .social a[href*="github.com"] {
-  background: url(images/github.svg) no-repeat center top;
+  background: url(../images/github.svg) no-repeat center top;
   background-color: #212326;
   background-size: contain;
 }
 
 /* line 406, style.scss */
 .social a[href*="linkedin.com"] {
-  background: url(images/linkedin.svg) no-repeat center top;
+  background: url(../images/linkedin.svg) no-repeat center top;
   background-color: #212326;
   background-size: contain;
 }
@@ -515,7 +515,7 @@ strong {
   margin: 0;
   padding: 0;
   border: 5px solid #f3f0e6;
-  background: #f3f0e6 url(images/search.svg) no-repeat right center;
+  background: #f3f0e6 url(../images/search.svg) no-repeat right center;
   cursor: pointer;
 }
 
@@ -547,7 +547,7 @@ strong {
   margin: 0;
   padding: 0;
   border: 5px solid #212326;
-  background: #212326 url(images/search404.svg) no-repeat right center;
+  background: #212326 url(../images/search404.svg) no-repeat right center;
   cursor: pointer;
 }
 
@@ -575,7 +575,7 @@ strong {
 
 /* line 531, style.scss */
 #nightmode {
-  background: url(images/nightmode.svg) no-repeat center top;
+  background: url(../images/nightmode.svg) no-repeat center top;
   background-size: cover;
   background-color: #f3f0e6;
   width: 35px;
@@ -594,7 +594,7 @@ strong {
 
 /* line 548, style.scss */
 #daymode {
-  background: url(images/daymode.svg) no-repeat center top;
+  background: url(../images/daymode.svg) no-repeat center top;
   background-size: cover;
   background-color: #f3f0e6;
   width: 35px;
@@ -625,7 +625,7 @@ strong {
 
 /* line 576, style.scss */
 .exit {
-  background: url(images/exit.svg) no-repeat center top;
+  background: url(../images/exit.svg) no-repeat center top;
   background-size: cover;
   background-color: #f3f0e6;
   width: 35px;
