@@ -1,5 +1,4 @@
 jQuery(document).ready(function() {
-
 	// sticky sidebar
 
 	var postContainer = jQuery(".post-container");
