@@ -11,5 +11,5 @@ gulp.task('default', function () {
 
   gulp.src('./styles/**/*.scss')
   .pipe(sass().on('error', sass.logError))
-  .pipe(gulp.dest('./wp-content/themes/jadle/sass'));
+  .pipe(gulp.dest('./wp-content/themes/jadle/css'));
 });

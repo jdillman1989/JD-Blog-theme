@@ -28,7 +28,7 @@ add_action( 'after_setup_theme', 'theme_setup' );
 function theme_scripts() {
 
 	// Load our main stylesheet.
-	wp_enqueue_style( 'JDBlog-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'JDBlog-style', get_template_directory_uri() . '/css/application.css' );
 
 	// Load theme js
 	wp_enqueue_script( 'JDBlog-script', get_template_directory_uri() . '/js/main.js', array( 'jquery' ), false, true );
