@@ -41,7 +41,7 @@ jQuery(document).ready(function() {
 	var mobileCollapse = jQuery("#mobile-collapse");
 
 	if (jQuery(window).width() < 676 ) {
-		
+
 		sidebar.css({"transform":"translate(" + sidebar.width() + "px, 0px)"});	
 	}
 
@@ -233,5 +233,4 @@ jQuery(document).ready(function() {
 		container.css({"height":"auto"});
 	}
 });
-
 
