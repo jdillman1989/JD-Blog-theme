@@ -10,7 +10,6 @@ jQuery(document).ready(function() {
 	var sidebarHeight = sidebar.height();
 	var prevHeight = jQuery('.header').outerHeight();
 	var windowHeight = jQuery(window).height();
-
 	var sidebarScroll = "stick";
 	var lastScrollTop = 0, delta = 5;
 
