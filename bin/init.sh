@@ -1,7 +1,14 @@
+# requires config file:
+# STAGING='test';
+# WEBROOT=/var/www/$STAGING;
+# PUBLIC=$WEBROOT/public_html;
+# USER='user';
+# SERVER='$USER@jdillman.com';
+
 source "config.sh";
-# requires config file with SERVER, WEBROOT, and STAGING variables defined
+echo 'echo start;' > installStaging.sh;
 cat config.sh >> installStaging.sh;
 cat stagingScript.sh >> installStaging.sh;
-cat installStaging.sh | ssh $SERVER /bin/bash;
+SCRIPT=`cat installStaging.sh`;
+ssh -t $SERVER "sh $SCRIPT";
 git remote add staging $SERVER:$WEBROOT/$STAGING.git;
-rm installStaging.sh;
